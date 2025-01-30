@@ -1,0 +1,32 @@
+D:\Study Material\semester-8\EAD\Projects\Presentation_Layer\bin\Debug\net8.0\Presentation_Layer.deps.json
+D:\Study Material\semester-8\EAD\Projects\Presentation_Layer\bin\Debug\net8.0\Presentation_Layer.dll
+D:\Study Material\semester-8\EAD\Projects\Presentation_Layer\bin\Debug\net8.0\Presentation_Layer.pdb
+D:\Study Material\semester-8\EAD\Projects\Presentation_Layer\obj\Debug\net8.0\Presentation_Layer.GeneratedMSBuildEditorConfig.editorconfig
+D:\Study Material\semester-8\EAD\Projects\Presentation_Layer\obj\Debug\net8.0\Presentation_Layer.AssemblyInfoInputs.cache
+D:\Study Material\semester-8\EAD\Projects\Presentation_Layer\obj\Debug\net8.0\Presentation_Layer.AssemblyInfo.cs
+D:\Study Material\semester-8\EAD\Projects\Presentation_Layer\obj\Debug\net8.0\Presentation_Layer.csproj.CoreCompileInputs.cache
+D:\Study Material\semester-8\EAD\Projects\Presentation_Layer\obj\Debug\net8.0\Presentation_Layer.sourcelink.json
+D:\Study Material\semester-8\EAD\Projects\Presentation_Layer\obj\Debug\net8.0\Presentation_Layer.dll
+D:\Study Material\semester-8\EAD\Projects\Presentation_Layer\obj\Debug\net8.0\refint\Presentation_Layer.dll
+D:\Study Material\semester-8\EAD\Projects\Presentation_Layer\obj\Debug\net8.0\Presentation_Layer.pdb
+D:\Study Material\semester-8\EAD\Projects\Presentation_Layer\obj\Debug\net8.0\ref\Presentation_Layer.dll
+D:\Study Material\semester-8\EAD\Projects\Presentation_Layer\bin\Debug\net8.0\Business_Objects.dll
+D:\Study Material\semester-8\EAD\Projects\Presentation_Layer\bin\Debug\net8.0\Business_Objects.pdb
+D:\Study Material\semester-8\EAD\Projects\Presentation_Layer\obj\Debug\net8.0\Presentation_Layer.csproj.AssemblyReference.cache
+D:\Study Material\semester-8\EAD\Projects\Presentation_Layer\obj\Debug\net8.0\Presenta.B08D3F22.Up2Date
+D:\Study Material\semester-8\EAD\Projects\N_Tier_Architecture entire solution\Presentation_Layer\bin\Debug\net8.0\Presentation_Layer.deps.json
+D:\Study Material\semester-8\EAD\Projects\N_Tier_Architecture entire solution\Presentation_Layer\bin\Debug\net8.0\Presentation_Layer.dll
+D:\Study Material\semester-8\EAD\Projects\N_Tier_Architecture entire solution\Presentation_Layer\bin\Debug\net8.0\Presentation_Layer.pdb
+D:\Study Material\semester-8\EAD\Projects\N_Tier_Architecture entire solution\Presentation_Layer\bin\Debug\net8.0\Business_Objects.dll
+D:\Study Material\semester-8\EAD\Projects\N_Tier_Architecture entire solution\Presentation_Layer\bin\Debug\net8.0\Business_Objects.pdb
+D:\Study Material\semester-8\EAD\Projects\N_Tier_Architecture entire solution\Presentation_Layer\obj\Debug\net8.0\Presentation_Layer.csproj.AssemblyReference.cache
+D:\Study Material\semester-8\EAD\Projects\N_Tier_Architecture entire solution\Presentation_Layer\obj\Debug\net8.0\Presentation_Layer.GeneratedMSBuildEditorConfig.editorconfig
+D:\Study Material\semester-8\EAD\Projects\N_Tier_Architecture entire solution\Presentation_Layer\obj\Debug\net8.0\Presentation_Layer.AssemblyInfoInputs.cache
+D:\Study Material\semester-8\EAD\Projects\N_Tier_Architecture entire solution\Presentation_Layer\obj\Debug\net8.0\Presentation_Layer.AssemblyInfo.cs
+D:\Study Material\semester-8\EAD\Projects\N_Tier_Architecture entire solution\Presentation_Layer\obj\Debug\net8.0\Presentation_Layer.csproj.CoreCompileInputs.cache
+D:\Study Material\semester-8\EAD\Projects\N_Tier_Architecture entire solution\Presentation_Layer\obj\Debug\net8.0\Presentation_Layer.sourcelink.json
+D:\Study Material\semester-8\EAD\Projects\N_Tier_Architecture entire solution\Presentation_Layer\obj\Debug\net8.0\Presenta.B08D3F22.Up2Date
+D:\Study Material\semester-8\EAD\Projects\N_Tier_Architecture entire solution\Presentation_Layer\obj\Debug\net8.0\Presentation_Layer.dll
+D:\Study Material\semester-8\EAD\Projects\N_Tier_Architecture entire solution\Presentation_Layer\obj\Debug\net8.0\refint\Presentation_Layer.dll
+D:\Study Material\semester-8\EAD\Projects\N_Tier_Architecture entire solution\Presentation_Layer\obj\Debug\net8.0\Presentation_Layer.pdb
+D:\Study Material\semester-8\EAD\Projects\N_Tier_Architecture entire solution\Presentation_Layer\obj\Debug\net8.0\ref\Presentation_Layer.dll

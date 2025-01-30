@@ -1,0 +1,50 @@
+D:\Study Material\semester-8\EAD\Projects\N_Tier_Architecture\bin\Debug\net8.0\N_Tier_Architecture.exe
+D:\Study Material\semester-8\EAD\Projects\N_Tier_Architecture\bin\Debug\net8.0\N_Tier_Architecture.deps.json
+D:\Study Material\semester-8\EAD\Projects\N_Tier_Architecture\bin\Debug\net8.0\N_Tier_Architecture.runtimeconfig.json
+D:\Study Material\semester-8\EAD\Projects\N_Tier_Architecture\bin\Debug\net8.0\N_Tier_Architecture.dll
+D:\Study Material\semester-8\EAD\Projects\N_Tier_Architecture\bin\Debug\net8.0\N_Tier_Architecture.pdb
+D:\Study Material\semester-8\EAD\Projects\N_Tier_Architecture\obj\Debug\net8.0\N_Tier_Architecture.GeneratedMSBuildEditorConfig.editorconfig
+D:\Study Material\semester-8\EAD\Projects\N_Tier_Architecture\obj\Debug\net8.0\N_Tier_Architecture.AssemblyInfoInputs.cache
+D:\Study Material\semester-8\EAD\Projects\N_Tier_Architecture\obj\Debug\net8.0\N_Tier_Architecture.AssemblyInfo.cs
+D:\Study Material\semester-8\EAD\Projects\N_Tier_Architecture\obj\Debug\net8.0\N_Tier_Architecture.csproj.CoreCompileInputs.cache
+D:\Study Material\semester-8\EAD\Projects\N_Tier_Architecture\obj\Debug\net8.0\N_Tier_Architecture.sourcelink.json
+D:\Study Material\semester-8\EAD\Projects\N_Tier_Architecture\obj\Debug\net8.0\N_Tier_Architecture.dll
+D:\Study Material\semester-8\EAD\Projects\N_Tier_Architecture\obj\Debug\net8.0\refint\N_Tier_Architecture.dll
+D:\Study Material\semester-8\EAD\Projects\N_Tier_Architecture\obj\Debug\net8.0\N_Tier_Architecture.pdb
+D:\Study Material\semester-8\EAD\Projects\N_Tier_Architecture\obj\Debug\net8.0\N_Tier_Architecture.genruntimeconfig.cache
+D:\Study Material\semester-8\EAD\Projects\N_Tier_Architecture\obj\Debug\net8.0\ref\N_Tier_Architecture.dll
+D:\Study Material\semester-8\EAD\Projects\N_Tier_Architecture\bin\Debug\net8.0\Business_Logic_Layer.dll
+D:\Study Material\semester-8\EAD\Projects\N_Tier_Architecture\bin\Debug\net8.0\Business_Objects.dll
+D:\Study Material\semester-8\EAD\Projects\N_Tier_Architecture\bin\Debug\net8.0\Data_Access_Layer.dll
+D:\Study Material\semester-8\EAD\Projects\N_Tier_Architecture\bin\Debug\net8.0\Presentation_Layer.dll
+D:\Study Material\semester-8\EAD\Projects\N_Tier_Architecture\bin\Debug\net8.0\Business_Logic_Layer.pdb
+D:\Study Material\semester-8\EAD\Projects\N_Tier_Architecture\bin\Debug\net8.0\Business_Objects.pdb
+D:\Study Material\semester-8\EAD\Projects\N_Tier_Architecture\bin\Debug\net8.0\Data_Access_Layer.pdb
+D:\Study Material\semester-8\EAD\Projects\N_Tier_Architecture\bin\Debug\net8.0\Presentation_Layer.pdb
+D:\Study Material\semester-8\EAD\Projects\N_Tier_Architecture\obj\Debug\net8.0\N_Tier_Architecture.csproj.AssemblyReference.cache
+D:\Study Material\semester-8\EAD\Projects\N_Tier_Architecture\obj\Debug\net8.0\N_Tier_A.52F91610.Up2Date
+D:\Study Material\semester-8\EAD\Projects\N_Tier_Architecture entire solution\N_Tier_Architecture\bin\Debug\net8.0\N_Tier_Architecture.exe
+D:\Study Material\semester-8\EAD\Projects\N_Tier_Architecture entire solution\N_Tier_Architecture\bin\Debug\net8.0\N_Tier_Architecture.deps.json
+D:\Study Material\semester-8\EAD\Projects\N_Tier_Architecture entire solution\N_Tier_Architecture\bin\Debug\net8.0\N_Tier_Architecture.runtimeconfig.json
+D:\Study Material\semester-8\EAD\Projects\N_Tier_Architecture entire solution\N_Tier_Architecture\bin\Debug\net8.0\N_Tier_Architecture.dll
+D:\Study Material\semester-8\EAD\Projects\N_Tier_Architecture entire solution\N_Tier_Architecture\bin\Debug\net8.0\N_Tier_Architecture.pdb
+D:\Study Material\semester-8\EAD\Projects\N_Tier_Architecture entire solution\N_Tier_Architecture\bin\Debug\net8.0\Business_Logic_Layer.dll
+D:\Study Material\semester-8\EAD\Projects\N_Tier_Architecture entire solution\N_Tier_Architecture\bin\Debug\net8.0\Business_Objects.dll
+D:\Study Material\semester-8\EAD\Projects\N_Tier_Architecture entire solution\N_Tier_Architecture\bin\Debug\net8.0\Data_Access_Layer.dll
+D:\Study Material\semester-8\EAD\Projects\N_Tier_Architecture entire solution\N_Tier_Architecture\bin\Debug\net8.0\Presentation_Layer.dll
+D:\Study Material\semester-8\EAD\Projects\N_Tier_Architecture entire solution\N_Tier_Architecture\bin\Debug\net8.0\Business_Logic_Layer.pdb
+D:\Study Material\semester-8\EAD\Projects\N_Tier_Architecture entire solution\N_Tier_Architecture\bin\Debug\net8.0\Business_Objects.pdb
+D:\Study Material\semester-8\EAD\Projects\N_Tier_Architecture entire solution\N_Tier_Architecture\bin\Debug\net8.0\Data_Access_Layer.pdb
+D:\Study Material\semester-8\EAD\Projects\N_Tier_Architecture entire solution\N_Tier_Architecture\bin\Debug\net8.0\Presentation_Layer.pdb
+D:\Study Material\semester-8\EAD\Projects\N_Tier_Architecture entire solution\N_Tier_Architecture\obj\Debug\net8.0\N_Tier_Architecture.csproj.AssemblyReference.cache
+D:\Study Material\semester-8\EAD\Projects\N_Tier_Architecture entire solution\N_Tier_Architecture\obj\Debug\net8.0\N_Tier_Architecture.GeneratedMSBuildEditorConfig.editorconfig
+D:\Study Material\semester-8\EAD\Projects\N_Tier_Architecture entire solution\N_Tier_Architecture\obj\Debug\net8.0\N_Tier_Architecture.AssemblyInfoInputs.cache
+D:\Study Material\semester-8\EAD\Projects\N_Tier_Architecture entire solution\N_Tier_Architecture\obj\Debug\net8.0\N_Tier_Architecture.AssemblyInfo.cs
+D:\Study Material\semester-8\EAD\Projects\N_Tier_Architecture entire solution\N_Tier_Architecture\obj\Debug\net8.0\N_Tier_Architecture.csproj.CoreCompileInputs.cache
+D:\Study Material\semester-8\EAD\Projects\N_Tier_Architecture entire solution\N_Tier_Architecture\obj\Debug\net8.0\N_Tier_Architecture.sourcelink.json
+D:\Study Material\semester-8\EAD\Projects\N_Tier_Architecture entire solution\N_Tier_Architecture\obj\Debug\net8.0\N_Tier_A.52F91610.Up2Date
+D:\Study Material\semester-8\EAD\Projects\N_Tier_Architecture entire solution\N_Tier_Architecture\obj\Debug\net8.0\N_Tier_Architecture.dll
+D:\Study Material\semester-8\EAD\Projects\N_Tier_Architecture entire solution\N_Tier_Architecture\obj\Debug\net8.0\refint\N_Tier_Architecture.dll
+D:\Study Material\semester-8\EAD\Projects\N_Tier_Architecture entire solution\N_Tier_Architecture\obj\Debug\net8.0\N_Tier_Architecture.pdb
+D:\Study Material\semester-8\EAD\Projects\N_Tier_Architecture entire solution\N_Tier_Architecture\obj\Debug\net8.0\N_Tier_Architecture.genruntimeconfig.cache
+D:\Study Material\semester-8\EAD\Projects\N_Tier_Architecture entire solution\N_Tier_Architecture\obj\Debug\net8.0\ref\N_Tier_Architecture.dll

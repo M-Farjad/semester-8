@@ -1,0 +1,32 @@
+D:\Study Material\semester-8\EAD\Projects\Data_Access_Layer\bin\Debug\net8.0\Data_Access_Layer.deps.json
+D:\Study Material\semester-8\EAD\Projects\Data_Access_Layer\bin\Debug\net8.0\Data_Access_Layer.dll
+D:\Study Material\semester-8\EAD\Projects\Data_Access_Layer\bin\Debug\net8.0\Data_Access_Layer.pdb
+D:\Study Material\semester-8\EAD\Projects\Data_Access_Layer\obj\Debug\net8.0\Data_Access_Layer.GeneratedMSBuildEditorConfig.editorconfig
+D:\Study Material\semester-8\EAD\Projects\Data_Access_Layer\obj\Debug\net8.0\Data_Access_Layer.AssemblyInfoInputs.cache
+D:\Study Material\semester-8\EAD\Projects\Data_Access_Layer\obj\Debug\net8.0\Data_Access_Layer.AssemblyInfo.cs
+D:\Study Material\semester-8\EAD\Projects\Data_Access_Layer\obj\Debug\net8.0\Data_Access_Layer.csproj.CoreCompileInputs.cache
+D:\Study Material\semester-8\EAD\Projects\Data_Access_Layer\obj\Debug\net8.0\Data_Access_Layer.sourcelink.json
+D:\Study Material\semester-8\EAD\Projects\Data_Access_Layer\obj\Debug\net8.0\Data_Access_Layer.dll
+D:\Study Material\semester-8\EAD\Projects\Data_Access_Layer\obj\Debug\net8.0\refint\Data_Access_Layer.dll
+D:\Study Material\semester-8\EAD\Projects\Data_Access_Layer\obj\Debug\net8.0\Data_Access_Layer.pdb
+D:\Study Material\semester-8\EAD\Projects\Data_Access_Layer\obj\Debug\net8.0\ref\Data_Access_Layer.dll
+D:\Study Material\semester-8\EAD\Projects\Data_Access_Layer\bin\Debug\net8.0\Business_Objects.dll
+D:\Study Material\semester-8\EAD\Projects\Data_Access_Layer\bin\Debug\net8.0\Business_Objects.pdb
+D:\Study Material\semester-8\EAD\Projects\Data_Access_Layer\obj\Debug\net8.0\Data_Access_Layer.csproj.AssemblyReference.cache
+D:\Study Material\semester-8\EAD\Projects\Data_Access_Layer\obj\Debug\net8.0\Data_Acc.CEF88543.Up2Date
+D:\Study Material\semester-8\EAD\Projects\N_Tier_Architecture entire solution\Data_Access_Layer\bin\Debug\net8.0\Data_Access_Layer.deps.json
+D:\Study Material\semester-8\EAD\Projects\N_Tier_Architecture entire solution\Data_Access_Layer\bin\Debug\net8.0\Data_Access_Layer.dll
+D:\Study Material\semester-8\EAD\Projects\N_Tier_Architecture entire solution\Data_Access_Layer\bin\Debug\net8.0\Data_Access_Layer.pdb
+D:\Study Material\semester-8\EAD\Projects\N_Tier_Architecture entire solution\Data_Access_Layer\bin\Debug\net8.0\Business_Objects.dll
+D:\Study Material\semester-8\EAD\Projects\N_Tier_Architecture entire solution\Data_Access_Layer\bin\Debug\net8.0\Business_Objects.pdb
+D:\Study Material\semester-8\EAD\Projects\N_Tier_Architecture entire solution\Data_Access_Layer\obj\Debug\net8.0\Data_Access_Layer.csproj.AssemblyReference.cache
+D:\Study Material\semester-8\EAD\Projects\N_Tier_Architecture entire solution\Data_Access_Layer\obj\Debug\net8.0\Data_Access_Layer.GeneratedMSBuildEditorConfig.editorconfig
+D:\Study Material\semester-8\EAD\Projects\N_Tier_Architecture entire solution\Data_Access_Layer\obj\Debug\net8.0\Data_Access_Layer.AssemblyInfoInputs.cache
+D:\Study Material\semester-8\EAD\Projects\N_Tier_Architecture entire solution\Data_Access_Layer\obj\Debug\net8.0\Data_Access_Layer.AssemblyInfo.cs
+D:\Study Material\semester-8\EAD\Projects\N_Tier_Architecture entire solution\Data_Access_Layer\obj\Debug\net8.0\Data_Access_Layer.csproj.CoreCompileInputs.cache
+D:\Study Material\semester-8\EAD\Projects\N_Tier_Architecture entire solution\Data_Access_Layer\obj\Debug\net8.0\Data_Access_Layer.sourcelink.json
+D:\Study Material\semester-8\EAD\Projects\N_Tier_Architecture entire solution\Data_Access_Layer\obj\Debug\net8.0\Data_Acc.CEF88543.Up2Date
+D:\Study Material\semester-8\EAD\Projects\N_Tier_Architecture entire solution\Data_Access_Layer\obj\Debug\net8.0\Data_Access_Layer.dll
+D:\Study Material\semester-8\EAD\Projects\N_Tier_Architecture entire solution\Data_Access_Layer\obj\Debug\net8.0\refint\Data_Access_Layer.dll
+D:\Study Material\semester-8\EAD\Projects\N_Tier_Architecture entire solution\Data_Access_Layer\obj\Debug\net8.0\Data_Access_Layer.pdb
+D:\Study Material\semester-8\EAD\Projects\N_Tier_Architecture entire solution\Data_Access_Layer\obj\Debug\net8.0\ref\Data_Access_Layer.dll

@@ -1,0 +1,15 @@
+D:\Study Material\semester-8\EAD\Projects\Initial_Project\bin\Debug\net8.0\Initial_Project.exe
+D:\Study Material\semester-8\EAD\Projects\Initial_Project\bin\Debug\net8.0\Initial_Project.deps.json
+D:\Study Material\semester-8\EAD\Projects\Initial_Project\bin\Debug\net8.0\Initial_Project.runtimeconfig.json
+D:\Study Material\semester-8\EAD\Projects\Initial_Project\bin\Debug\net8.0\Initial_Project.dll
+D:\Study Material\semester-8\EAD\Projects\Initial_Project\bin\Debug\net8.0\Initial_Project.pdb
+D:\Study Material\semester-8\EAD\Projects\Initial_Project\obj\Debug\net8.0\Initial_Project.GeneratedMSBuildEditorConfig.editorconfig
+D:\Study Material\semester-8\EAD\Projects\Initial_Project\obj\Debug\net8.0\Initial_Project.AssemblyInfoInputs.cache
+D:\Study Material\semester-8\EAD\Projects\Initial_Project\obj\Debug\net8.0\Initial_Project.AssemblyInfo.cs
+D:\Study Material\semester-8\EAD\Projects\Initial_Project\obj\Debug\net8.0\Initial_Project.csproj.CoreCompileInputs.cache
+D:\Study Material\semester-8\EAD\Projects\Initial_Project\obj\Debug\net8.0\Initial_Project.sourcelink.json
+D:\Study Material\semester-8\EAD\Projects\Initial_Project\obj\Debug\net8.0\Initial_Project.dll
+D:\Study Material\semester-8\EAD\Projects\Initial_Project\obj\Debug\net8.0\refint\Initial_Project.dll
+D:\Study Material\semester-8\EAD\Projects\Initial_Project\obj\Debug\net8.0\Initial_Project.pdb
+D:\Study Material\semester-8\EAD\Projects\Initial_Project\obj\Debug\net8.0\Initial_Project.genruntimeconfig.cache
+D:\Study Material\semester-8\EAD\Projects\Initial_Project\obj\Debug\net8.0\ref\Initial_Project.dll

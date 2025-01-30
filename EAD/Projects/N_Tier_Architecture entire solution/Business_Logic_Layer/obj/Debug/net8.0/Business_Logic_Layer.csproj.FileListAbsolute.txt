@@ -1,0 +1,32 @@
+D:\Study Material\semester-8\EAD\Projects\Business_Logic_Layer\bin\Debug\net8.0\Business_Logic_Layer.deps.json
+D:\Study Material\semester-8\EAD\Projects\Business_Logic_Layer\bin\Debug\net8.0\Business_Logic_Layer.dll
+D:\Study Material\semester-8\EAD\Projects\Business_Logic_Layer\bin\Debug\net8.0\Business_Logic_Layer.pdb
+D:\Study Material\semester-8\EAD\Projects\Business_Logic_Layer\obj\Debug\net8.0\Business_Logic_Layer.GeneratedMSBuildEditorConfig.editorconfig
+D:\Study Material\semester-8\EAD\Projects\Business_Logic_Layer\obj\Debug\net8.0\Business_Logic_Layer.AssemblyInfoInputs.cache
+D:\Study Material\semester-8\EAD\Projects\Business_Logic_Layer\obj\Debug\net8.0\Business_Logic_Layer.AssemblyInfo.cs
+D:\Study Material\semester-8\EAD\Projects\Business_Logic_Layer\obj\Debug\net8.0\Business_Logic_Layer.csproj.CoreCompileInputs.cache
+D:\Study Material\semester-8\EAD\Projects\Business_Logic_Layer\obj\Debug\net8.0\Business_Logic_Layer.sourcelink.json
+D:\Study Material\semester-8\EAD\Projects\Business_Logic_Layer\obj\Debug\net8.0\Business_Logic_Layer.dll
+D:\Study Material\semester-8\EAD\Projects\Business_Logic_Layer\obj\Debug\net8.0\refint\Business_Logic_Layer.dll
+D:\Study Material\semester-8\EAD\Projects\Business_Logic_Layer\obj\Debug\net8.0\Business_Logic_Layer.pdb
+D:\Study Material\semester-8\EAD\Projects\Business_Logic_Layer\obj\Debug\net8.0\ref\Business_Logic_Layer.dll
+D:\Study Material\semester-8\EAD\Projects\Business_Logic_Layer\bin\Debug\net8.0\Business_Objects.dll
+D:\Study Material\semester-8\EAD\Projects\Business_Logic_Layer\bin\Debug\net8.0\Business_Objects.pdb
+D:\Study Material\semester-8\EAD\Projects\Business_Logic_Layer\obj\Debug\net8.0\Business_Logic_Layer.csproj.AssemblyReference.cache
+D:\Study Material\semester-8\EAD\Projects\Business_Logic_Layer\obj\Debug\net8.0\Business.2FEBA881.Up2Date
+D:\Study Material\semester-8\EAD\Projects\N_Tier_Architecture entire solution\Business_Logic_Layer\bin\Debug\net8.0\Business_Logic_Layer.deps.json
+D:\Study Material\semester-8\EAD\Projects\N_Tier_Architecture entire solution\Business_Logic_Layer\bin\Debug\net8.0\Business_Logic_Layer.dll
+D:\Study Material\semester-8\EAD\Projects\N_Tier_Architecture entire solution\Business_Logic_Layer\bin\Debug\net8.0\Business_Logic_Layer.pdb
+D:\Study Material\semester-8\EAD\Projects\N_Tier_Architecture entire solution\Business_Logic_Layer\bin\Debug\net8.0\Business_Objects.dll
+D:\Study Material\semester-8\EAD\Projects\N_Tier_Architecture entire solution\Business_Logic_Layer\bin\Debug\net8.0\Business_Objects.pdb
+D:\Study Material\semester-8\EAD\Projects\N_Tier_Architecture entire solution\Business_Logic_Layer\obj\Debug\net8.0\Business_Logic_Layer.csproj.AssemblyReference.cache
+D:\Study Material\semester-8\EAD\Projects\N_Tier_Architecture entire solution\Business_Logic_Layer\obj\Debug\net8.0\Business_Logic_Layer.GeneratedMSBuildEditorConfig.editorconfig
+D:\Study Material\semester-8\EAD\Projects\N_Tier_Architecture entire solution\Business_Logic_Layer\obj\Debug\net8.0\Business_Logic_Layer.AssemblyInfoInputs.cache
+D:\Study Material\semester-8\EAD\Projects\N_Tier_Architecture entire solution\Business_Logic_Layer\obj\Debug\net8.0\Business_Logic_Layer.AssemblyInfo.cs
+D:\Study Material\semester-8\EAD\Projects\N_Tier_Architecture entire solution\Business_Logic_Layer\obj\Debug\net8.0\Business_Logic_Layer.csproj.CoreCompileInputs.cache
+D:\Study Material\semester-8\EAD\Projects\N_Tier_Architecture entire solution\Business_Logic_Layer\obj\Debug\net8.0\Business_Logic_Layer.sourcelink.json
+D:\Study Material\semester-8\EAD\Projects\N_Tier_Architecture entire solution\Business_Logic_Layer\obj\Debug\net8.0\Business.2FEBA881.Up2Date
+D:\Study Material\semester-8\EAD\Projects\N_Tier_Architecture entire solution\Business_Logic_Layer\obj\Debug\net8.0\Business_Logic_Layer.dll
+D:\Study Material\semester-8\EAD\Projects\N_Tier_Architecture entire solution\Business_Logic_Layer\obj\Debug\net8.0\refint\Business_Logic_Layer.dll
+D:\Study Material\semester-8\EAD\Projects\N_Tier_Architecture entire solution\Business_Logic_Layer\obj\Debug\net8.0\Business_Logic_Layer.pdb
+D:\Study Material\semester-8\EAD\Projects\N_Tier_Architecture entire solution\Business_Logic_Layer\obj\Debug\net8.0\ref\Business_Logic_Layer.dll

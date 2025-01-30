@@ -1,0 +1,101 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Study Material\\semester-8\\EAD\\Projects\\N_Tier_Architecture entire solution\\N_Tier_Architecture\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{150057A1-B42A-4365-BB93-D87B2FF61CEB}|N_Tier_Architecture.csproj|d:\\study material\\semester-8\\ead\\projects\\n_tier_architecture entire solution\\n_tier_architecture\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{150057A1-B42A-4365-BB93-D87B2FF61CEB}|N_Tier_Architecture.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Study Material\\semester-8\\EAD\\Projects\\Data_Access_Layer\\DAL.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Study Material\\semester-8\\EAD\\Projects\\Business_Logic_Layer\\BL.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Study Material\\semester-8\\EAD\\Projects\\Business_Objects\\BO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Study Material\\semester-8\\EAD\\Projects\\Presentation_Layer\\PL.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DAL.cs",
+              "DocumentMoniker": "D:\\Study Material\\semester-8\\EAD\\Projects\\Data_Access_Layer\\DAL.cs",
+              "RelativeDocumentMoniker": "..\\..\\Data_Access_Layer\\DAL.cs",
+              "ToolTip": "D:\\Study Material\\semester-8\\EAD\\Projects\\Data_Access_Layer\\DAL.cs",
+              "RelativeToolTip": "..\\..\\Data_Access_Layer\\DAL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T16:54:14.782Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BL.cs",
+              "DocumentMoniker": "D:\\Study Material\\semester-8\\EAD\\Projects\\Business_Logic_Layer\\BL.cs",
+              "RelativeDocumentMoniker": "..\\..\\Business_Logic_Layer\\BL.cs",
+              "ToolTip": "D:\\Study Material\\semester-8\\EAD\\Projects\\Business_Logic_Layer\\BL.cs",
+              "RelativeToolTip": "..\\..\\Business_Logic_Layer\\BL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T16:53:49.286Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BO.cs",
+              "DocumentMoniker": "D:\\Study Material\\semester-8\\EAD\\Projects\\Business_Objects\\BO.cs",
+              "RelativeDocumentMoniker": "..\\..\\Business_Objects\\BO.cs",
+              "ToolTip": "D:\\Study Material\\semester-8\\EAD\\Projects\\Business_Objects\\BO.cs",
+              "RelativeToolTip": "..\\..\\Business_Objects\\BO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T16:53:17.143Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PL.cs",
+              "DocumentMoniker": "D:\\Study Material\\semester-8\\EAD\\Projects\\Presentation_Layer\\PL.cs",
+              "RelativeDocumentMoniker": "..\\..\\Presentation_Layer\\PL.cs",
+              "ToolTip": "D:\\Study Material\\semester-8\\EAD\\Projects\\Presentation_Layer\\PL.cs",
+              "RelativeToolTip": "..\\..\\Presentation_Layer\\PL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T16:52:31.339Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Study Material\\semester-8\\EAD\\Projects\\N_Tier_Architecture entire solution\\N_Tier_Architecture\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Study Material\\semester-8\\EAD\\Projects\\N_Tier_Architecture entire solution\\N_Tier_Architecture\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T16:51:21.03Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
