@@ -1,0 +1,23 @@
+C:\Users\DELL\source\repos\N_tier_Architecture\Bussiness_objects\bin\Debug\net8.0\Bussiness_objects.deps.json
+C:\Users\DELL\source\repos\N_tier_Architecture\Bussiness_objects\bin\Debug\net8.0\Bussiness_objects.dll
+C:\Users\DELL\source\repos\N_tier_Architecture\Bussiness_objects\bin\Debug\net8.0\Bussiness_objects.pdb
+C:\Users\DELL\source\repos\N_tier_Architecture\Bussiness_objects\obj\Debug\net8.0\Bussiness_objects.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\source\repos\N_tier_Architecture\Bussiness_objects\obj\Debug\net8.0\Bussiness_objects.AssemblyInfoInputs.cache
+C:\Users\DELL\source\repos\N_tier_Architecture\Bussiness_objects\obj\Debug\net8.0\Bussiness_objects.AssemblyInfo.cs
+C:\Users\DELL\source\repos\N_tier_Architecture\Bussiness_objects\obj\Debug\net8.0\Bussiness_objects.csproj.CoreCompileInputs.cache
+C:\Users\DELL\source\repos\N_tier_Architecture\Bussiness_objects\obj\Debug\net8.0\Bussiness_objects.dll
+C:\Users\DELL\source\repos\N_tier_Architecture\Bussiness_objects\obj\Debug\net8.0\refint\Bussiness_objects.dll
+C:\Users\DELL\source\repos\N_tier_Architecture\Bussiness_objects\obj\Debug\net8.0\Bussiness_objects.pdb
+C:\Users\DELL\source\repos\N_tier_Architecture\Bussiness_objects\obj\Debug\net8.0\ref\Bussiness_objects.dll
+D:\Study Material\semester-8\EAD\Projects\N_tier_Architecture\Bussiness_objects\bin\Debug\net8.0\Bussiness_objects.deps.json
+D:\Study Material\semester-8\EAD\Projects\N_tier_Architecture\Bussiness_objects\bin\Debug\net8.0\Bussiness_objects.dll
+D:\Study Material\semester-8\EAD\Projects\N_tier_Architecture\Bussiness_objects\bin\Debug\net8.0\Bussiness_objects.pdb
+D:\Study Material\semester-8\EAD\Projects\N_tier_Architecture\Bussiness_objects\obj\Debug\net8.0\Bussiness_objects.GeneratedMSBuildEditorConfig.editorconfig
+D:\Study Material\semester-8\EAD\Projects\N_tier_Architecture\Bussiness_objects\obj\Debug\net8.0\Bussiness_objects.AssemblyInfoInputs.cache
+D:\Study Material\semester-8\EAD\Projects\N_tier_Architecture\Bussiness_objects\obj\Debug\net8.0\Bussiness_objects.AssemblyInfo.cs
+D:\Study Material\semester-8\EAD\Projects\N_tier_Architecture\Bussiness_objects\obj\Debug\net8.0\Bussiness_objects.csproj.CoreCompileInputs.cache
+D:\Study Material\semester-8\EAD\Projects\N_tier_Architecture\Bussiness_objects\obj\Debug\net8.0\Bussiness_objects.sourcelink.json
+D:\Study Material\semester-8\EAD\Projects\N_tier_Architecture\Bussiness_objects\obj\Debug\net8.0\Bussiness_objects.dll
+D:\Study Material\semester-8\EAD\Projects\N_tier_Architecture\Bussiness_objects\obj\Debug\net8.0\refint\Bussiness_objects.dll
+D:\Study Material\semester-8\EAD\Projects\N_tier_Architecture\Bussiness_objects\obj\Debug\net8.0\Bussiness_objects.pdb
+D:\Study Material\semester-8\EAD\Projects\N_tier_Architecture\Bussiness_objects\obj\Debug\net8.0\ref\Bussiness_objects.dll

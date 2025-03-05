@@ -1,0 +1,89 @@
+MainWindow.cs:
+using System.Text;
+using System.Windows;
+using System.Windows.Controls;
+using System.Windows.Data;
+using System.Windows.Documents;
+using System.Windows.Input;
+using System.Windows.Media;
+using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
+using System.Windows.Shapes;
+
+namespace Databinding
+{
+    /// <summary>
+    /// Interaction logic for MainWindow.xaml
+    /// </summary>
+    public partial class MainWindow : Window
+    {
+        public MainWindow()
+        {
+            InitializeComponent();
+
+        
+        }
+    }
+}
+
+
+MainWindow.xaml:
+<Window x:Class="Databinding.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Databinding"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Window.Resources>
+        <local:TextToBool x:Key="myconverter"></local:TextToBool>
+    </Window.Resources>
+    <Grid>
+        <TextBox Name="source" HorizontalAlignment="Left" Margin="163,71,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120" FontSize="20"/>
+        <TextBox Text="{Binding ElementName=source, Path= Text, Mode=OneWayToSource, UpdateSourceTrigger=PropertyChanged}" Name="destination" HorizontalAlignment="Left" Margin="163,161,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="20"/>
+        
+        
+        
+        <Slider Name ="S1" HorizontalAlignment="Left" Margin="484,85,0,0" VerticalAlignment="Top" Width="120"/>
+        <TextBox Text="{Binding ElementName=S1,Path=Value, Mode=OneWayToSource, UpdateSourceTrigger=PropertyChanged}" Name="T3" HorizontalAlignment="Left" Margin="484,161,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120" FontSize="20"/>
+        
+        <TextBox Name="T4_source" HorizontalAlignment="Left" Margin="326,255,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="20"/>
+        
+        <CheckBox  IsChecked="{Binding ElementName=T4_source,Path=Text, Converter={StaticResource myconverter}}" Name="Check1" Content="CheckBox" HorizontalAlignment="Left" Margin="473,262,0,0" VerticalAlignment="Top"/>
+    </Grid>
+</Window>
+
+
+TextToBool.cs:
+using System;
+using System.Collections.Generic;
+using System.Globalization;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Data;
+
+namespace Databinding
+{
+    internal class TextToBool : IValueConverter
+    {
+        public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
+        {
+            String temp = value as String;
+            if(temp == "check")
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+
+        public object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture)
+        {
+            throw new NotImplementedException();
+        }
+    }
+}

@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Study Material\\semester-8\\EAD\\Projects\\Databinding\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{32CE40BE-C707-4C33-B55A-A83719E66C07}|Databinding\\Databinding.csproj|d:\\study material\\semester-8\\ead\\projects\\databinding\\databinding\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{32CE40BE-C707-4C33-B55A-A83719E66C07}|Databinding\\Databinding.csproj|solutionrelative:databinding\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32CE40BE-C707-4C33-B55A-A83719E66C07}|Databinding\\Databinding.csproj|d:\\study material\\semester-8\\ead\\projects\\databinding\\databinding\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32CE40BE-C707-4C33-B55A-A83719E66C07}|Databinding\\Databinding.csproj|solutionrelative:databinding\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32CE40BE-C707-4C33-B55A-A83719E66C07}|Databinding\\Databinding.csproj|d:\\study material\\semester-8\\ead\\projects\\databinding\\databinding\\texttobool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32CE40BE-C707-4C33-B55A-A83719E66C07}|Databinding\\Databinding.csproj|solutionrelative:databinding\\texttobool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TextToBool.cs",
+              "DocumentMoniker": "D:\\Study Material\\semester-8\\EAD\\Projects\\Databinding\\Databinding\\TextToBool.cs",
+              "RelativeDocumentMoniker": "Databinding\\TextToBool.cs",
+              "ToolTip": "D:\\Study Material\\semester-8\\EAD\\Projects\\Databinding\\Databinding\\TextToBool.cs",
+              "RelativeToolTip": "Databinding\\TextToBool.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAYwB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T04:41:32.142Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\Study Material\\semester-8\\EAD\\Projects\\Databinding\\Databinding\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Databinding\\MainWindow.xaml",
+              "ToolTip": "D:\\Study Material\\semester-8\\EAD\\Projects\\Databinding\\Databinding\\MainWindow.xaml",
+              "RelativeToolTip": "Databinding\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-02-24T04:10:52.658Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\Study Material\\semester-8\\EAD\\Projects\\Databinding\\Databinding\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Databinding\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\Study Material\\semester-8\\EAD\\Projects\\Databinding\\Databinding\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Databinding\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAsAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T04:10:51.717Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

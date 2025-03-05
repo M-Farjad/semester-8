@@ -1,0 +1,78 @@
+using Microsoft.Data.SqlClient;
+using System.Data;
+namespace SE_Cosole_App
+{
+    class car() : IDisposable
+    {
+        public void Dispose()
+        {
+            throw new NotImplementedException();
+        }
+    }
+
+    public class Program()
+    {
+
+        public static void Main(string[] args)
+        {
+            car obj2 = new car();
+
+        
+           
+
+            Console.WriteLine("Enter username");
+
+            string? uname = Console.ReadLine();
+            Console.WriteLine("Enter password");
+
+            string? upass = Console.ReadLine();
+
+
+
+             //string query = $"insert into uetusers (username, password) values ('{uname}', '{upass}')";
+
+
+            string constring = @"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=SE21;Integrated Security=True;Connect Timeout=30;Encrypt=False;Trust Server Certificate=False;Application Intent=ReadWrite;Multi Subnet Failover=False";
+
+          
+                SqlConnection conn = new SqlConnection(constring);
+                conn.Open();
+
+                string query = $"select * from uetusers where username='@abc' and password='@xyz'";
+
+                SqlCommand cmd = new SqlCommand(query, conn);
+
+                SqlParameter p1 = new SqlParameter("abc", uname);
+                SqlParameter p2 = new SqlParameter("xyz", upass);
+                cmd.Parameters.Add(p1);
+                cmd.Parameters.Add(p2);
+
+
+
+                SqlDataReader dr = cmd.ExecuteReader();
+
+                if (dr.HasRows)
+                {
+                    Console.WriteLine("Loged in");
+                }
+                else
+                {
+
+                    Console.WriteLine("unauthenticatioed");
+                }
+
+
+
+
+
+                conn.Close();
+
+       
+
+
+            Console.WriteLine("remaning code");
+        }
+
+    }
+
+}

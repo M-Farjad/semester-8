@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Study Material\\semester-8\\EAD\\Projects\\N_tier_Architecture\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{099F7A37-BF3A-42D1-9C67-A27ED1DBB6E1}|N_tier_Architecture\\N_tier_Architecture.csproj|d:\\study material\\semester-8\\ead\\projects\\n_tier_architecture\\n_tier_architecture\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{099F7A37-BF3A-42D1-9C67-A27ED1DBB6E1}|N_tier_Architecture\\N_tier_Architecture.csproj|solutionrelative:n_tier_architecture\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF37BED3-2963-476B-A63A-5437E1F4AB10}|Dataaccess-layer\\Dataaccess-layer.csproj|d:\\study material\\semester-8\\ead\\projects\\n_tier_architecture\\dataaccess-layer\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF37BED3-2963-476B-A63A-5437E1F4AB10}|Dataaccess-layer\\Dataaccess-layer.csproj|solutionrelative:dataaccess-layer\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF37BED3-2963-476B-A63A-5437E1F4AB10}|Dataaccess-layer\\Dataaccess-layer.csproj|d:\\study material\\semester-8\\ead\\projects\\n_tier_architecture\\dataaccess-layer\\dataaccess-layer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{DF37BED3-2963-476B-A63A-5437E1F4AB10}|Dataaccess-layer\\Dataaccess-layer.csproj|solutionrelative:dataaccess-layer\\dataaccess-layer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5F44C7C-F8EF-458F-A155-85818E2BF754}|Bussinesslogic_layer\\Bussinesslogic_layer.csproj|d:\\study material\\semester-8\\ead\\projects\\n_tier_architecture\\bussinesslogic_layer\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5F44C7C-F8EF-458F-A155-85818E2BF754}|Bussinesslogic_layer\\Bussinesslogic_layer.csproj|solutionrelative:bussinesslogic_layer\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B88C1AB-A1C5-4689-905A-0A4A98202C38}|Presentation_layer\\Presentation_layer.csproj|d:\\study material\\semester-8\\ead\\projects\\n_tier_architecture\\presentation_layer\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B88C1AB-A1C5-4689-905A-0A4A98202C38}|Presentation_layer\\Presentation_layer.csproj|solutionrelative:presentation_layer\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9038A7C2-C036-4F9D-B069-AB429EC4E526}|Bussiness_objects\\Bussiness_objects.csproj|d:\\study material\\semester-8\\ead\\projects\\n_tier_architecture\\bussiness_objects\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9038A7C2-C036-4F9D-B069-AB429EC4E526}|Bussiness_objects\\Bussiness_objects.csproj|solutionrelative:bussiness_objects\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Dataaccess-layer",
+              "DocumentMoniker": "D:\\Study Material\\semester-8\\EAD\\Projects\\N_tier_Architecture\\Dataaccess-layer\\Dataaccess-layer.csproj",
+              "RelativeDocumentMoniker": "Dataaccess-layer\\Dataaccess-layer.csproj",
+              "ToolTip": "D:\\Study Material\\semester-8\\EAD\\Projects\\N_tier_Architecture\\Dataaccess-layer\\Dataaccess-layer.csproj",
+              "RelativeToolTip": "Dataaccess-layer\\Dataaccess-layer.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-05T11:18:56.215Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "D:\\Study Material\\semester-8\\EAD\\Projects\\N_tier_Architecture\\Presentation_layer\\Class1.cs",
+              "RelativeDocumentMoniker": "Presentation_layer\\Class1.cs",
+              "ToolTip": "D:\\Study Material\\semester-8\\EAD\\Projects\\N_tier_Architecture\\Presentation_layer\\Class1.cs",
+              "RelativeToolTip": "Presentation_layer\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T10:51:58.077Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "D:\\Study Material\\semester-8\\EAD\\Projects\\N_tier_Architecture\\Dataaccess-layer\\Class1.cs",
+              "RelativeDocumentMoniker": "Dataaccess-layer\\Class1.cs",
+              "ToolTip": "D:\\Study Material\\semester-8\\EAD\\Projects\\N_tier_Architecture\\Dataaccess-layer\\Class1.cs",
+              "RelativeToolTip": "Dataaccess-layer\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T10:50:52.683Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "D:\\Study Material\\semester-8\\EAD\\Projects\\N_tier_Architecture\\Bussinesslogic_layer\\Class1.cs",
+              "RelativeDocumentMoniker": "Bussinesslogic_layer\\Class1.cs",
+              "ToolTip": "D:\\Study Material\\semester-8\\EAD\\Projects\\N_tier_Architecture\\Bussinesslogic_layer\\Class1.cs",
+              "RelativeToolTip": "Bussinesslogic_layer\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T10:49:39.25Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "D:\\Study Material\\semester-8\\EAD\\Projects\\N_tier_Architecture\\Bussiness_objects\\Class1.cs",
+              "RelativeDocumentMoniker": "Bussiness_objects\\Class1.cs",
+              "ToolTip": "D:\\Study Material\\semester-8\\EAD\\Projects\\N_tier_Architecture\\Bussiness_objects\\Class1.cs",
+              "RelativeToolTip": "Bussiness_objects\\Class1.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAkwB0AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T10:47:56.065Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Study Material\\semester-8\\EAD\\Projects\\N_tier_Architecture\\N_tier_Architecture\\Program.cs",
+              "RelativeDocumentMoniker": "N_tier_Architecture\\Program.cs",
+              "ToolTip": "D:\\Study Material\\semester-8\\EAD\\Projects\\N_tier_Architecture\\N_tier_Architecture\\Program.cs",
+              "RelativeToolTip": "N_tier_Architecture\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAgwAsAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T10:45:44.13Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+﻿<Window x:Class="DatagridEditDeleteAdd.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DatagridEditDeleteAdd"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <DataGrid Name="mygrid" AutoGenerateColumns="False" CanUserAddRows="False" Margin="0,175,0,0">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Product Name" Binding="{Binding Pname}" Width="*"></DataGridTextColumn>
+                <DataGridTextColumn Header="Product Price" Binding="{Binding Price}" Width="*"></DataGridTextColumn>
+                <DataGridTemplateColumn Header="Delete" Width="*">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Button Content="delete" Click="Button_Click_1"></Button>
+                            
+                        </DataTemplate>
+                        
+                    </DataGridTemplateColumn.CellTemplate>
+                    
+                    
+                </DataGridTemplateColumn>
+
+                <DataGridTemplateColumn Header="Edit" Width="*">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Button Content="Edit" Click="MakeProductEditable"></Button>
+
+                        </DataTemplate>
+
+                    </DataGridTemplateColumn.CellTemplate>
+
+
+                </DataGridTemplateColumn>
+            </DataGrid.Columns>
+            
+            
+        </DataGrid>
+        <TextBox Name="t1" HorizontalAlignment="Left" Margin="142,61,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="t2" HorizontalAlignment="Left" Margin="142,137,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120"/>
+        <Label Content="Enter name" HorizontalAlignment="Left" Margin="46,57,0,0" VerticalAlignment="Top"/>
+        <Label Content="Enter price" HorizontalAlignment="Left" Margin="46,129,0,0" VerticalAlignment="Top"/>
+        <Button Name="b1" Content="Add Product" HorizontalAlignment="Left" Margin="359,111,0,0" VerticalAlignment="Top" Click="Button_Click"/>
+        <Button Name="b2" Visibility="Hidden" Content="Edit" HorizontalAlignment="Left" Margin="475,111,0,0" VerticalAlignment="Top" Click="EditProduct"/>
+
+    </Grid>
+</Window>

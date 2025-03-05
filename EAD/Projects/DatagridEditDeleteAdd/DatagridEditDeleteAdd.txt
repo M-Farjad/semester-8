@@ -1,0 +1,100 @@
+Step # 1: Make an Object Class e.g Product
+
+namespace DatagridEditDeleteAdd
+{
+    internal class product
+    {
+        public string Pname { get; set; }
+        public int price { get; set; }
+
+    }
+}
+
+Step # 2: UI Code for the front end
+<Window x:Class="DatagridEditDeleteAdd.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DatagridEditDeleteAdd"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <DataGrid Name="mygrid" AutoGenerateColumns="False" CanUserAddRows="False" Margin="0,175,0,0">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Product Name" Binding="{Binding Pname}" Width="*"></DataGridTextColumn>
+                <DataGridTextColumn Header="Product Price" Binding="{Binding price}" Width="*"></DataGridTextColumn>
+                <DataGridTemplateColumn Header="Delete" Width="*">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Button Content="delete" Click="Button_Click_1"></Button>
+                            
+                        </DataTemplate>
+                        
+                    </DataGridTemplateColumn.CellTemplate>
+                    
+                    
+                </DataGridTemplateColumn>
+
+                <DataGridTemplateColumn Header="Edit" Width="*">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Button Content="Edit"></Button>
+
+                        </DataTemplate>
+
+                    </DataGridTemplateColumn.CellTemplate>
+
+
+                </DataGridTemplateColumn>
+            </DataGrid.Columns>
+            
+            
+        </DataGrid>
+        <TextBox Name="t1" HorizontalAlignment="Left" Margin="142,61,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="t2" HorizontalAlignment="Left" Margin="142,137,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120"/>
+        <Label Content="Enter name" HorizontalAlignment="Left" Margin="46,57,0,0" VerticalAlignment="Top"/>
+        <Label Content="Enter price" HorizontalAlignment="Left" Margin="46,129,0,0" VerticalAlignment="Top"/>
+        <Button Content="Add Product" HorizontalAlignment="Left" Margin="359,111,0,0" VerticalAlignment="Top" Click="Add_Product"/>
+
+    </Grid>
+</Window>
+
+Step # 3: Code for controllers or button click actions
+namespace DatagridEditDeleteAdd
+{
+    /// <summary>
+    /// Interaction logic for MainWindow.xaml
+    /// </summary>
+    public partial class MainWindow : Window
+    {
+        ObservableCollection<product> lst = new ObservableCollection<product>();
+
+        public MainWindow()
+        {
+            
+            InitializeComponent();
+
+            lst.Add(new product { Pname = "burger", price = 200});
+            lst.Add(new product { Pname="biryani", price=150});
+            lst.Add(new product { Pname = "Shawarma", price = 150 });
+            lst.Add(new product { Pname = "sandwich", price = 150 });
+            
+            mygrid.ItemsSource = lst;
+        }
+
+        private void Add_Product(object sender, RoutedEventArgs e)
+        {
+            lst.Add(new product { Pname = t1.Text, price = Convert.ToInt32( t2.Text)});
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            product? temp = (mygrid.SelectedItem as product);
+
+            lst.Remove(temp);
+
+
+        }
+    }
+}

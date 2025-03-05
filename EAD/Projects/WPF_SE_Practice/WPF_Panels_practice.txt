@@ -1,0 +1,89 @@
+<Window x:Class="WPF_SE_Practice.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_SE_Practice"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="500" Width="700" >
+    <!--<StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+
+        <Label Content="Enter use name" Background="#FFDD9595" Height="30" Margin="0,0,20,0"></Label>
+        <TextBox Background="#FF66B743" Width="100" Height="30" Margin="0,0,20,0" Name="T1" ></TextBox>
+        <Button Content="Save" Width="50" Height="30" Click="Button_Click"></Button>
+    </StackPanel>-->
+
+    <!--<DockPanel LastChildFill="True">
+        <Label HorizontalContentAlignment="Center" Content="Welcome to outlook" Background="Aqua" DockPanel.Dock="Top" ></Label>
+        <Menu DockPanel.Dock="Top">
+            <MenuItem Header="File">
+                <MenuItem Header="Ali"></MenuItem>
+
+                <MenuItem Header="Ali"></MenuItem>
+
+                <MenuItem Header="Ali"></MenuItem>
+
+            </MenuItem>
+
+            <MenuItem Header="Contact us"></MenuItem>
+
+            <MenuItem Header="products"></MenuItem>
+
+            <MenuItem Header="read"></MenuItem>
+        </Menu>
+        
+        <Label HorizontalContentAlignment="Center" Content="Welcome to outlook" Background="Aqua" DockPanel.Dock="Bottom"></Label>
+
+        <Label HorizontalContentAlignment="Center" Content="Welcome to outlook" Background="Aqua" DockPanel.Dock="Left"></Label>
+
+        <Label HorizontalContentAlignment="Center" Content="Welcome to outlook" Background="Aqua" DockPanel.Dock="Right"></Label>
+
+
+        <Label HorizontalContentAlignment="Center" Content="Welcome to outlook" Background="Orange" DockPanel.Dock="Top"></Label>
+        <Label HorizontalContentAlignment="Center" Content="Welcome to outlook" Background="Red" DockPanel.Dock="Top"></Label>
+        <StackPanel DockPanel.Dock="Top" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+
+            <Label Content="Enter use name" Background="#FFDD9595" Height="30" Margin="0,0,20,0"></Label>
+            <TextBox Background="#FF66B743" Width="100" Height="30" Margin="0,0,20,0" Name="T1" ></TextBox>
+            <Button Content="Save" Width="50" Height="30" Click="Button_Click"></Button>
+        </StackPanel>
+
+    </DockPanel>-->
+
+    <!--<Grid ShowGridLines="True" HorizontalAlignment="Center" VerticalAlignment="Center" Width="564">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="2*"></ColumnDefinition>
+
+
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="70"></RowDefinition>
+
+            <RowDefinition Height="70" ></RowDefinition>
+
+            <RowDefinition Height="70"></RowDefinition>
+        </Grid.RowDefinitions>
+
+
+        <Label HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Content="enter user name" Grid.Column="0" Grid.Row="0" FontSize="22" FontWeight="Bold"/>
+        <Label HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Content="enter user password" Grid.Column="0" Grid.Row="1" FontSize="20" FontWeight="Bold"></Label>
+        <TextBox Grid.Column="1" Grid.Row="0" Background="#FFEF8787"></TextBox>
+        <TextBox Grid.Column="1" Grid.Row="1" Background="#FF7BDEDB"></TextBox>
+        <Button Grid.Column="0" Grid.Row="2" Content="forget" FontSize="20" FontWeight="Bold"></Button>
+        <Button Grid.Column="1" Grid.Row="2" Content="Login" FontSize="20" FontWeight="Bold"></Button>
+
+
+    </Grid>-->
+
+    <WrapPanel>
+
+        <Label Content="Enter use name" Background="#FFE59494" Margin="0,0,20,0"></Label>
+        <Label Content="Enter use name" Background="#FFE59494" Margin="0,0,20,0"></Label>
+        <Label Content="Enter use name" Background="#FFE59494" Margin="0,0,20,0"></Label>
+        <Label Content="Enter use name" Background="#FFE59494" Margin="0,0,20,0"></Label>
+        <Label Content="Enter use name" Background="#FFE59494" Margin="0,0,20,0"></Label>
+        <Label Content="Enter use name" Background="#FFE59494" Margin="0,0,20,0"></Label>
+    </WrapPanel>
+
+</Window>

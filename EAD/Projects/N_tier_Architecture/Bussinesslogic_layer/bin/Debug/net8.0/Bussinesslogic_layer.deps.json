@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Bussinesslogic_layer/1.0.0": {
+        "dependencies": {
+          "Bussiness_objects": "1.0.0"
+        },
+        "runtime": {
+          "Bussinesslogic_layer.dll": {}
+        }
+      },
+      "Bussiness_objects/1.0.0": {
+        "runtime": {
+          "Bussiness_objects.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Bussinesslogic_layer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Bussiness_objects/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

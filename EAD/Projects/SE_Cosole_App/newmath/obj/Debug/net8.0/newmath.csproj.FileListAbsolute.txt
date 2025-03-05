@@ -1,0 +1,11 @@
+C:\Users\hp\source\repos\SE_Cosole_App\newmath\bin\Debug\net8.0\newmath.deps.json
+C:\Users\hp\source\repos\SE_Cosole_App\newmath\bin\Debug\net8.0\newmath.dll
+C:\Users\hp\source\repos\SE_Cosole_App\newmath\bin\Debug\net8.0\newmath.pdb
+C:\Users\hp\source\repos\SE_Cosole_App\newmath\obj\Debug\net8.0\newmath.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hp\source\repos\SE_Cosole_App\newmath\obj\Debug\net8.0\newmath.AssemblyInfoInputs.cache
+C:\Users\hp\source\repos\SE_Cosole_App\newmath\obj\Debug\net8.0\newmath.AssemblyInfo.cs
+C:\Users\hp\source\repos\SE_Cosole_App\newmath\obj\Debug\net8.0\newmath.csproj.CoreCompileInputs.cache
+C:\Users\hp\source\repos\SE_Cosole_App\newmath\obj\Debug\net8.0\newmath.dll
+C:\Users\hp\source\repos\SE_Cosole_App\newmath\obj\Debug\net8.0\refint\newmath.dll
+C:\Users\hp\source\repos\SE_Cosole_App\newmath\obj\Debug\net8.0\newmath.pdb
+C:\Users\hp\source\repos\SE_Cosole_App\newmath\obj\Debug\net8.0\ref\newmath.dll

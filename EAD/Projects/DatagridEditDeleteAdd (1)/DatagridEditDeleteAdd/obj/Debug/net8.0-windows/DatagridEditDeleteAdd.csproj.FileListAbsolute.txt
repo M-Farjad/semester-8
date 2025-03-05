@@ -1,0 +1,45 @@
+C:\Users\hp\source\repos\DatagridEditDeleteAdd\DatagridEditDeleteAdd\bin\Debug\net8.0-windows\DatagridEditDeleteAdd.exe
+C:\Users\hp\source\repos\DatagridEditDeleteAdd\DatagridEditDeleteAdd\bin\Debug\net8.0-windows\DatagridEditDeleteAdd.deps.json
+C:\Users\hp\source\repos\DatagridEditDeleteAdd\DatagridEditDeleteAdd\bin\Debug\net8.0-windows\DatagridEditDeleteAdd.runtimeconfig.json
+C:\Users\hp\source\repos\DatagridEditDeleteAdd\DatagridEditDeleteAdd\bin\Debug\net8.0-windows\DatagridEditDeleteAdd.dll
+C:\Users\hp\source\repos\DatagridEditDeleteAdd\DatagridEditDeleteAdd\bin\Debug\net8.0-windows\DatagridEditDeleteAdd.pdb
+C:\Users\hp\source\repos\DatagridEditDeleteAdd\DatagridEditDeleteAdd\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\hp\source\repos\DatagridEditDeleteAdd\DatagridEditDeleteAdd\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\hp\source\repos\DatagridEditDeleteAdd\DatagridEditDeleteAdd\obj\Debug\net8.0-windows\DatagridEditDeleteAdd_MarkupCompile.cache
+C:\Users\hp\source\repos\DatagridEditDeleteAdd\DatagridEditDeleteAdd\obj\Debug\net8.0-windows\DatagridEditDeleteAdd_MarkupCompile.lref
+C:\Users\hp\source\repos\DatagridEditDeleteAdd\DatagridEditDeleteAdd\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\hp\source\repos\DatagridEditDeleteAdd\DatagridEditDeleteAdd\obj\Debug\net8.0-windows\DatagridEditDeleteAdd.g.resources
+C:\Users\hp\source\repos\DatagridEditDeleteAdd\DatagridEditDeleteAdd\obj\Debug\net8.0-windows\DatagridEditDeleteAdd.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hp\source\repos\DatagridEditDeleteAdd\DatagridEditDeleteAdd\obj\Debug\net8.0-windows\DatagridEditDeleteAdd.AssemblyInfoInputs.cache
+C:\Users\hp\source\repos\DatagridEditDeleteAdd\DatagridEditDeleteAdd\obj\Debug\net8.0-windows\DatagridEditDeleteAdd.AssemblyInfo.cs
+C:\Users\hp\source\repos\DatagridEditDeleteAdd\DatagridEditDeleteAdd\obj\Debug\net8.0-windows\DatagridEditDeleteAdd.csproj.CoreCompileInputs.cache
+C:\Users\hp\source\repos\DatagridEditDeleteAdd\DatagridEditDeleteAdd\obj\Debug\net8.0-windows\DatagridEditDeleteAdd.dll
+C:\Users\hp\source\repos\DatagridEditDeleteAdd\DatagridEditDeleteAdd\obj\Debug\net8.0-windows\refint\DatagridEditDeleteAdd.dll
+C:\Users\hp\source\repos\DatagridEditDeleteAdd\DatagridEditDeleteAdd\obj\Debug\net8.0-windows\DatagridEditDeleteAdd.pdb
+C:\Users\hp\source\repos\DatagridEditDeleteAdd\DatagridEditDeleteAdd\obj\Debug\net8.0-windows\DatagridEditDeleteAdd.genruntimeconfig.cache
+C:\Users\hp\source\repos\DatagridEditDeleteAdd\DatagridEditDeleteAdd\obj\Debug\net8.0-windows\ref\DatagridEditDeleteAdd.dll
+C:\Users\hp\source\repos\DatagridEditDeleteAdd\DatagridEditDeleteAdd\obj\Debug\net8.0-windows\shoping.g.cs
+C:\Users\hp\source\repos\DatagridEditDeleteAdd\DatagridEditDeleteAdd\obj\Debug\net8.0-windows\shoping.baml
+D:\Study Material\semester-8\EAD\Projects\DatagridEditDeleteAdd (1)\DatagridEditDeleteAdd\bin\Debug\net8.0-windows\DatagridEditDeleteAdd.exe
+D:\Study Material\semester-8\EAD\Projects\DatagridEditDeleteAdd (1)\DatagridEditDeleteAdd\bin\Debug\net8.0-windows\DatagridEditDeleteAdd.deps.json
+D:\Study Material\semester-8\EAD\Projects\DatagridEditDeleteAdd (1)\DatagridEditDeleteAdd\bin\Debug\net8.0-windows\DatagridEditDeleteAdd.runtimeconfig.json
+D:\Study Material\semester-8\EAD\Projects\DatagridEditDeleteAdd (1)\DatagridEditDeleteAdd\bin\Debug\net8.0-windows\DatagridEditDeleteAdd.dll
+D:\Study Material\semester-8\EAD\Projects\DatagridEditDeleteAdd (1)\DatagridEditDeleteAdd\bin\Debug\net8.0-windows\DatagridEditDeleteAdd.pdb
+D:\Study Material\semester-8\EAD\Projects\DatagridEditDeleteAdd (1)\DatagridEditDeleteAdd\obj\Debug\net8.0-windows\MainWindow.g.cs
+D:\Study Material\semester-8\EAD\Projects\DatagridEditDeleteAdd (1)\DatagridEditDeleteAdd\obj\Debug\net8.0-windows\shoping.g.cs
+D:\Study Material\semester-8\EAD\Projects\DatagridEditDeleteAdd (1)\DatagridEditDeleteAdd\obj\Debug\net8.0-windows\App.g.cs
+D:\Study Material\semester-8\EAD\Projects\DatagridEditDeleteAdd (1)\DatagridEditDeleteAdd\obj\Debug\net8.0-windows\DatagridEditDeleteAdd_MarkupCompile.cache
+D:\Study Material\semester-8\EAD\Projects\DatagridEditDeleteAdd (1)\DatagridEditDeleteAdd\obj\Debug\net8.0-windows\DatagridEditDeleteAdd_MarkupCompile.lref
+D:\Study Material\semester-8\EAD\Projects\DatagridEditDeleteAdd (1)\DatagridEditDeleteAdd\obj\Debug\net8.0-windows\MainWindow.baml
+D:\Study Material\semester-8\EAD\Projects\DatagridEditDeleteAdd (1)\DatagridEditDeleteAdd\obj\Debug\net8.0-windows\shoping.baml
+D:\Study Material\semester-8\EAD\Projects\DatagridEditDeleteAdd (1)\DatagridEditDeleteAdd\obj\Debug\net8.0-windows\DatagridEditDeleteAdd.g.resources
+D:\Study Material\semester-8\EAD\Projects\DatagridEditDeleteAdd (1)\DatagridEditDeleteAdd\obj\Debug\net8.0-windows\DatagridEditDeleteAdd.GeneratedMSBuildEditorConfig.editorconfig
+D:\Study Material\semester-8\EAD\Projects\DatagridEditDeleteAdd (1)\DatagridEditDeleteAdd\obj\Debug\net8.0-windows\DatagridEditDeleteAdd.AssemblyInfoInputs.cache
+D:\Study Material\semester-8\EAD\Projects\DatagridEditDeleteAdd (1)\DatagridEditDeleteAdd\obj\Debug\net8.0-windows\DatagridEditDeleteAdd.AssemblyInfo.cs
+D:\Study Material\semester-8\EAD\Projects\DatagridEditDeleteAdd (1)\DatagridEditDeleteAdd\obj\Debug\net8.0-windows\DatagridEditDeleteAdd.csproj.CoreCompileInputs.cache
+D:\Study Material\semester-8\EAD\Projects\DatagridEditDeleteAdd (1)\DatagridEditDeleteAdd\obj\Debug\net8.0-windows\DatagridEditDeleteAdd.sourcelink.json
+D:\Study Material\semester-8\EAD\Projects\DatagridEditDeleteAdd (1)\DatagridEditDeleteAdd\obj\Debug\net8.0-windows\DatagridEditDeleteAdd.dll
+D:\Study Material\semester-8\EAD\Projects\DatagridEditDeleteAdd (1)\DatagridEditDeleteAdd\obj\Debug\net8.0-windows\refint\DatagridEditDeleteAdd.dll
+D:\Study Material\semester-8\EAD\Projects\DatagridEditDeleteAdd (1)\DatagridEditDeleteAdd\obj\Debug\net8.0-windows\DatagridEditDeleteAdd.pdb
+D:\Study Material\semester-8\EAD\Projects\DatagridEditDeleteAdd (1)\DatagridEditDeleteAdd\obj\Debug\net8.0-windows\DatagridEditDeleteAdd.genruntimeconfig.cache
+D:\Study Material\semester-8\EAD\Projects\DatagridEditDeleteAdd (1)\DatagridEditDeleteAdd\obj\Debug\net8.0-windows\ref\DatagridEditDeleteAdd.dll

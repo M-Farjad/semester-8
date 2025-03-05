@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("N_Tier_Architecture")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+931f77a4f5de094f99cdfbb91b502fefb9d40545")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+083a6ca54563119194d5496ed95e7982631820c4")]
 [assembly: System.Reflection.AssemblyProductAttribute("N_Tier_Architecture")]
 [assembly: System.Reflection.AssemblyTitleAttribute("N_Tier_Architecture")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

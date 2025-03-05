@@ -1,0 +1,161 @@
+MainWindow.xaml.cs:
+namespace DatagridEditDeleteAdd
+{
+    /// <summary>
+    /// Interaction logic for MainWindow.xaml
+    /// </summary>
+    public partial class MainWindow : Window
+    {
+        ObservableCollection<product> lst = new ObservableCollection<product>();
+        public MainWindow()
+        {
+            InitializeComponent();
+
+            lst.Add(new product { Pname = "burger", Price = 200});
+            lst.Add(new product { Pname="biryani", Price=150});
+            lst.Add(new product { Pname = "Shawarma", Price = 150 });
+            lst.Add(new product { Pname = "sandwich", Price = 150 });
+            
+            mygrid.ItemsSource = lst;
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                if (t1.Text == "" || t2.Text == "")
+                {
+                    MessageBox.Show("Please Fill Text boxes");
+                }
+                else
+                {
+                    lst.Add(new product { Pname = t1.Text, Price = Convert.ToInt32(t2.Text) });
+                    t1.Text = "";
+                    t2.Text = "";
+                }
+            }
+            catch (Exception ex){
+                MessageBox.Show(ex.Message);
+            
+            }
+        }
+
+            
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            product? temp = (mygrid.SelectedItem as product);
+            lst.Remove(temp);
+        }
+
+        private void MakeProductEditable(object sender, RoutedEventArgs e)
+        {
+            product ?temp = (mygrid.SelectedItem as product);
+            t1.Text = temp.Pname;
+            t2.Text = temp.Price.ToString();
+            b1.Visibility = Visibility.Hidden;
+            b2.Visibility = Visibility.Visible;
+        }
+
+        private void EditProduct(object sender, RoutedEventArgs e)
+        {
+            //shoping temp = new shoping();
+            //temp.Show();
+            //this.Close();
+            product ?temp = (mygrid.SelectedItem as product);
+            temp.Pname = t1.Text;
+            temp.Price = Convert.ToInt32(t2.Text);
+            t1.Text = "";
+            t2.Text = "";
+            b1.Visibility = Visibility.Visible;
+            b2.Visibility = Visibility.Hidden;
+        }
+    }
+}
+
+MainWindow.xaml:
+<Window>
+<Grid>
+    <DataGrid Name="mygrid" AutoGenerateColumns="False" CanUserAddRows="False" Margin="0,175,0,0">
+        <DataGrid.Columns>
+            <DataGridTextColumn Header="Product Name" Binding="{Binding Pname}" Width="*"></DataGridTextColumn>
+            <DataGridTextColumn Header="Product Price" Binding="{Binding Price}" Width="*"></DataGridTextColumn>
+            <DataGridTemplateColumn Header="Delete" Width="*">
+                <DataGridTemplateColumn.CellTemplate>
+                    <DataTemplate>
+                        <Button Content="delete" Click="Button_Click_1"></Button>
+                        
+                    </DataTemplate>
+                    
+                </DataGridTemplateColumn.CellTemplate>
+                
+                
+            </DataGridTemplateColumn>
+
+            <DataGridTemplateColumn Header="Edit" Width="*">
+                <DataGridTemplateColumn.CellTemplate>
+                    <DataTemplate>
+                        <Button Content="Edit" Click="MakeProductEditable"></Button>
+
+                    </DataTemplate>
+
+                </DataGridTemplateColumn.CellTemplate>
+
+
+            </DataGridTemplateColumn>
+        </DataGrid.Columns>
+        
+        
+    </DataGrid>
+    <TextBox Name="t1" HorizontalAlignment="Left" Margin="142,61,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120"/>
+    <TextBox Name="t2" HorizontalAlignment="Left" Margin="142,137,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120"/>
+    <Label Content="Enter name" HorizontalAlignment="Left" Margin="46,57,0,0" VerticalAlignment="Top"/>
+    <Label Content="Enter price" HorizontalAlignment="Left" Margin="46,129,0,0" VerticalAlignment="Top"/>
+    <Button Name="b1" Content="Add Product" HorizontalAlignment="Left" Margin="359,111,0,0" VerticalAlignment="Top" Click="Button_Click"/>
+    <Button Name="b2" Visibility="Hidden" Content="Edit" HorizontalAlignment="Left" Margin="475,111,0,0" VerticalAlignment="Top" Click="EditProduct"/>
+
+</Grid>
+</Window>
+
+Peoducts.cs:
+namespace DatagridEditDeleteAdd
+{
+    internal class product : INotifyPropertyChanged
+    {
+        private string pname;
+        public string Pname {
+            get
+            {
+                return pname;
+            }
+            set
+            {
+                pname = value;
+
+                Notify("Pname");
+            }
+        }
+        private int price;
+        public int Price
+        {
+            get
+            {
+                return price;
+            }
+            set
+            {
+                price = value;
+                Notify("Price");
+            }
+        }
+        public event PropertyChangedEventHandler? PropertyChanged;
+        public void Notify(String propertyName)
+        {
+            if (PropertyChanged != null)
+            {
+                PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+}
+

@@ -1,0 +1,43 @@
+C:\Users\hp\source\repos\Databinding\Databinding\bin\Debug\net8.0-windows\Databinding.exe
+C:\Users\hp\source\repos\Databinding\Databinding\bin\Debug\net8.0-windows\Databinding.deps.json
+C:\Users\hp\source\repos\Databinding\Databinding\bin\Debug\net8.0-windows\Databinding.runtimeconfig.json
+C:\Users\hp\source\repos\Databinding\Databinding\bin\Debug\net8.0-windows\Databinding.dll
+C:\Users\hp\source\repos\Databinding\Databinding\bin\Debug\net8.0-windows\Databinding.pdb
+C:\Users\hp\source\repos\Databinding\Databinding\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\hp\source\repos\Databinding\Databinding\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\hp\source\repos\Databinding\Databinding\obj\Debug\net8.0-windows\Databinding_MarkupCompile.cache
+C:\Users\hp\source\repos\Databinding\Databinding\obj\Debug\net8.0-windows\Databinding_MarkupCompile.lref
+C:\Users\hp\source\repos\Databinding\Databinding\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\hp\source\repos\Databinding\Databinding\obj\Debug\net8.0-windows\Databinding.g.resources
+C:\Users\hp\source\repos\Databinding\Databinding\obj\Debug\net8.0-windows\Databinding.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hp\source\repos\Databinding\Databinding\obj\Debug\net8.0-windows\Databinding.AssemblyInfoInputs.cache
+C:\Users\hp\source\repos\Databinding\Databinding\obj\Debug\net8.0-windows\Databinding.AssemblyInfo.cs
+C:\Users\hp\source\repos\Databinding\Databinding\obj\Debug\net8.0-windows\Databinding.csproj.CoreCompileInputs.cache
+C:\Users\hp\source\repos\Databinding\Databinding\obj\Debug\net8.0-windows\Databinding.dll
+C:\Users\hp\source\repos\Databinding\Databinding\obj\Debug\net8.0-windows\refint\Databinding.dll
+C:\Users\hp\source\repos\Databinding\Databinding\obj\Debug\net8.0-windows\Databinding.pdb
+C:\Users\hp\source\repos\Databinding\Databinding\obj\Debug\net8.0-windows\Databinding.genruntimeconfig.cache
+C:\Users\hp\source\repos\Databinding\Databinding\obj\Debug\net8.0-windows\ref\Databinding.dll
+C:\Users\hp\source\repos\Databinding\Databinding\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+D:\Study Material\semester-8\EAD\Projects\Databinding\Databinding\bin\Debug\net8.0-windows\Databinding.exe
+D:\Study Material\semester-8\EAD\Projects\Databinding\Databinding\bin\Debug\net8.0-windows\Databinding.deps.json
+D:\Study Material\semester-8\EAD\Projects\Databinding\Databinding\bin\Debug\net8.0-windows\Databinding.runtimeconfig.json
+D:\Study Material\semester-8\EAD\Projects\Databinding\Databinding\bin\Debug\net8.0-windows\Databinding.dll
+D:\Study Material\semester-8\EAD\Projects\Databinding\Databinding\bin\Debug\net8.0-windows\Databinding.pdb
+D:\Study Material\semester-8\EAD\Projects\Databinding\Databinding\obj\Debug\net8.0-windows\MainWindow.g.cs
+D:\Study Material\semester-8\EAD\Projects\Databinding\Databinding\obj\Debug\net8.0-windows\App.g.cs
+D:\Study Material\semester-8\EAD\Projects\Databinding\Databinding\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+D:\Study Material\semester-8\EAD\Projects\Databinding\Databinding\obj\Debug\net8.0-windows\Databinding_MarkupCompile.cache
+D:\Study Material\semester-8\EAD\Projects\Databinding\Databinding\obj\Debug\net8.0-windows\Databinding_MarkupCompile.lref
+D:\Study Material\semester-8\EAD\Projects\Databinding\Databinding\obj\Debug\net8.0-windows\MainWindow.baml
+D:\Study Material\semester-8\EAD\Projects\Databinding\Databinding\obj\Debug\net8.0-windows\Databinding.g.resources
+D:\Study Material\semester-8\EAD\Projects\Databinding\Databinding\obj\Debug\net8.0-windows\Databinding.GeneratedMSBuildEditorConfig.editorconfig
+D:\Study Material\semester-8\EAD\Projects\Databinding\Databinding\obj\Debug\net8.0-windows\Databinding.AssemblyInfoInputs.cache
+D:\Study Material\semester-8\EAD\Projects\Databinding\Databinding\obj\Debug\net8.0-windows\Databinding.AssemblyInfo.cs
+D:\Study Material\semester-8\EAD\Projects\Databinding\Databinding\obj\Debug\net8.0-windows\Databinding.csproj.CoreCompileInputs.cache
+D:\Study Material\semester-8\EAD\Projects\Databinding\Databinding\obj\Debug\net8.0-windows\Databinding.sourcelink.json
+D:\Study Material\semester-8\EAD\Projects\Databinding\Databinding\obj\Debug\net8.0-windows\Databinding.dll
+D:\Study Material\semester-8\EAD\Projects\Databinding\Databinding\obj\Debug\net8.0-windows\refint\Databinding.dll
+D:\Study Material\semester-8\EAD\Projects\Databinding\Databinding\obj\Debug\net8.0-windows\Databinding.pdb
+D:\Study Material\semester-8\EAD\Projects\Databinding\Databinding\obj\Debug\net8.0-windows\Databinding.genruntimeconfig.cache
+D:\Study Material\semester-8\EAD\Projects\Databinding\Databinding\obj\Debug\net8.0-windows\ref\Databinding.dll

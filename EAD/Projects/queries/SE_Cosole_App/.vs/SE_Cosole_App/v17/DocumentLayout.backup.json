@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Study Material\\semester-8\\EAD\\Projects\\queries\\SE_Cosole_App\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{26587135-D460-4DFA-93FE-F144C54EA257}|SE_Cosole_App\\SE_Cosole_App.csproj|d:\\study material\\semester-8\\ead\\projects\\queries\\se_cosole_app\\se_cosole_app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26587135-D460-4DFA-93FE-F144C54EA257}|SE_Cosole_App\\SE_Cosole_App.csproj|solutionrelative:se_cosole_app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Study Material\\semester-8\\EAD\\Projects\\queries\\SE_Cosole_App\\SE_Cosole_App\\Program.cs",
+              "RelativeDocumentMoniker": "SE_Cosole_App\\Program.cs",
+              "ToolTip": "D:\\Study Material\\semester-8\\EAD\\Projects\\queries\\SE_Cosole_App\\SE_Cosole_App\\Program.cs",
+              "RelativeToolTip": "SE_Cosole_App\\Program.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAA5wDIAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-27T03:21:43.872Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

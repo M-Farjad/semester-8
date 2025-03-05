@@ -1,0 +1,134 @@
+Make a project 
+Step # 1: inside it make 4 more projects
+- Business Objects 	-> Models or class objects which stores the data e.g Employee()
+- Business Logic Layer	-> Manipulation of data being stored in Data base for example calculate salary for age<30 and age>30
+- Presentation Layer	-> input from and output shown to the user
+- Data Access Layer	-> to save or get data from Database e.g queries etc
+
+Step # 2: include dependencies and write code make sure if there is a using in the file then you have imported the necessary dependency.
+- N_tier_Architecture code:
+
+using Bussiness_objects;
+using Dataaccess_layer;
+using Bussinesslogic_layer;
+using Presentation_layer;
+using System.Net.Http.Headers;
+namespace N_Tier
+{
+	public class Controller
+	{
+		public static void Main(String[] args)
+		{
+			Emp BO = new Emp();
+
+			PL pl = new PL();
+			BL bl = new BL();
+			DAL dal = new DAL();
+
+			BO = pl.getinput(BO);
+			BO = bl.calculate(BO);
+			if (dal.Save(BO) == true)
+			{
+				Console.WriteLine("saved");
+				Console.WriteLine(BO.Salary);
+			}
+		}
+	}
+}
+
+- Business Objects:
+namespace Bussiness_objects
+{
+	public class Emp
+	{
+		private int age;
+		private int salary;
+
+		public int Age {
+
+			get { 
+				
+				return age;
+			}
+
+			set
+			{
+				if (value > 10)
+				{
+
+					age = value;
+				}
+			}
+		
+		
+		}
+
+		public int Salary {
+
+			get
+			{
+				return salary;
+			}
+			set
+			{
+
+				salary = value;
+			}
+		
+		}
+	}
+}
+
+- Business Logic Layer:
+using Bussiness_objects;
+namespace Bussinesslogic_layer
+{
+	public class BL
+	{
+		public Emp calculate(Emp obj)
+		{
+			if (obj.Age > 30)
+			{
+				obj.Salary = 500000;
+			}
+			else
+			{
+				obj.Salary = 300000;
+			}
+
+			return obj;
+		}
+
+	}
+}
+
+- Presentation Layer:
+using Bussiness_objects;
+namespace Presentation_layer
+{
+	public class PL
+	{
+		public Emp getinput( Emp obj)
+		{
+			Console.WriteLine("Enter age");
+			obj.Age = Convert.ToInt32( Console.ReadLine());
+
+			return obj;
+		}
+	}
+}
+
+- Data Access Layer: 
+using Bussiness_objects;
+namespace Dataaccess_layer
+{
+	public class DAL
+	{
+		public bool Save (Emp obj)
+		{
+			return true;
+			//any queries
+		}
+
+	}
+}

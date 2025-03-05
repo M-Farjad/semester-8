@@ -1,0 +1,90 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "N_tier_Architecture/1.0.0": {
+        "dependencies": {
+          "Bussiness_objects": "1.0.0",
+          "Bussinesslogic_layer": "1.0.0",
+          "Dataaccess-layer": "1.0.0",
+          "Presentation_layer": "1.0.0"
+        },
+        "runtime": {
+          "N_tier_Architecture.dll": {}
+        }
+      },
+      "Bussinesslogic_layer/1.0.0": {
+        "dependencies": {
+          "Bussiness_objects": "1.0.0"
+        },
+        "runtime": {
+          "Bussinesslogic_layer.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Bussiness_objects/1.0.0": {
+        "runtime": {
+          "Bussiness_objects.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Dataaccess-layer/1.0.0": {
+        "dependencies": {
+          "Bussiness_objects": "1.0.0"
+        },
+        "runtime": {
+          "Dataaccess-layer.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Presentation_layer/1.0.0": {
+        "dependencies": {
+          "Bussiness_objects": "1.0.0"
+        },
+        "runtime": {
+          "Presentation_layer.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "N_tier_Architecture/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Bussinesslogic_layer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Bussiness_objects/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Dataaccess-layer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Presentation_layer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

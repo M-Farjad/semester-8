@@ -1,0 +1,49 @@
+C:\Users\DELL\source\repos\N_tier_Architecture\N_tier_Architecture\obj\Debug\net8.0\N_tier_Architecture.csproj.AssemblyReference.cache
+C:\Users\DELL\source\repos\N_tier_Architecture\N_tier_Architecture\obj\Debug\net8.0\N_tier_Architecture.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\source\repos\N_tier_Architecture\N_tier_Architecture\obj\Debug\net8.0\N_tier_Architecture.AssemblyInfoInputs.cache
+C:\Users\DELL\source\repos\N_tier_Architecture\N_tier_Architecture\obj\Debug\net8.0\N_tier_Architecture.AssemblyInfo.cs
+C:\Users\DELL\source\repos\N_tier_Architecture\N_tier_Architecture\obj\Debug\net8.0\N_tier_Architecture.csproj.CoreCompileInputs.cache
+C:\Users\DELL\source\repos\N_tier_Architecture\N_tier_Architecture\bin\Debug\net8.0\N_tier_Architecture.exe
+C:\Users\DELL\source\repos\N_tier_Architecture\N_tier_Architecture\bin\Debug\net8.0\N_tier_Architecture.deps.json
+C:\Users\DELL\source\repos\N_tier_Architecture\N_tier_Architecture\bin\Debug\net8.0\N_tier_Architecture.runtimeconfig.json
+C:\Users\DELL\source\repos\N_tier_Architecture\N_tier_Architecture\bin\Debug\net8.0\N_tier_Architecture.dll
+C:\Users\DELL\source\repos\N_tier_Architecture\N_tier_Architecture\bin\Debug\net8.0\N_tier_Architecture.pdb
+C:\Users\DELL\source\repos\N_tier_Architecture\N_tier_Architecture\bin\Debug\net8.0\Bussiness_objects.dll
+C:\Users\DELL\source\repos\N_tier_Architecture\N_tier_Architecture\bin\Debug\net8.0\Bussiness_objects.pdb
+C:\Users\DELL\source\repos\N_tier_Architecture\N_tier_Architecture\obj\Debug\net8.0\N_tier_A.6BAEACF0.Up2Date
+C:\Users\DELL\source\repos\N_tier_Architecture\N_tier_Architecture\obj\Debug\net8.0\N_tier_Architecture.dll
+C:\Users\DELL\source\repos\N_tier_Architecture\N_tier_Architecture\obj\Debug\net8.0\refint\N_tier_Architecture.dll
+C:\Users\DELL\source\repos\N_tier_Architecture\N_tier_Architecture\obj\Debug\net8.0\N_tier_Architecture.pdb
+C:\Users\DELL\source\repos\N_tier_Architecture\N_tier_Architecture\obj\Debug\net8.0\N_tier_Architecture.genruntimeconfig.cache
+C:\Users\DELL\source\repos\N_tier_Architecture\N_tier_Architecture\obj\Debug\net8.0\ref\N_tier_Architecture.dll
+C:\Users\DELL\source\repos\N_tier_Architecture\N_tier_Architecture\bin\Debug\net8.0\Bussinesslogic_layer.dll
+C:\Users\DELL\source\repos\N_tier_Architecture\N_tier_Architecture\bin\Debug\net8.0\Dataaccess-layer.dll
+C:\Users\DELL\source\repos\N_tier_Architecture\N_tier_Architecture\bin\Debug\net8.0\Presentation_layer.dll
+C:\Users\DELL\source\repos\N_tier_Architecture\N_tier_Architecture\bin\Debug\net8.0\Bussinesslogic_layer.pdb
+C:\Users\DELL\source\repos\N_tier_Architecture\N_tier_Architecture\bin\Debug\net8.0\Dataaccess-layer.pdb
+C:\Users\DELL\source\repos\N_tier_Architecture\N_tier_Architecture\bin\Debug\net8.0\Presentation_layer.pdb
+D:\Study Material\semester-8\EAD\Projects\N_tier_Architecture\N_tier_Architecture\bin\Debug\net8.0\N_tier_Architecture.exe
+D:\Study Material\semester-8\EAD\Projects\N_tier_Architecture\N_tier_Architecture\bin\Debug\net8.0\N_tier_Architecture.deps.json
+D:\Study Material\semester-8\EAD\Projects\N_tier_Architecture\N_tier_Architecture\bin\Debug\net8.0\N_tier_Architecture.runtimeconfig.json
+D:\Study Material\semester-8\EAD\Projects\N_tier_Architecture\N_tier_Architecture\bin\Debug\net8.0\N_tier_Architecture.dll
+D:\Study Material\semester-8\EAD\Projects\N_tier_Architecture\N_tier_Architecture\bin\Debug\net8.0\N_tier_Architecture.pdb
+D:\Study Material\semester-8\EAD\Projects\N_tier_Architecture\N_tier_Architecture\bin\Debug\net8.0\Bussinesslogic_layer.dll
+D:\Study Material\semester-8\EAD\Projects\N_tier_Architecture\N_tier_Architecture\bin\Debug\net8.0\Bussiness_objects.dll
+D:\Study Material\semester-8\EAD\Projects\N_tier_Architecture\N_tier_Architecture\bin\Debug\net8.0\Dataaccess-layer.dll
+D:\Study Material\semester-8\EAD\Projects\N_tier_Architecture\N_tier_Architecture\bin\Debug\net8.0\Presentation_layer.dll
+D:\Study Material\semester-8\EAD\Projects\N_tier_Architecture\N_tier_Architecture\bin\Debug\net8.0\Bussinesslogic_layer.pdb
+D:\Study Material\semester-8\EAD\Projects\N_tier_Architecture\N_tier_Architecture\bin\Debug\net8.0\Bussiness_objects.pdb
+D:\Study Material\semester-8\EAD\Projects\N_tier_Architecture\N_tier_Architecture\bin\Debug\net8.0\Dataaccess-layer.pdb
+D:\Study Material\semester-8\EAD\Projects\N_tier_Architecture\N_tier_Architecture\bin\Debug\net8.0\Presentation_layer.pdb
+D:\Study Material\semester-8\EAD\Projects\N_tier_Architecture\N_tier_Architecture\obj\Debug\net8.0\N_tier_Architecture.csproj.AssemblyReference.cache
+D:\Study Material\semester-8\EAD\Projects\N_tier_Architecture\N_tier_Architecture\obj\Debug\net8.0\N_tier_Architecture.GeneratedMSBuildEditorConfig.editorconfig
+D:\Study Material\semester-8\EAD\Projects\N_tier_Architecture\N_tier_Architecture\obj\Debug\net8.0\N_tier_Architecture.AssemblyInfoInputs.cache
+D:\Study Material\semester-8\EAD\Projects\N_tier_Architecture\N_tier_Architecture\obj\Debug\net8.0\N_tier_Architecture.AssemblyInfo.cs
+D:\Study Material\semester-8\EAD\Projects\N_tier_Architecture\N_tier_Architecture\obj\Debug\net8.0\N_tier_Architecture.csproj.CoreCompileInputs.cache
+D:\Study Material\semester-8\EAD\Projects\N_tier_Architecture\N_tier_Architecture\obj\Debug\net8.0\N_tier_Architecture.sourcelink.json
+D:\Study Material\semester-8\EAD\Projects\N_tier_Architecture\N_tier_Architecture\obj\Debug\net8.0\N_tier_A.6BAEACF0.Up2Date
+D:\Study Material\semester-8\EAD\Projects\N_tier_Architecture\N_tier_Architecture\obj\Debug\net8.0\N_tier_Architecture.dll
+D:\Study Material\semester-8\EAD\Projects\N_tier_Architecture\N_tier_Architecture\obj\Debug\net8.0\refint\N_tier_Architecture.dll
+D:\Study Material\semester-8\EAD\Projects\N_tier_Architecture\N_tier_Architecture\obj\Debug\net8.0\N_tier_Architecture.pdb
+D:\Study Material\semester-8\EAD\Projects\N_tier_Architecture\N_tier_Architecture\obj\Debug\net8.0\N_tier_Architecture.genruntimeconfig.cache
+D:\Study Material\semester-8\EAD\Projects\N_tier_Architecture\N_tier_Architecture\obj\Debug\net8.0\ref\N_tier_Architecture.dll
