@@ -591,7 +591,7 @@
     "my_math/1.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-wDjGy7p+80R+D70HxTlhZXvpJtm3XKrIWeJIXPALqbCYjxFU8O4gO93BblkHGIqyfCVpSeScNi+dL7xmB2ZW+Q==",
+      "sha512": "sha512-uhwiIcZEt1xMfpaAE0qurvEk/VgI0EAUySDgu3shHzc3SfotRkJE1pT27mmOB/MXJRWeSiMesTuPRKz9iybKQA==",
       "path": "my_math/1.0.0",
       "hashPath": "my_math.1.0.0.nupkg.sha512"
     },

@@ -1,0 +1,15 @@
+D:\Study Material\semester-8\EAD\Projects\PaperQuestion4_FindErrors\bin\Debug\net8.0\PaperQuestion4_FindErrors.exe
+D:\Study Material\semester-8\EAD\Projects\PaperQuestion4_FindErrors\bin\Debug\net8.0\PaperQuestion4_FindErrors.deps.json
+D:\Study Material\semester-8\EAD\Projects\PaperQuestion4_FindErrors\bin\Debug\net8.0\PaperQuestion4_FindErrors.runtimeconfig.json
+D:\Study Material\semester-8\EAD\Projects\PaperQuestion4_FindErrors\bin\Debug\net8.0\PaperQuestion4_FindErrors.dll
+D:\Study Material\semester-8\EAD\Projects\PaperQuestion4_FindErrors\bin\Debug\net8.0\PaperQuestion4_FindErrors.pdb
+D:\Study Material\semester-8\EAD\Projects\PaperQuestion4_FindErrors\obj\Debug\net8.0\PaperQuestion4_FindErrors.GeneratedMSBuildEditorConfig.editorconfig
+D:\Study Material\semester-8\EAD\Projects\PaperQuestion4_FindErrors\obj\Debug\net8.0\PaperQuestion4_FindErrors.AssemblyInfoInputs.cache
+D:\Study Material\semester-8\EAD\Projects\PaperQuestion4_FindErrors\obj\Debug\net8.0\PaperQuestion4_FindErrors.AssemblyInfo.cs
+D:\Study Material\semester-8\EAD\Projects\PaperQuestion4_FindErrors\obj\Debug\net8.0\PaperQuestion4_FindErrors.csproj.CoreCompileInputs.cache
+D:\Study Material\semester-8\EAD\Projects\PaperQuestion4_FindErrors\obj\Debug\net8.0\PaperQuestion4_FindErrors.sourcelink.json
+D:\Study Material\semester-8\EAD\Projects\PaperQuestion4_FindErrors\obj\Debug\net8.0\PaperQuestion4_FindErrors.dll
+D:\Study Material\semester-8\EAD\Projects\PaperQuestion4_FindErrors\obj\Debug\net8.0\refint\PaperQuestion4_FindErrors.dll
+D:\Study Material\semester-8\EAD\Projects\PaperQuestion4_FindErrors\obj\Debug\net8.0\PaperQuestion4_FindErrors.pdb
+D:\Study Material\semester-8\EAD\Projects\PaperQuestion4_FindErrors\obj\Debug\net8.0\PaperQuestion4_FindErrors.genruntimeconfig.cache
+D:\Study Material\semester-8\EAD\Projects\PaperQuestion4_FindErrors\obj\Debug\net8.0\ref\PaperQuestion4_FindErrors.dll

@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "PaperQuestion4_FindErrors/1.0.0": {
+        "runtime": {
+          "PaperQuestion4_FindErrors.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PaperQuestion4_FindErrors/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

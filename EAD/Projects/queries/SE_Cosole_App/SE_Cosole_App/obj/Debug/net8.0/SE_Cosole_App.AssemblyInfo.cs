@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SE_Cosole_App")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+083a6ca54563119194d5496ed95e7982631820c4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0c3c22adb4102b9b60db4f5262cca520e78242c9")]
 [assembly: System.Reflection.AssemblyProductAttribute("SE_Cosole_App")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SE_Cosole_App")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

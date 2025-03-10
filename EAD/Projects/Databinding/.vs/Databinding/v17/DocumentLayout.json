@@ -22,21 +22,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "TextToBool.cs",
-              "DocumentMoniker": "D:\\Study Material\\semester-8\\EAD\\Projects\\Databinding\\Databinding\\TextToBool.cs",
-              "RelativeDocumentMoniker": "Databinding\\TextToBool.cs",
-              "ToolTip": "D:\\Study Material\\semester-8\\EAD\\Projects\\Databinding\\Databinding\\TextToBool.cs",
-              "RelativeToolTip": "Databinding\\TextToBool.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAYwB8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-24T04:41:32.142Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -46,7 +33,20 @@
               "ToolTip": "D:\\Study Material\\semester-8\\EAD\\Projects\\Databinding\\Databinding\\MainWindow.xaml",
               "RelativeToolTip": "Databinding\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-02-24T04:10:52.658Z",
+              "WhenOpened": "2025-03-09T15:04:30.83Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TextToBool.cs",
+              "DocumentMoniker": "D:\\Study Material\\semester-8\\EAD\\Projects\\Databinding\\Databinding\\TextToBool.cs",
+              "RelativeDocumentMoniker": "Databinding\\TextToBool.cs",
+              "ToolTip": "D:\\Study Material\\semester-8\\EAD\\Projects\\Databinding\\Databinding\\TextToBool.cs",
+              "RelativeToolTip": "Databinding\\TextToBool.cs",
+              "ViewState": "AgIAAAcAAAAQYbmn1aEwwBoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T04:41:32.142Z",
               "EditorCaption": ""
             },
             {
@@ -57,7 +57,7 @@
               "RelativeDocumentMoniker": "Databinding\\MainWindow.xaml.cs",
               "ToolTip": "D:\\Study Material\\semester-8\\EAD\\Projects\\Databinding\\Databinding\\MainWindow.xaml.cs",
               "RelativeToolTip": "Databinding\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAsAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-24T04:10:51.717Z",
               "EditorCaption": ""

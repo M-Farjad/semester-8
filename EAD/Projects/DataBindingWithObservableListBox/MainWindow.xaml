@@ -1,0 +1,24 @@
+﻿<Window x:Class="DataBindingWithObservableListBox.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DataBindingWithObservableListBox"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <DockPanel>
+        <!-- Bind ListBox to ObservableCollection -->
+        <ListBox Name="lstNames" Width="100" DockPanel.Dock="Left"
+                 ItemsSource="{Binding Names}" 
+                 SelectedItem="{Binding SelectedName, Mode=TwoWay}"
+                 HorizontalAlignment="Left" VerticalAlignment="Center"/>
+
+        <!-- Buttons for Add, Update, Delete -->
+        <StackPanel Orientation="Vertical" DockPanel.Dock="Right"
+                    HorizontalAlignment="Right" VerticalAlignment="Center">
+            <Button Content="Add" Click="Add_Click"/>
+            <Button Content="Update" Click="Update_Click"/>
+            <Button Content="Delete" Click="Delete_Click"/>
+        </StackPanel>
+    </DockPanel>
+</Window>

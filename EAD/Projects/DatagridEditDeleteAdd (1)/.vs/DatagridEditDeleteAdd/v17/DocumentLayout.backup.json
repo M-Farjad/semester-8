@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "D:\\Study Material\\semester-8\\EAD\\Projects\\DatagridEditDeleteAdd (1)\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{082E7ACE-D8EE-4BBE-BA14-9A5F87F2B4DD}|DatagridEditDeleteAdd\\DatagridEditDeleteAdd.csproj|d:\\study material\\semester-8\\ead\\projects\\datagrideditdeleteadd (1)\\datagrideditdeleteadd\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{082E7ACE-D8EE-4BBE-BA14-9A5F87F2B4DD}|DatagridEditDeleteAdd\\DatagridEditDeleteAdd.csproj|solutionrelative:datagrideditdeleteadd\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{082E7ACE-D8EE-4BBE-BA14-9A5F87F2B4DD}|DatagridEditDeleteAdd\\DatagridEditDeleteAdd.csproj|d:\\study material\\semester-8\\ead\\projects\\datagrideditdeleteadd (1)\\datagrideditdeleteadd\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{082E7ACE-D8EE-4BBE-BA14-9A5F87F2B4DD}|DatagridEditDeleteAdd\\DatagridEditDeleteAdd.csproj|solutionrelative:datagrideditdeleteadd\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{082E7ACE-D8EE-4BBE-BA14-9A5F87F2B4DD}|DatagridEditDeleteAdd\\DatagridEditDeleteAdd.csproj|d:\\study material\\semester-8\\ead\\projects\\datagrideditdeleteadd (1)\\datagrideditdeleteadd\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{082E7ACE-D8EE-4BBE-BA14-9A5F87F2B4DD}|DatagridEditDeleteAdd\\DatagridEditDeleteAdd.csproj|solutionrelative:datagrideditdeleteadd\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{082E7ACE-D8EE-4BBE-BA14-9A5F87F2B4DD}|DatagridEditDeleteAdd\\DatagridEditDeleteAdd.csproj|d:\\study material\\semester-8\\ead\\projects\\datagrideditdeleteadd (1)\\datagrideditdeleteadd\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{082E7ACE-D8EE-4BBE-BA14-9A5F87F2B4DD}|DatagridEditDeleteAdd\\DatagridEditDeleteAdd.csproj|solutionrelative:datagrideditdeleteadd\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{082E7ACE-D8EE-4BBE-BA14-9A5F87F2B4DD}|DatagridEditDeleteAdd\\DatagridEditDeleteAdd.csproj|d:\\study material\\semester-8\\ead\\projects\\datagrideditdeleteadd (1)\\datagrideditdeleteadd\\shoping.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{082E7ACE-D8EE-4BBE-BA14-9A5F87F2B4DD}|DatagridEditDeleteAdd\\DatagridEditDeleteAdd.csproj|solutionrelative:datagrideditdeleteadd\\shoping.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{082E7ACE-D8EE-4BBE-BA14-9A5F87F2B4DD}|DatagridEditDeleteAdd\\DatagridEditDeleteAdd.csproj|d:\\study material\\semester-8\\ead\\projects\\datagrideditdeleteadd (1)\\datagrideditdeleteadd\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{082E7ACE-D8EE-4BBE-BA14-9A5F87F2B4DD}|DatagridEditDeleteAdd\\DatagridEditDeleteAdd.csproj|solutionrelative:datagrideditdeleteadd\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,32 +26,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "shoping.xaml.cs",
-              "DocumentMoniker": "D:\\Study Material\\semester-8\\EAD\\Projects\\DatagridEditDeleteAdd (1)\\DatagridEditDeleteAdd\\shoping.xaml.cs",
-              "RelativeDocumentMoniker": "DatagridEditDeleteAdd\\shoping.xaml.cs",
-              "ToolTip": "D:\\Study Material\\semester-8\\EAD\\Projects\\DatagridEditDeleteAdd (1)\\DatagridEditDeleteAdd\\shoping.xaml.cs",
-              "RelativeToolTip": "DatagridEditDeleteAdd\\shoping.xaml.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAEwBsAAAAAAAAAAAAAAA==",
+              "Title": "product.cs",
+              "DocumentMoniker": "D:\\Study Material\\semester-8\\EAD\\Projects\\DatagridEditDeleteAdd (1)\\DatagridEditDeleteAdd\\product.cs",
+              "RelativeDocumentMoniker": "DatagridEditDeleteAdd\\product.cs",
+              "ToolTip": "D:\\Study Material\\semester-8\\EAD\\Projects\\DatagridEditDeleteAdd (1)\\DatagridEditDeleteAdd\\product.cs",
+              "RelativeToolTip": "DatagridEditDeleteAdd\\product.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwA0AAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-05T17:43:23.621Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "D:\\Study Material\\semester-8\\EAD\\Projects\\DatagridEditDeleteAdd (1)\\DatagridEditDeleteAdd\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "DatagridEditDeleteAdd\\MainWindow.xaml.cs",
-              "ToolTip": "D:\\Study Material\\semester-8\\EAD\\Projects\\DatagridEditDeleteAdd (1)\\DatagridEditDeleteAdd\\MainWindow.xaml.cs",
-              "RelativeToolTip": "DatagridEditDeleteAdd\\MainWindow.xaml.cs",
-              "ViewState": "AgIAADcAAAAAAAAAAAA8wEYAAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-27T04:15:47.627Z",
+              "WhenOpened": "2025-02-27T04:19:08.932Z",
               "EditorCaption": ""
             },
             {
@@ -69,14 +56,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "product.cs",
-              "DocumentMoniker": "D:\\Study Material\\semester-8\\EAD\\Projects\\DatagridEditDeleteAdd (1)\\DatagridEditDeleteAdd\\product.cs",
-              "RelativeDocumentMoniker": "DatagridEditDeleteAdd\\product.cs",
-              "ToolTip": "D:\\Study Material\\semester-8\\EAD\\Projects\\DatagridEditDeleteAdd (1)\\DatagridEditDeleteAdd\\product.cs",
-              "RelativeToolTip": "DatagridEditDeleteAdd\\product.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAuwC8AAAAAAAAAAAAAAA==",
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\Study Material\\semester-8\\EAD\\Projects\\DatagridEditDeleteAdd (1)\\DatagridEditDeleteAdd\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "DatagridEditDeleteAdd\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\Study Material\\semester-8\\EAD\\Projects\\DatagridEditDeleteAdd (1)\\DatagridEditDeleteAdd\\MainWindow.xaml.cs",
+              "RelativeToolTip": "DatagridEditDeleteAdd\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-27T04:19:08.932Z",
+              "WhenOpened": "2025-02-27T04:15:47.627Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "shoping.xaml.cs",
+              "DocumentMoniker": "D:\\Study Material\\semester-8\\EAD\\Projects\\DatagridEditDeleteAdd (1)\\DatagridEditDeleteAdd\\shoping.xaml.cs",
+              "RelativeDocumentMoniker": "DatagridEditDeleteAdd\\shoping.xaml.cs",
+              "ToolTip": "D:\\Study Material\\semester-8\\EAD\\Projects\\DatagridEditDeleteAdd (1)\\DatagridEditDeleteAdd\\shoping.xaml.cs",
+              "RelativeToolTip": "DatagridEditDeleteAdd\\shoping.xaml.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAEwBsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T17:43:23.621Z",
               "EditorCaption": ""
             }
           ]

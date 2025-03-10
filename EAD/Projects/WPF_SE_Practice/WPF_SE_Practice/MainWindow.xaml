@@ -8,31 +8,31 @@
         Title="MainWindow" Height="500" Width="700" >
     <!--<StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
 
-        <Label Content="Enter use name" Background="#FFDD9595" Height="30" Margin="0,0,20,0"></Label>
-        <TextBox Background="#FF66B743" Width="100" Height="30" Margin="0,0,20,0" Name="T1" ></TextBox>
-        <Button Content="Save" Width="50" Height="30" Click="Button_Click"></Button>
+        <Label Content="Enter use name" Background="#FFDD9595" Height="30" Margin="0,0,20,0"/>
+        <TextBox Background="#FF66B743" Width="100" Height="30" Margin="0,0,20,0" Name="T1" />
+        <Button Content="Save" Width="50" Height="30" Click="Button_Click"/>
     </StackPanel>-->
 
     <!--<DockPanel LastChildFill="True">
         <Label HorizontalContentAlignment="Center" Content="Welcome to outlook" Background="Aqua" DockPanel.Dock="Top" ></Label>
         <Menu DockPanel.Dock="Top">
             <MenuItem Header="File">
-                <MenuItem Header="Ali"></MenuItem>
+                <MenuItem Header="Ali"/>
 
-                <MenuItem Header="Ali"></MenuItem>
+                <MenuItem Header="Farjad"/>
 
-                <MenuItem Header="Ali"></MenuItem>
+                <MenuItem Header="Hamza"/>
 
             </MenuItem>
 
-            <MenuItem Header="Contact us"></MenuItem>
+            <MenuItem Header="Contact us"/>
 
-            <MenuItem Header="products"></MenuItem>
+            <MenuItem Header="products"/>
 
-            <MenuItem Header="read"></MenuItem>
+            <MenuItem Header="read"/>
         </Menu>
         
-        <Label HorizontalContentAlignment="Center" Content="Good Bye" Background="Aqua" DockPanel.Dock="Bottom"></Label>
+        <Label HorizontalContentAlignment="Center" Content="Good Bye" Background="Purple" DockPanel.Dock="Bottom"></Label>
 
         <Label HorizontalContentAlignment="Center" Content="Left Side Bar" Background="Aqua" DockPanel.Dock="Left"></Label>
 
@@ -42,7 +42,6 @@
         <Label HorizontalContentAlignment="Center" Content="Title" Background="Orange" DockPanel.Dock="Top"></Label>
         <Label HorizontalContentAlignment="Center" Content="Section # 1" Background="Red" DockPanel.Dock="Top"></Label>
         <StackPanel DockPanel.Dock="Top" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
-
             <Label Content="Enter use name" Background="#FFDD9595" Height="30" Margin="0,0,20,0"></Label>
             <TextBox Background="#FF66B743" Width="100" Height="30" Margin="0,0,20,0" Name="T1" ></TextBox>
             <Button Content="Save" Width="50" Height="30" Click="Button_Click"></Button>
@@ -52,38 +51,31 @@
 
     <!--<Grid ShowGridLines="True" HorizontalAlignment="Center" VerticalAlignment="Center" Width="564">
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="*"></ColumnDefinition>
-            <ColumnDefinition Width="2*"></ColumnDefinition>
-
-
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="2*"/>
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
-            <RowDefinition Height="70"></RowDefinition>
-
-            <RowDefinition Height="70" ></RowDefinition>
-
-            <RowDefinition Height="70"></RowDefinition>
+            <RowDefinition Height="70"/>
+            <RowDefinition Height="70"/>
+            <RowDefinition Height="70"/>
         </Grid.RowDefinitions>
 
-
         <Label HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Content="enter user name" Grid.Column="0" Grid.Row="0" FontSize="22" FontWeight="Bold"/>
-        <Label HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Content="enter user password" Grid.Column="0" Grid.Row="1" FontSize="20" FontWeight="Bold"></Label>
-        <TextBox Grid.Column="1" Grid.Row="0" Background="#FFEF8787"></TextBox>
-        <TextBox Grid.Column="1" Grid.Row="1" Background="#FF7BDEDB"></TextBox>
-        <Button Grid.Column="0" Grid.Row="2" Content="forget" FontSize="20" FontWeight="Bold"></Button>
-        <Button Grid.Column="1" Grid.Row="2" Content="Login" FontSize="20" FontWeight="Bold"></Button>
-
-
+        <Label HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Content="enter user password" Grid.Column="0" Grid.Row="1" FontSize="20" FontWeight="Bold"/>
+        <TextBox Grid.Column="1" Grid.Row="0" Background="#FFEF8787"/>
+        <TextBox Grid.Column="1" Grid.Row="1" Background="#FF7BDEDB"/>
+        <Button Grid.Column="0" Grid.Row="2" Content="forget" FontSize="20" FontWeight="Bold"/>
+        <Button Grid.Column="1" Grid.Row="2" Content="Login" FontSize="20" FontWeight="Bold"/>
     </Grid>-->
+    
     <!--Used for Wrapping the texts along the horizontal direction-->
     <WrapPanel>
-
-        <Label Content="Enter use name" Background="#FFE59494" Margin="0,0,20,0"></Label>
-        <Label Content="Enter use name" Background="#FFE59494" Margin="0,0,20,0"></Label>
-        <Label Content="Enter use name" Background="#FFE59494" Margin="0,0,20,0"></Label>
-        <Label Content="Enter use name" Background="#FFE59494" Margin="0,0,20,0"></Label>
-        <Label Content="Enter use name" Background="#FFE59494" Margin="0,0,20,0"></Label>
-        <Label Content="Enter use name" Background="#FFE59494" Margin="0,0,20,0"></Label>
+        <Label Content="Enter use name" Background="#FFE59494" Margin="0,0,20,0"/>
+        <Label Content="Enter use name" Background="#FFE59494" Margin="0,0,20,0"/>
+        <Label Content="Enter use name" Background="#FFE59494" Margin="0,0,20,0"/>
+        <Label Content="Enter use name" Background="#FFE59494" Margin="0,0,20,0"/>
+        <Label Content="Enter use name" Background="#FFE59494" Margin="0,0,20,0"/>
+        <Label Content="Enter use name" Background="#FFE59494" Margin="0,0,20,0"/>
     </WrapPanel>
 
 </Window>

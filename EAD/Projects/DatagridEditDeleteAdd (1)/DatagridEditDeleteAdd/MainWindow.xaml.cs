@@ -50,9 +50,6 @@ namespace DatagridEditDeleteAdd
             
             }
         }
-
-            
-
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
             product? temp = (mygrid.SelectedItem as product);

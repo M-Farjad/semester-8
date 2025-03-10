@@ -1,0 +1,15 @@
+D:\Study Material\semester-8\EAD\Projects\Practice_Mids_WPF\bin\Debug\Practice_Mids_WPF.exe.config
+D:\Study Material\semester-8\EAD\Projects\Practice_Mids_WPF\bin\Debug\Practice_Mids_WPF.exe
+D:\Study Material\semester-8\EAD\Projects\Practice_Mids_WPF\bin\Debug\Practice_Mids_WPF.pdb
+D:\Study Material\semester-8\EAD\Projects\Practice_Mids_WPF\obj\Debug\Practice_Mids_WPF.csproj.AssemblyReference.cache
+D:\Study Material\semester-8\EAD\Projects\Practice_Mids_WPF\obj\Debug\MainWindow.g.cs
+D:\Study Material\semester-8\EAD\Projects\Practice_Mids_WPF\obj\Debug\App.g.cs
+D:\Study Material\semester-8\EAD\Projects\Practice_Mids_WPF\obj\Debug\Practice_Mids_WPF_MarkupCompile.cache
+D:\Study Material\semester-8\EAD\Projects\Practice_Mids_WPF\obj\Debug\Practice_Mids_WPF_MarkupCompile.lref
+D:\Study Material\semester-8\EAD\Projects\Practice_Mids_WPF\obj\Debug\MainWindow.baml
+D:\Study Material\semester-8\EAD\Projects\Practice_Mids_WPF\obj\Debug\Practice_Mids_WPF.g.resources
+D:\Study Material\semester-8\EAD\Projects\Practice_Mids_WPF\obj\Debug\Practice_Mids_WPF.Properties.Resources.resources
+D:\Study Material\semester-8\EAD\Projects\Practice_Mids_WPF\obj\Debug\Practice_Mids_WPF.csproj.GenerateResource.cache
+D:\Study Material\semester-8\EAD\Projects\Practice_Mids_WPF\obj\Debug\Practice_Mids_WPF.csproj.CoreCompileInputs.cache
+D:\Study Material\semester-8\EAD\Projects\Practice_Mids_WPF\obj\Debug\Practice_Mids_WPF.exe
+D:\Study Material\semester-8\EAD\Projects\Practice_Mids_WPF\obj\Debug\Practice_Mids_WPF.pdb

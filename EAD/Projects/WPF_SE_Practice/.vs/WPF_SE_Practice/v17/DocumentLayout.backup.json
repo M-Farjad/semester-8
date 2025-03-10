@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "D:\\Study Material\\semester-8\\EAD\\Projects\\WPF_SE_Practice\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AF4E7E08-6D87-48EB-B5C0-E98C8B4E88FD}|WPF_SE_Practice\\WPF_SE_Practice.csproj|d:\\study material\\semester-8\\ead\\projects\\wpf_se_practice\\wpf_se_practice\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{AF4E7E08-6D87-48EB-B5C0-E98C8B4E88FD}|WPF_SE_Practice\\WPF_SE_Practice.csproj|solutionrelative:wpf_se_practice\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{AF4E7E08-6D87-48EB-B5C0-E98C8B4E88FD}|WPF_SE_Practice\\WPF_SE_Practice.csproj|d:\\study material\\semester-8\\ead\\projects\\wpf_se_practice\\wpf_se_practice\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AF4E7E08-6D87-48EB-B5C0-E98C8B4E88FD}|WPF_SE_Practice\\WPF_SE_Practice.csproj|solutionrelative:wpf_se_practice\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF4E7E08-6D87-48EB-B5C0-E98C8B4E88FD}|WPF_SE_Practice\\WPF_SE_Practice.csproj|d:\\study material\\semester-8\\ead\\projects\\wpf_se_practice\\wpf_se_practice\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AF4E7E08-6D87-48EB-B5C0-E98C8B4E88FD}|WPF_SE_Practice\\WPF_SE_Practice.csproj|solutionrelative:wpf_se_practice\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,31 +18,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "D:\\Study Material\\semester-8\\EAD\\Projects\\WPF_SE_Practice\\WPF_SE_Practice\\MainWindow.xaml",
               "RelativeDocumentMoniker": "WPF_SE_Practice\\MainWindow.xaml",
-              "ToolTip": "D:\\Study Material\\semester-8\\EAD\\Projects\\WPF_SE_Practice\\WPF_SE_Practice\\MainWindow.xaml*",
-              "RelativeToolTip": "WPF_SE_Practice\\MainWindow.xaml*",
+              "ToolTip": "D:\\Study Material\\semester-8\\EAD\\Projects\\WPF_SE_Practice\\WPF_SE_Practice\\MainWindow.xaml",
+              "RelativeToolTip": "WPF_SE_Practice\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-02-17T03:19:20.759Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "D:\\Study Material\\semester-8\\EAD\\Projects\\WPF_SE_Practice\\WPF_SE_Practice\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "WPF_SE_Practice\\MainWindow.xaml.cs",
               "ToolTip": "D:\\Study Material\\semester-8\\EAD\\Projects\\WPF_SE_Practice\\WPF_SE_Practice\\MainWindow.xaml.cs",
               "RelativeToolTip": "WPF_SE_Practice\\MainWindow.xaml.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAIA7wBwAAAALAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T03:19:09.298Z"
+              "WhenOpened": "2025-02-17T03:19:09.298Z",
+              "EditorCaption": ""
             }
           ]
         }

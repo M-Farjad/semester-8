@@ -7,22 +7,16 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Window.Resources>
-        <local:TextToBool x:Key="myconverter"></local:TextToBool>
+        <local:TextToBool x:Key="myconverter"/>
     </Window.Resources>
     <Grid>
         <TextBox Name="source" HorizontalAlignment="Left" Margin="163,71,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120" FontSize="20"/>
-        <TextBox Text="{Binding ElementName=source, Path= Text, Mode=OneWayToSource, UpdateSourceTrigger=PropertyChanged}" Name="destination" HorizontalAlignment="Left" Margin="163,161,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="20"/>
-        
-        
+        <TextBox Text="{Binding ElementName=source, Path= Text, Mode=OneWayToSource,UpdateSourceTrigger=PropertyChanged}" Name="destination" HorizontalAlignment="Left" Margin="163,161,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="20"/>
         
         <Slider Name ="S1" HorizontalAlignment="Left" Margin="484,85,0,0" VerticalAlignment="Top" Width="120"/>
         <TextBox Text="{Binding ElementName=S1,Path=Value, Mode=OneWayToSource, UpdateSourceTrigger=PropertyChanged}" Name="T3" HorizontalAlignment="Left" Margin="484,161,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120" FontSize="20"/>
         
         <TextBox Name="T4_source" HorizontalAlignment="Left" Margin="326,255,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="20"/>
-        <CheckBox  IsChecked="{Binding ElementName=T4_source,Path=Text, Converter={StaticResource myconverter}}" Name="Check1" Content="CheckBox" HorizontalAlignment="Left" Margin="473,262,0,0" VerticalAlignment="Top"/>
-
-
-
-
+        <CheckBox IsChecked="{Binding ElementName=T4_source,Path=Text, Converter={StaticResource myconverter}}" Name="Check1" Content="CheckBox" HorizontalAlignment="Left" Margin="473,262,0,0" VerticalAlignment="Top"/>
     </Grid>
 </Window>
