@@ -1,0 +1,55 @@
+DAA:-
+
+Optimization:
+- Unnecessary code ko remove krna
+- ajkl ke code hi itne ache hn wo automatically fix krdete hn
+
+Use:
+- memory space
+- processor speed
+- both are limited
+
+Problems: exponential
+
+=> Traveling Sales person:
+- Visit each city and comeback on the starting point
+- Don't visit any city twice
+- haventonic circuit
+- all possible paths generate krne hote hn
+
+=> Mapset
+- Certain capacity of bag
+- cost maximize krna
+
+=> Assignment Problem (Hungarian problem - assignment ko polynomial mn krta)
+- Job allocation
+- assign the least cost job to the person
+- the processor whose speed is high you will assign it complex code.
+
+
+Backtracking:
+- DFS
+- Problems - Non optimization Problems
+
+=> N-Queens Problem:
+- NxN chess size
+- there is no solution to N=2
+- 1-Queen has only one solution
+
+State Space Tree:
+- Initial State
+- Promising - aage jaakr koi na koi solution mil hi jata ha
+- Non-Promising - iske aage koi solution hi nhi deadend
+
+3x3 N-Queens:
+- No Solution
+
+4x4 Solution:
+- Initial state empty
+
+
+Backtracking:
+
+
+Hamultonian Circuit:
+- Traveling Sales man Problem
