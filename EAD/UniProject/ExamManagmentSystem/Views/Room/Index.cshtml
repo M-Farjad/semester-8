@@ -1,0 +1,37 @@
+﻿@model List<ExamManagmentSystem.Models.Room>
+
+@{
+    ViewBag.Title = "Rooms";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Room List</h2>
+
+<a class="btn btn-success mb-2" href="/Room/Create">+ Add Room</a>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Room</th>
+            <th>Rows</th>
+            <th>Capacity/Row</th>
+            <th>Total</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var room in Model)
+        {
+            <tr>
+                <td>@room.RoomName</td>
+                <td>@room.Rows</td>
+                <td>@room.CapacityPerRow</td>
+                <td>@room.TotalCapacity</td>
+                <td>
+                    <a href="/Room/Edit/@room.Id">Edit</a> |
+                    <a href="/Room/Delete/@room.Id">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,28 @@
+﻿@model ExamManagmentSystem.Models.Room
+
+@{
+    ViewBag.Title = "Add Room";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Add New Room</h2>
+
+<form asp-action="Create" method="post">
+    <div class="form-group">
+        <label asp-for="RoomName">Room Name</label>
+        <input asp-for="RoomName" class="form-control" placeholder="e.g., G5" />
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Rows">Number of Rows</label>
+        <input asp-for="Rows" class="form-control" type="number" min="1" />
+    </div>
+
+    <div class="form-group">
+        <label asp-for="CapacityPerRow">Capacity per Row</label>
+        <input asp-for="CapacityPerRow" class="form-control" type="number" min="1" />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Save</button>
+    <a href="/Room/Index" class="btn btn-secondary">Cancel</a>
+</form>
