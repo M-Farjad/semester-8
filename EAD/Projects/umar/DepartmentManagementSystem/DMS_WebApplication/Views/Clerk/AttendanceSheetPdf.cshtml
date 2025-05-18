@@ -1,0 +1,229 @@
+﻿@model List<RoomGroup>
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attendance Sheet</title>
+    <style>
+        :root {
+            --dms-primary: #4CAF50;
+            --dms-primary-dark: #388E3C;
+            --dms-primary-light: #2E7D32;
+            --dms-secondary: #66BB6A;
+            --dms-error: #FF5252;
+            --dms-surface: #FFFFFF;
+            --dms-surface-light: #F5F5F5;
+            --dms-background: #FAFAFA;
+            --dms-text: #333333;
+            --dms-text-light: #757575;
+            --dms-border: #E0E0E0;
+            --dms-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: var(--dms-text);
+            background-color: var(--dms-background);
+            padding: 20px;
+            margin: 0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: var(--dms-surface);
+            box-shadow: var(--dms-shadow);
+            border-radius: 8px;
+            padding: 25px;
+            border: 1px solid var(--dms-border);
+        }
+
+        .page-header {
+            padding-bottom: 15px;
+            margin-bottom: 20px;
+            border-bottom: 2px solid var(--dms-primary);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+            .page-header h1 {
+                font-size: 28px;
+                font-weight: 600;
+                color: var(--dms-primary-dark);
+                margin: 0;
+            }
+
+        .date-display {
+            font-size: 16px;
+            color: var(--dms-text-light);
+        }
+
+        .room-card {
+            margin-bottom: 30px;
+            border: 1px solid var(--dms-border);
+            border-radius: 6px;
+            overflow: hidden;
+        }
+
+        .room-header {
+            background-color: var(--dms-primary);
+            color: white;
+            padding: 12px 20px;
+            font-size: 18px;
+            font-weight: 500;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+            .room-header h2 {
+                margin: 0;
+                font-size: 18px;
+            }
+
+        .student-count {
+            font-size: 14px;
+            background-color: rgba(255, 255, 255, 0.2);
+            padding: 3px 10px;
+            border-radius: 12px;
+        }
+
+        .attendance-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+            .attendance-table th {
+                background-color: var(--dms-surface-light);
+                color: var(--dms-primary-dark);
+                font-weight: 600;
+                text-align: left;
+                padding: 12px 15px;
+                border-bottom: 2px solid var(--dms-border);
+                font-size: 14px;
+            }
+
+            .attendance-table td {
+                padding: 12px 15px;
+                border-bottom: 1px solid var(--dms-border);
+                font-size: 14px;
+            }
+
+            .attendance-table tr:nth-child(even) {
+                background-color: var(--dms-background);
+            }
+
+            .attendance-table tr:hover {
+                background-color: var(--dms-surface-light);
+            }
+
+        .signature-cell {
+            width: 120px;
+            border-bottom: 1px solid var(--dms-text-light) !important;
+        }
+
+        .sheet-no-cell {
+            width: 80px;
+            border-bottom: 1px solid var(--dms-text-light) !important;
+        }
+
+        .reg-number {
+            font-family: monospace;
+            font-weight: 500;
+            color: var(--dms-primary-dark);
+        }
+
+        .section-badge {
+            display: inline-block;
+            padding: 2px 8px;
+            border-radius: 12px;
+            background-color: #e8f5e9;
+            color: var(--dms-primary-dark);
+            font-size: 12px;
+            font-weight: 500;
+            border: 1px solid var(--dms-primary-light);
+        }
+
+        .session-badge {
+            display: inline-block;
+            padding: 2px 8px;
+            border-radius: 12px;
+            background-color: #f1f8e9;
+            color: var(--dms-primary-dark);
+            font-size: 12px;
+            font-weight: 500;
+            border: 1px solid #aed581;
+        }
+
+        .print-header {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="print-header">
+            <h1>Student Attendance Record</h1>
+            <p>@DateTime.Now.ToString("MMMM d, yyyy")</p>
+        </div>
+
+        <div class="page-header">
+            <h1>Attendance Sheet</h1>
+            <div class="date-display">@DateTime.Now.ToString("dddd, MMMM d, yyyy")</div>
+        </div>
+
+        @foreach (var room in Model)
+        {
+            <div class="room-card">
+                <div class="room-header">
+                    <h2>Room: @room.RoomName</h2>
+                    <span class="student-count">@room.Students.Count() students</span>
+                </div>
+                <table class="attendance-table">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Name</th>
+                            <th>Registration No.</th>
+                            <th>Section</th>
+                            <th>Session</th>
+                            <th>Sheet No.</th>
+                            <th>Signature</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @{
+                            int studentCounter = 1;
+                        }
+                        @foreach (var s in room.Students)
+                        {
+                            <tr>
+                                <td>@(studentCounter++)</td>
+                                <td>@s.Name</td>
+                                <td class="reg-number">@s.RegNo</td>
+                                <td><span class="section-badge">@s.Section.Name</span></td>
+                                <td><span class="session-badge">@s.Session.Name</span></td>
+                                <td class="sheet-no-cell"></td>
+                                <td class="signature-cell"></td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        }
+    </div>
+
+    <script>
+        // Add print functionality if needed
+        function printAttendanceSheet() {
+            window.print();
+        }
+    </script>
+</body>
+</html>

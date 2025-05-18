@@ -47,43 +47,79 @@
 @*     @await RenderSectionAsync("Scripts", required: false) *@
 @* </body> *@
 @* </html> *@
-@if (User.IsInRole("SuperAdmin"))
-{
-    <li><a href="/Admin/ManageRoles">Manage Roles</a></li>
-}
-@if (User.IsInRole("Admin") || User.IsInRole("SuperAdmin"))
-{
-    <li><a href="/Student/Index">Manage Students</a></li>
-}
-@if (User.IsInRole("Clerk") || User.IsInRole("Admin") || User.IsInRole("SuperAdmin"))
-{
-    <li><a href="/Exam/Index">Exam Sheets</a></li>
-}
+
+@using ExamManagmentSystem.Models
+@using Microsoft.AspNetCore.Identity
+@using Microsoft.AspNetCore.Authorization
+@inject SignInManager<ApplicationUser> SignInManager
+@inject UserManager<ApplicationUser> UserManager
+@inject IAuthorizationService AuthorizationService
 
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8" />
     <title>@ViewBag.Title</title>
-    <link href="~/Content/bootstrap.css" rel="stylesheet" />
-    <script src="~/Scripts/jquery-3.6.0.min.js"></script>
-    <script src="~/Scripts/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate-unobtrusive/3.2.12/jquery.validate.unobtrusive.min.js"></script>
 </head>
+
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand" href="/">Exam Management</a>
         <div class="navbar-nav">
-            <a class="nav-link" href="/Student/Index">Students</a>
-            <a class="nav-link" href="/Room/Index">Rooms</a>
-            <a class="nav-link" href="/Exam/Index">Exam Management</a>
+            @if (SignInManager.IsSignedIn(User))
+            {
+                if ((await AuthorizationService.AuthorizeAsync(User, "Permission.ManageRoles")).Succeeded)
+                {
+                    <a class="nav-link" href="/Admin/ManageRoles">Manage Roles</a>
+                }
+                @* @if (User.IsInRole("Admin") || User.IsInRole("SuperAdmin")) *@
+                if ((await AuthorizationService.AuthorizeAsync(User, "Permission.AddBatch")).Succeeded)
+                {
+                    <a class="nav-link" href="/BatchSection/Index">Manage Batches & Sections</a>
+                }
+                if ((await AuthorizationService.AuthorizeAsync(User, "Permission.ManageStudents")).Succeeded)
+                {
+                    <a class="nav-link" href="/Student/Index">Manage Students</a>
+                }
+                if ((await AuthorizationService.AuthorizeAsync(User, "Permission.ManageRooms")).Succeeded)
+                {
+                    <a class="nav-link" href="/Room/Index">Rooms</a>
+                }
+                if ((await AuthorizationService.AuthorizeAsync(User, "Permission.ManageExamSheets")).Succeeded)
+                {
+                    <a class="nav-link" href="/Exam/Index">Exam Sheets</a>
+                }
+            }
         </div>
+
+        <!-- Right aligned items like logout -->
         <div class="ml-auto navbar-nav">
-            <a class="nav-link" href="/Account/Login">Login</a>
+            @if (SignInManager.IsSignedIn(User))
+            {
+                <span class="nav-link">Hello, @User.Identity.Name!</span>
+                <form asp-controller="Account" asp-action="Logout" method="post" class="form-inline">
+                    <button type="submit" class="btn btn-link nav-link" style="cursor:pointer;">Logout</button>
+                </form>
+            }
+            else
+            {
+                <a class="nav-link" href="/Account/Login">Login</a>
+            }
         </div>
     </nav>
+
     <div class="container mt-4">
         @RenderBody()
     </div>
+
     @RenderSection("Scripts", required: false)
 </body>
 </html>

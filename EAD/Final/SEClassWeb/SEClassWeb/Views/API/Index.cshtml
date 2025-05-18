@@ -1,0 +1,57 @@
+﻿
+<button id="loaddata"> Load Data using Ajax</button>
+
+<table id="mytbl">
+    <tr>
+
+        <th>Username</th>
+        
+        <th>Password</th>
+
+        <th>Edit</th>
+        <th>Delete</th>
+    </tr>
+
+</table>
+
+<script src="/js/jquery-3.7.1.min.js"></script>
+<script>
+    $(document).ready(function () { 
+    
+        $("#loaddata").click(function () { 
+        
+        
+            $.ajax({
+
+                url: '/API/getdata',
+                type: 'GET',
+                success: function (result) {
+
+                    $.each(result, function (index, temp) {
+
+                        var row = '<tr><td>'+temp.username+'</td><td>'+temp.password+'</td><td><button>edit</button><button>Delete</button></td></tr>'
+
+                        $("#mytbl").append(row);
+
+                    });
+
+
+                }
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            });
+        
+        
+        });
+    
+    
+    });
+
+</script>

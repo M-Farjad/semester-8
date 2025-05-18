@@ -1,0 +1,68 @@
+﻿@using X.PagedList.Mvc.Core;
+@using X.PagedList;
+@{
+    ViewData["Title"] = "Ders İşlemleri";
+}
+<h1>Ders CRUD işlemleri</h1>
+
+@model IEnumerable<Lecture>
+<a type="button" asp-controller="Lecture" asp-action="Create" class="btn btn-primary">Ders Ekle</a>
+<div style="float: right;">
+    <strong><label for="searchInput" style="margin-right: 100px;">Ders Ara:</label></strong>
+    <input type="text" id="searchInput" class="form-control" placeholder="Ders Kodu">
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+<script src="~/js/search-script.js"></script>
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Ders Kodu</th>
+            <th scope="col">Ders Adı</th>
+            <th scope="col">Açıklama</th>
+            <th scope="col">Yıl</th>
+            <th scope="col">Dönem</th>
+            <th scope="col">Bölüm</th>
+            <th scope="col">İşlemler</th>
+
+        </tr>
+    </thead>
+    <tbody>
+        @{
+            var i = 1;
+        }
+        @foreach (var item in Model)
+        {
+            <tr>
+                <th scope="row">@i</th>
+                <td>@item.Code</td>
+                <td>@item.Name</td>
+                <td>@item.Description</td>
+                <td>@item.Year</td>
+                <td>@item.Period</td>
+                <td>@item.Department.Name</td>
+                <td>
+                    <div class="btn-group">
+                        <a type="button" asp-controller="Lecture" asp-action="Edit" asp-route-id="@item.Id" class="btn btn-primary me-1 ">Düzenle</a>   
+                        <form method="post" action="/Lecture/Delete" onsubmit="return confirm('Dersi silmek istediğinize emin misiniz?');">
+                            <input type="hidden" name="id" value="@item.Id" />
+                            <button type="submit" class="btn btn-danger">Sil</button>
+                        </form>
+                    </div>
+                    
+                </td>
+            </tr>
+            i++;
+        }
+
+    </tbody>
+</table>
+
+<div>
+    @Html.PagedListPager((IPagedList) Model, page => Url.Action("Index", new {page}),
+    new X.PagedList.Web.Common.PagedListRenderOptions {
+    LiElementClasses = new string[] {"page-item"},
+    PageClasses = new string[] { "page-link" }
+    })
+</div>

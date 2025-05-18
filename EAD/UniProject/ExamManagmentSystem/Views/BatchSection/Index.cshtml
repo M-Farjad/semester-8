@@ -1,0 +1,38 @@
+﻿@using ExamManagmentSystem.Models
+@model List<ExamManagmentSystem.Models.Section>
+
+@{
+    ViewBag.Title = "All Sections";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>All Sections</h2>
+
+<a href="/BatchSection/Create" class="btn btn-primary mb-3">Create Batch / Section</a>
+
+<table class="table table-bordered table-striped">
+    <thead class="thead-dark">
+        <tr>
+            <th>Section Name</th>
+            <th>Batch Year</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model != null && Model.Any())
+        {
+            foreach (var sec in Model)
+            {
+                <tr>
+                    <td>@sec.Name</td>
+                    <td>@sec.Batch?.Year</td>
+                </tr>
+            }
+        }
+        else
+        {
+            <tr>
+                <td colspan="2" class="text-center">No sections found.</td>
+            </tr>
+        }
+    </tbody>
+</table>

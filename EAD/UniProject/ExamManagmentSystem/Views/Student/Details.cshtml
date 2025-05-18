@@ -1,45 +1,60 @@
 ﻿@model ExamManagmentSystem.Models.Student
 
 @{
-    ViewBag.Title = "Add Student";
+    ViewBag.Title = "Edit Student";
     Layout = "~/Views/Shared/_Layout.cshtml";
+    var batches = ViewBag.Batches as List<ExamManagmentSystem.Models.Batch>;
 }
 
-<h2>Add Student</h2>
+<h2>Edit Student</h2>
 
 <form asp-action="Edit" method="post">
+    <input type="hidden" asp-for="Id" />
+
     <div class="form-group">
         <label>Name</label>
         <input asp-for="Name" class="form-control" />
     </div>
+
     <div class="form-group">
-        <label>Batch</label>
-        <select asp-for="Batch" class="form-control">
-            <option>2021</option>
-            <option>2022</option>
-            <option>2023</option>
+        <label>Section (Batch - Section)</label>
+        <select asp-for="SectionId" class="form-control">
+            <option value="">Select a Section</option>
+            @if (batches != null)
+            {
+                foreach (var batch in batches)
+                {
+                    if (batch.Sections != null)
+                    {
+                        foreach (var section in batch.Sections)
+                        {
+                            var selectedAttribute = "";
+                            if (section.Id == Model.SectionId)
+                            {
+                                selectedAttribute = "selected";
+                            }
+                            @Html.Raw($"<option value=\"{section.Id}\" {selectedAttribute}>{batch.Year} - {section.Name}</option>")
+                        }
+                    }
+                }
+            }
         </select>
     </div>
-    <div class="form-group">
-        <label>Section</label>
-        <select asp-for="Section" class="form-control">
-            <option>CS(A)</option>
-            <option>CS(B)</option>
-            <option>SE(A)</option>
-            <option>SE(B)</option>
-        </select>
-    </div>
+
     <div class="form-group">
         <label>Roll Number</label>
         <input asp-for="RollNumber" class="form-control" />
     </div>
+
     <div class="form-group">
         <label>Email</label>
         <input asp-for="Email" class="form-control" />
     </div>
+
     <div class="form-group">
         <label>Phone</label>
         <input asp-for="Phone" class="form-control" />
     </div>
+
     <button type="submit" class="btn btn-success">Save</button>
 </form>

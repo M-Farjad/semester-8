@@ -1,67 +1,80 @@
 ﻿using DinkToPdf.Contracts;
 using DinkToPdf;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using System.Text;
 using ExamManagmentSystem.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace ExamManagmentSystem.Controllers
 {
-    public class ExamController : Controller
+    [Authorize(Policy = "Permission.ManageExamSheets")]
+    public class ExamController : BaseController
     {
         private readonly IConverter _pdfConverter;
+        private readonly ApplicationDbContext _context;
 
-        // Simulating a DB for demo — replace with actual DbContext later
-        private static List<Student> _students = new List<Student>
-        {
-            new() { Id = 1, RollNumber = "2021-CS(A)-01", Name = "Ali Khan", Batch = "2021", Section = "CS(A)" },
-            new() { Id = 2, RollNumber = "2021-CS(A)-02", Name = "Sara Iqbal", Batch = "2021", Section = "CS(A)" },
-            new() { Id = 3, RollNumber = "2021-CS(B)-01", Name = "Zain Shah", Batch = "2021", Section = "CS(B)" },
-            new() { Id = 4, RollNumber = "2022-SE(B)-01", Name = "Ayesha Raza", Batch = "2022", Section = "SE(B)" },
-            new() { Id = 5, RollNumber = "2023-CS(C)-01", Name = "Usman Tariq", Batch = "2023", Section = "CS(C)" },
-        };
-
-        public ExamController(IConverter pdfConverter)
+        public ExamController(IConverter pdfConverter, ApplicationDbContext context)
         {
             _pdfConverter = pdfConverter;
+            _context = context;
         }
 
         public IActionResult Index()
         {
-            ViewBag.Batches = _students.Select(s => s.Batch).Distinct().ToList();
-            return View();
+            // Get all batches and their sections for dropdowns
+            var batches = _context.Batches
+                .Include(b => b.Sections)
+                .ToList();
+
+            return View(batches); // Your view should be updated accordingly
         }
 
         [HttpPost]
-        public IActionResult GenerateAttendanceSheet(string batch, string section)
+        public IActionResult GenerateAttendanceSheet(int sectionId)
         {
-            var students = _students
-                .Where(s => s.Batch == batch && s.Section == section)
+            var section = _context.Sections
+                .Include(s => s.Batch)
+                .FirstOrDefault(s => s.Id == sectionId);
+
+            if (section == null)
+                return NotFound();
+
+            var students = _context.Students
+                .Where(s => s.SectionId == sectionId)
                 .OrderBy(s => s.RollNumber)
                 .ToList();
 
-            var htmlContent = GenerateAttendanceHtml(batch, section, students);
-            var pdfBytes = GeneratePdfFromHtml(htmlContent, $"Attendance_{batch}_{section}.pdf");
+            var htmlContent = GenerateAttendanceHtml(section.Batch.Year.ToString(), section.Name, students);
+            var pdfBytes = GeneratePdfFromHtml(htmlContent, $"Attendance_{section.Batch.Year}_{section.Name}.pdf");
 
-            return File(pdfBytes, "application/pdf", $"Attendance_{batch}_{section}.pdf");
+            return File(pdfBytes, "application/pdf", $"Attendance_{section.Batch.Year}_{section.Name}.pdf");
         }
 
         [HttpPost]
-        public IActionResult GenerateSittingPlan(string batch, string section)
+        public IActionResult GenerateSittingPlan(int sectionId)
         {
-            var students = _students
-                .Where(s => s.Batch == batch && s.Section == section)
-                .OrderBy(_ => Guid.NewGuid()) // Randomize for sitting plan
+            var section = _context.Sections
+                .Include(s => s.Batch)
+                .FirstOrDefault(s => s.Id == sectionId);
+
+            if (section == null)
+                return NotFound();
+
+            var students = _context.Students
+                .Where(s => s.SectionId == sectionId)
+                .OrderBy(_ => Guid.NewGuid()) // Randomized
                 .ToList();
 
-            var htmlContent = GenerateSittingPlanHtml(batch, section, students);
-            var pdfBytes = GeneratePdfFromHtml(htmlContent, $"SittingPlan_{batch}_{section}.pdf");
+            var htmlContent = GenerateSittingPlanHtml(section.Batch.Year.ToString(), section.Name, students);
+            var pdfBytes = GeneratePdfFromHtml(htmlContent, $"SittingPlan_{section.Batch.Year}_{section.Name}.pdf");
 
-            return File(pdfBytes, "application/pdf", $"SittingPlan_{batch}_{section}.pdf");
+            return File(pdfBytes, "application/pdf", $"SittingPlan_{section.Batch.Year}_{section.Name}.pdf");
         }
 
         private string GenerateAttendanceHtml(string batch, string section, List<Student> students)
         {
-            StringBuilder sb = new();
+            var sb = new StringBuilder();
             sb.Append($"<h2 style='text-align:center;'>Attendance Sheet<br/>Batch {batch} - Section {section}</h2>");
             sb.Append("<table border='1' cellpadding='6' cellspacing='0' style='width:100%; border-collapse:collapse;'>");
             sb.Append("<thead><tr><th>Roll Number</th><th>Name</th><th>Signature</th></tr></thead><tbody>");
@@ -77,7 +90,7 @@ namespace ExamManagmentSystem.Controllers
 
         private string GenerateSittingPlanHtml(string batch, string section, List<Student> students)
         {
-            StringBuilder sb = new();
+            var sb = new StringBuilder();
             sb.Append($"<h2 style='text-align:center;'>Sitting Plan<br/>Batch {batch} - Section {section}</h2>");
             sb.Append("<table border='1' cellpadding='6' cellspacing='0' style='width:100%; border-collapse:collapse;'>");
             sb.Append("<thead><tr><th>Seat #</th><th>Roll Number</th><th>Name</th></tr></thead><tbody>");
@@ -92,38 +105,21 @@ namespace ExamManagmentSystem.Controllers
             return sb.ToString();
         }
 
-        private byte[] GeneratePdfFromHtml(string html, string title)
+        private byte[] GeneratePdfFromHtml(string htmlContent, string filename)
         {
-            var doc = new HtmlToPdfDocument()
+            var doc = new HtmlToPdfDocument
             {
                 GlobalSettings = new GlobalSettings
                 {
-                    Orientation = Orientation.Portrait,
                     PaperSize = PaperKind.A4,
-                    DocumentTitle = title
+                    Orientation = Orientation.Portrait,
+                    DocumentTitle = filename,
+                    Margins = new MarginSettings { Top = 10, Bottom = 10 }
                 },
-                Objects = {
-                    new ObjectSettings
-                    {
-                        HtmlContent = html,
-                        WebSettings = { DefaultEncoding = "utf-8" }
-                    }
-                }
+                Objects = { new ObjectSettings { HtmlContent = htmlContent } }
             };
 
             return _pdfConverter.Convert(doc);
-        }
-
-        [HttpGet]
-        public JsonResult GetSections(string batch)
-        {
-            var sections = _students
-                .Where(s => s.Batch == batch)
-                .Select(s => s.Section)
-                .Distinct()
-                .ToList();
-
-            return Json(sections);
         }
     }
 }

@@ -1,0 +1,425 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\zaina\\Videos\\DepartmentManagementSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6B395696-0C59-44AA-B87E-9B258776B98C}|DMS_WebApplication\\DMS_WebApplication.csproj|c:\\users\\zaina\\videos\\departmentmanagementsystem\\dms_webapplication\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B395696-0C59-44AA-B87E-9B258776B98C}|DMS_WebApplication\\DMS_WebApplication.csproj|solutionrelative:dms_webapplication\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B395696-0C59-44AA-B87E-9B258776B98C}|DMS_WebApplication\\DMS_WebApplication.csproj|c:\\users\\zaina\\videos\\departmentmanagementsystem\\dms_webapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B395696-0C59-44AA-B87E-9B258776B98C}|DMS_WebApplication\\DMS_WebApplication.csproj|solutionrelative:dms_webapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B395696-0C59-44AA-B87E-9B258776B98C}|DMS_WebApplication\\DMS_WebApplication.csproj|c:\\users\\zaina\\videos\\departmentmanagementsystem\\dms_webapplication\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6B395696-0C59-44AA-B87E-9B258776B98C}|DMS_WebApplication\\DMS_WebApplication.csproj|solutionrelative:dms_webapplication\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B395696-0C59-44AA-B87E-9B258776B98C}|DMS_WebApplication\\DMS_WebApplication.csproj|c:\\users\\zaina\\videos\\departmentmanagementsystem\\dms_webapplication\\views\\clerk\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6B395696-0C59-44AA-B87E-9B258776B98C}|DMS_WebApplication\\DMS_WebApplication.csproj|solutionrelative:dms_webapplication\\views\\clerk\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B395696-0C59-44AA-B87E-9B258776B98C}|DMS_WebApplication\\DMS_WebApplication.csproj|c:\\users\\zaina\\videos\\departmentmanagementsystem\\dms_webapplication\\views\\clerk\\attendancesheetpdf.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6B395696-0C59-44AA-B87E-9B258776B98C}|DMS_WebApplication\\DMS_WebApplication.csproj|solutionrelative:dms_webapplication\\views\\clerk\\attendancesheetpdf.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B395696-0C59-44AA-B87E-9B258776B98C}|DMS_WebApplication\\DMS_WebApplication.csproj|c:\\users\\zaina\\videos\\departmentmanagementsystem\\dms_webapplication\\views\\clerk\\sittingplanpdf.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6B395696-0C59-44AA-B87E-9B258776B98C}|DMS_WebApplication\\DMS_WebApplication.csproj|solutionrelative:dms_webapplication\\views\\clerk\\sittingplanpdf.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B395696-0C59-44AA-B87E-9B258776B98C}|DMS_WebApplication\\DMS_WebApplication.csproj|c:\\users\\zaina\\videos\\departmentmanagementsystem\\dms_webapplication\\views\\admin\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6B395696-0C59-44AA-B87E-9B258776B98C}|DMS_WebApplication\\DMS_WebApplication.csproj|solutionrelative:dms_webapplication\\views\\admin\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B395696-0C59-44AA-B87E-9B258776B98C}|DMS_WebApplication\\DMS_WebApplication.csproj|c:\\users\\zaina\\videos\\departmentmanagementsystem\\dms_webapplication\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6B395696-0C59-44AA-B87E-9B258776B98C}|DMS_WebApplication\\DMS_WebApplication.csproj|solutionrelative:dms_webapplication\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B395696-0C59-44AA-B87E-9B258776B98C}|DMS_WebApplication\\DMS_WebApplication.csproj|c:\\users\\zaina\\videos\\departmentmanagementsystem\\dms_webapplication\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6B395696-0C59-44AA-B87E-9B258776B98C}|DMS_WebApplication\\DMS_WebApplication.csproj|solutionrelative:dms_webapplication\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B395696-0C59-44AA-B87E-9B258776B98C}|DMS_WebApplication\\DMS_WebApplication.csproj|c:\\users\\zaina\\videos\\departmentmanagementsystem\\dms_webapplication\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6B395696-0C59-44AA-B87E-9B258776B98C}|DMS_WebApplication\\DMS_WebApplication.csproj|solutionrelative:dms_webapplication\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|377fc350-6bea-44b9-87be-04bfb7621580MSSQL__/_localdb__MSSQLLocalDB/ExamSittingDb/True/SqlTable/Create dbo.__EFMigrationsHistory.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|4164a73f-0ab9-49a5-bd87-0cac7144a0d7MSSQL__/_localdb__MSSQLLocalDB/ExamSittingDb/True/SqlTable/Create dbo.Sections.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|7d13839b-8641-4b6d-8c80-4909504a5459MSSQL__/_localdb__MSSQLLocalDB/ExamSittingDb/True/SqlTable/Create dbo.Sessions.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B395696-0C59-44AA-B87E-9B258776B98C}|DMS_WebApplication\\DMS_WebApplication.csproj|c:\\users\\zaina\\videos\\departmentmanagementsystem\\dms_webapplication\\views\\superadmin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6B395696-0C59-44AA-B87E-9B258776B98C}|DMS_WebApplication\\DMS_WebApplication.csproj|solutionrelative:dms_webapplication\\views\\superadmin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|f8b4a167-9c74-4264-bfb6-12c5aa9d15e3MSSQL__/_localdb__MSSQLLocalDB/ExamSittingDb/True/SqlTable/Create dbo.Students.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|528740e3-ac4d-483b-8285-990b398ff891MSSQL__/_localdb__MSSQLLocalDB/ExamSittingDb/True/SqlTable/Create dbo.Users.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|053b5d62-1c07-49fa-a239-cf0e4e771d5dMSSQL__/_localdb__MSSQLLocalDB/DeptManagementDB/True/SqlTable/Create dbo.__EFMigrationsHistory.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|0ed5afa4-96ba-4b4a-ba6f-7238fa8ec4b8MSSQL__/_localdb__MSSQLLocalDB/DeptManagementDB/True/SqlTable/Create dbo.AspNetRoleClaims.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|bbcf5c60-170e-45ab-9500-59a0e4360a1cMSSQL__/_localdb__MSSQLLocalDB/DeptManagementDB/True/SqlTable/Create dbo.AspNetRoles.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|538cec5f-7c71-4fcb-8b38-4edcce4e3dabMSSQL__/_localdb__MSSQLLocalDB/DeptManagementDB/True/SqlTable/Create dbo.AspNetUserClaims.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|4e2239f3-c7e1-4520-8663-06918bd54ca6MSSQL__/_localdb__MSSQLLocalDB/DeptManagementDB/True/SqlTable/Create dbo.AspNetUserLogins.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|8b4068bf-e765-4780-9650-836cfe11253fMSSQL__/_localdb__MSSQLLocalDB/DeptManagementDB/True/SqlTable/Create dbo.AspNetUserRoles.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|0030d013-fd8d-4769-a40f-d80e0b3a7391MSSQL__/_localdb__MSSQLLocalDB/DeptManagementDB/True/SqlTable/Create dbo.AspNetUsers.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|d320b2dc-4eea-4573-a7d7-b9afd9b888e0MSSQL__/_localdb__MSSQLLocalDB/DeptManagementDB/True/SqlTable/Create dbo.AspNetUserTokens.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|02a48e18-3bf5-4960-9437-cb8780997c78MSSQL__/_localdb__MSSQLLocalDB/DeptManagementDB/True/SqlTable/Create dbo.AspNetUserTokens.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|380a5f7b-42e8-4d54-90ba-c9924e41848fMSSQL__/_localdb__MSSQLLocalDB/DeptManagementDB/True/SqlTable/Create dbo.ClerkProfiles.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|e54ce58c-befd-46b6-a765-9549eb86f7d4MSSQL__/_localdb__MSSQLLocalDB/DeptManagementDB/True/SqlTable/Create dbo.Courses.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ca3c16b0-d455-4581-89ad-7d0037da4f12MSSQL__/_localdb__MSSQLLocalDB/DeptManagementDB/True/SqlTable/Create dbo.TeacherProfiles.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AttendanceSheetPdf.cshtml",
+              "DocumentMoniker": "C:\\Users\\zaina\\Videos\\DepartmentManagementSystem\\DMS_WebApplication\\Views\\Clerk\\AttendanceSheetPdf.cshtml",
+              "RelativeDocumentMoniker": "DMS_WebApplication\\Views\\Clerk\\AttendanceSheetPdf.cshtml",
+              "ToolTip": "C:\\Users\\zaina\\Videos\\DepartmentManagementSystem\\DMS_WebApplication\\Views\\Clerk\\AttendanceSheetPdf.cshtml",
+              "RelativeToolTip": "DMS_WebApplication\\Views\\Clerk\\AttendanceSheetPdf.cshtml",
+              "ViewState": "AgIAAMkAAAAAAAAAAAAgwNMAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-15T03:57:57.007Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\zaina\\Videos\\DepartmentManagementSystem\\DMS_WebApplication\\Program.cs",
+              "RelativeDocumentMoniker": "DMS_WebApplication\\Program.cs",
+              "ToolTip": "C:\\Users\\zaina\\Videos\\DepartmentManagementSystem\\DMS_WebApplication\\Program.cs",
+              "RelativeToolTip": "DMS_WebApplication\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T18:57:58.72Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.cs",
+              "DocumentMoniker": "C:\\Users\\zaina\\Videos\\DepartmentManagementSystem\\DMS_WebApplication\\main.cs",
+              "RelativeDocumentMoniker": "DMS_WebApplication\\main.cs",
+              "ToolTip": "C:\\Users\\zaina\\Videos\\DepartmentManagementSystem\\DMS_WebApplication\\main.cs",
+              "RelativeToolTip": "DMS_WebApplication\\main.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAgPS4AAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T04:47:19.884Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SittingPlanPdf.cshtml",
+              "DocumentMoniker": "C:\\Users\\zaina\\Videos\\DepartmentManagementSystem\\DMS_WebApplication\\Views\\Clerk\\SittingPlanPdf.cshtml",
+              "RelativeDocumentMoniker": "DMS_WebApplication\\Views\\Clerk\\SittingPlanPdf.cshtml",
+              "ToolTip": "C:\\Users\\zaina\\Videos\\DepartmentManagementSystem\\DMS_WebApplication\\Views\\Clerk\\SittingPlanPdf.cshtml",
+              "RelativeToolTip": "DMS_WebApplication\\Views\\Clerk\\SittingPlanPdf.cshtml",
+              "ViewState": "AgIAAOMAAAAAAAAAAAAgwP4AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-15T04:09:26.581Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\zaina\\Videos\\DepartmentManagementSystem\\DMS_WebApplication\\Views\\Admin\\Edit.cshtml",
+              "RelativeDocumentMoniker": "DMS_WebApplication\\Views\\Admin\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\zaina\\Videos\\DepartmentManagementSystem\\DMS_WebApplication\\Views\\Admin\\Edit.cshtml",
+              "RelativeToolTip": "DMS_WebApplication\\Views\\Admin\\Edit.cshtml",
+              "ViewState": "AgIAAHQBAAAAAAAAAAAgwI8BAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-15T06:32:08.697Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\zaina\\Videos\\DepartmentManagementSystem\\DMS_WebApplication\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "DMS_WebApplication\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\zaina\\Videos\\DepartmentManagementSystem\\DMS_WebApplication\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "DMS_WebApplication\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAM0AAAAAMzMzMzMLwNgAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-15T04:47:07.263Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\zaina\\Videos\\DepartmentManagementSystem\\DMS_WebApplication\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "DMS_WebApplication\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\zaina\\Videos\\DepartmentManagementSystem\\DMS_WebApplication\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "DMS_WebApplication\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-15T04:58:47.894Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\zaina\\Videos\\DepartmentManagementSystem\\DMS_WebApplication\\Views\\Clerk\\Index.cshtml",
+              "RelativeDocumentMoniker": "DMS_WebApplication\\Views\\Clerk\\Index.cshtml",
+              "ToolTip": "C:\\Users\\zaina\\Videos\\DepartmentManagementSystem\\DMS_WebApplication\\Views\\Clerk\\Index.cshtml",
+              "RelativeToolTip": "DMS_WebApplication\\Views\\Clerk\\Index.cshtml",
+              "ViewState": "AgIAAGcBAAAAAQAAAAAYwN8BAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-15T04:30:03.696Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Create dbo.Sessions.sql",
+              "DocumentMoniker": "7d13839b-8641-4b6d-8c80-4909504a5459MSSQL__/_localdb__MSSQLLocalDB/ExamSittingDb/True/SqlTable/Create dbo.Sessions.sql",
+              "ToolTip": "7d13839b-8641-4b6d-8c80-4909504a5459MSSQL__/_localdb__MSSQLLocalDB/ExamSittingDb/True/SqlTable/Create dbo.Sessions.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-05-15T04:37:58.393Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\zaina\\Videos\\DepartmentManagementSystem\\DMS_WebApplication\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "DMS_WebApplication\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\zaina\\Videos\\DepartmentManagementSystem\\DMS_WebApplication\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "DMS_WebApplication\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-15T04:47:15.354Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\zaina\\Videos\\DepartmentManagementSystem\\DMS_WebApplication\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "DMS_WebApplication\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\zaina\\Videos\\DepartmentManagementSystem\\DMS_WebApplication\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "DMS_WebApplication\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-15T04:58:49.316Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\zaina\\Videos\\DepartmentManagementSystem\\DMS_WebApplication\\Views\\SuperAdmin\\Index.cshtml",
+              "RelativeDocumentMoniker": "DMS_WebApplication\\Views\\SuperAdmin\\Index.cshtml",
+              "ToolTip": "C:\\Users\\zaina\\Videos\\DepartmentManagementSystem\\DMS_WebApplication\\Views\\SuperAdmin\\Index.cshtml",
+              "RelativeToolTip": "DMS_WebApplication\\Views\\SuperAdmin\\Index.cshtml",
+              "ViewState": "AgIAAIgBAAAAMDMzMzMbwJABAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-15T04:32:56.762Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Create dbo.Sections.sql",
+              "DocumentMoniker": "4164a73f-0ab9-49a5-bd87-0cac7144a0d7MSSQL__/_localdb__MSSQLLocalDB/ExamSittingDb/True/SqlTable/Create dbo.Sections.sql",
+              "ToolTip": "4164a73f-0ab9-49a5-bd87-0cac7144a0d7MSSQL__/_localdb__MSSQLLocalDB/ExamSittingDb/True/SqlTable/Create dbo.Sections.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-05-15T04:38:23.165Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Create dbo.__EFMigrationsHistory.sql",
+              "DocumentMoniker": "377fc350-6bea-44b9-87be-04bfb7621580MSSQL__/_localdb__MSSQLLocalDB/ExamSittingDb/True/SqlTable/Create dbo.__EFMigrationsHistory.sql",
+              "ToolTip": "377fc350-6bea-44b9-87be-04bfb7621580MSSQL__/_localdb__MSSQLLocalDB/ExamSittingDb/True/SqlTable/Create dbo.__EFMigrationsHistory.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-05-15T04:38:42.993Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Create dbo.Students.sql",
+              "DocumentMoniker": "f8b4a167-9c74-4264-bfb6-12c5aa9d15e3MSSQL__/_localdb__MSSQLLocalDB/ExamSittingDb/True/SqlTable/Create dbo.Students.sql",
+              "ToolTip": "f8b4a167-9c74-4264-bfb6-12c5aa9d15e3MSSQL__/_localdb__MSSQLLocalDB/ExamSittingDb/True/SqlTable/Create dbo.Students.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-05-15T04:29:11.817Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Create dbo.Users.sql",
+              "DocumentMoniker": "528740e3-ac4d-483b-8285-990b398ff891MSSQL__/_localdb__MSSQLLocalDB/ExamSittingDb/True/SqlTable/Create dbo.Users.sql",
+              "ToolTip": "528740e3-ac4d-483b-8285-990b398ff891MSSQL__/_localdb__MSSQLLocalDB/ExamSittingDb/True/SqlTable/Create dbo.Users.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-05-15T04:28:35.15Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Create dbo.__EFMigrationsHistory.sql",
+              "DocumentMoniker": "053b5d62-1c07-49fa-a239-cf0e4e771d5dMSSQL__/_localdb__MSSQLLocalDB/DeptManagementDB/True/SqlTable/Create dbo.__EFMigrationsHistory.sql",
+              "ToolTip": "053b5d62-1c07-49fa-a239-cf0e4e771d5dMSSQL__/_localdb__MSSQLLocalDB/DeptManagementDB/True/SqlTable/Create dbo.__EFMigrationsHistory.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-05-15T04:26:37.894Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Create dbo.AspNetRoleClaims.sql",
+              "DocumentMoniker": "0ed5afa4-96ba-4b4a-ba6f-7238fa8ec4b8MSSQL__/_localdb__MSSQLLocalDB/DeptManagementDB/True/SqlTable/Create dbo.AspNetRoleClaims.sql",
+              "ToolTip": "0ed5afa4-96ba-4b4a-ba6f-7238fa8ec4b8MSSQL__/_localdb__MSSQLLocalDB/DeptManagementDB/True/SqlTable/Create dbo.AspNetRoleClaims.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-05-15T04:25:53.096Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Create dbo.AspNetRoles.sql",
+              "DocumentMoniker": "bbcf5c60-170e-45ab-9500-59a0e4360a1cMSSQL__/_localdb__MSSQLLocalDB/DeptManagementDB/True/SqlTable/Create dbo.AspNetRoles.sql",
+              "ToolTip": "bbcf5c60-170e-45ab-9500-59a0e4360a1cMSSQL__/_localdb__MSSQLLocalDB/DeptManagementDB/True/SqlTable/Create dbo.AspNetRoles.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-05-15T04:25:23.377Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Create dbo.AspNetUserClaims.sql",
+              "DocumentMoniker": "538cec5f-7c71-4fcb-8b38-4edcce4e3dabMSSQL__/_localdb__MSSQLLocalDB/DeptManagementDB/True/SqlTable/Create dbo.AspNetUserClaims.sql",
+              "ToolTip": "538cec5f-7c71-4fcb-8b38-4edcce4e3dabMSSQL__/_localdb__MSSQLLocalDB/DeptManagementDB/True/SqlTable/Create dbo.AspNetUserClaims.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-05-15T04:25:00.331Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Create dbo.AspNetUserLogins.sql",
+              "DocumentMoniker": "4e2239f3-c7e1-4520-8663-06918bd54ca6MSSQL__/_localdb__MSSQLLocalDB/DeptManagementDB/True/SqlTable/Create dbo.AspNetUserLogins.sql",
+              "ToolTip": "4e2239f3-c7e1-4520-8663-06918bd54ca6MSSQL__/_localdb__MSSQLLocalDB/DeptManagementDB/True/SqlTable/Create dbo.AspNetUserLogins.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-05-15T04:24:39.959Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Create dbo.AspNetUserRoles.sql",
+              "DocumentMoniker": "8b4068bf-e765-4780-9650-836cfe11253fMSSQL__/_localdb__MSSQLLocalDB/DeptManagementDB/True/SqlTable/Create dbo.AspNetUserRoles.sql",
+              "ToolTip": "8b4068bf-e765-4780-9650-836cfe11253fMSSQL__/_localdb__MSSQLLocalDB/DeptManagementDB/True/SqlTable/Create dbo.AspNetUserRoles.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-05-15T04:24:11.879Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Create dbo.AspNetUsers.sql",
+              "DocumentMoniker": "0030d013-fd8d-4769-a40f-d80e0b3a7391MSSQL__/_localdb__MSSQLLocalDB/DeptManagementDB/True/SqlTable/Create dbo.AspNetUsers.sql",
+              "ToolTip": "0030d013-fd8d-4769-a40f-d80e0b3a7391MSSQL__/_localdb__MSSQLLocalDB/DeptManagementDB/True/SqlTable/Create dbo.AspNetUsers.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-05-15T04:23:12.662Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Create dbo.AspNetUserTokens.sql",
+              "DocumentMoniker": "d320b2dc-4eea-4573-a7d7-b9afd9b888e0MSSQL__/_localdb__MSSQLLocalDB/DeptManagementDB/True/SqlTable/Create dbo.AspNetUserTokens.sql",
+              "ToolTip": "d320b2dc-4eea-4573-a7d7-b9afd9b888e0MSSQL__/_localdb__MSSQLLocalDB/DeptManagementDB/True/SqlTable/Create dbo.AspNetUserTokens.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-05-15T04:20:28.016Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Create dbo.AspNetUserTokens.sql",
+              "DocumentMoniker": "02a48e18-3bf5-4960-9437-cb8780997c78MSSQL__/_localdb__MSSQLLocalDB/DeptManagementDB/True/SqlTable/Create dbo.AspNetUserTokens.sql",
+              "ToolTip": "02a48e18-3bf5-4960-9437-cb8780997c78MSSQL__/_localdb__MSSQLLocalDB/DeptManagementDB/True/SqlTable/Create dbo.AspNetUserTokens.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-05-15T04:19:34.312Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Create dbo.ClerkProfiles.sql",
+              "DocumentMoniker": "380a5f7b-42e8-4d54-90ba-c9924e41848fMSSQL__/_localdb__MSSQLLocalDB/DeptManagementDB/True/SqlTable/Create dbo.ClerkProfiles.sql",
+              "ToolTip": "380a5f7b-42e8-4d54-90ba-c9924e41848fMSSQL__/_localdb__MSSQLLocalDB/DeptManagementDB/True/SqlTable/Create dbo.ClerkProfiles.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-05-15T04:18:36.502Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Create dbo.Courses.sql",
+              "DocumentMoniker": "e54ce58c-befd-46b6-a765-9549eb86f7d4MSSQL__/_localdb__MSSQLLocalDB/DeptManagementDB/True/SqlTable/Create dbo.Courses.sql",
+              "ToolTip": "e54ce58c-befd-46b6-a765-9549eb86f7d4MSSQL__/_localdb__MSSQLLocalDB/DeptManagementDB/True/SqlTable/Create dbo.Courses.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-05-15T04:16:51.149Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Create dbo.TeacherProfiles.sql",
+              "DocumentMoniker": "ca3c16b0-d455-4581-89ad-7d0037da4f12MSSQL__/_localdb__MSSQLLocalDB/DeptManagementDB/True/SqlTable/Create dbo.TeacherProfiles.sql",
+              "ToolTip": "ca3c16b0-d455-4581-89ad-7d0037da4f12MSSQL__/_localdb__MSSQLLocalDB/DeptManagementDB/True/SqlTable/Create dbo.TeacherProfiles.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-05-15T04:15:24.405Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 290,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -3,6 +3,7 @@
 @{
     ViewBag.Title = "Add Student";
     Layout = "~/Views/Shared/_Layout.cshtml";
+    var batches = ViewBag.Batches as List<ExamManagmentSystem.Models.Batch>;
 }
 
 <h2>Add Student</h2>
@@ -11,35 +12,110 @@
     <div class="form-group">
         <label>Name</label>
         <input asp-for="Name" class="form-control" />
+        <span asp-validation-for="Name" class="text-danger"></span>
     </div>
+
+    <div class="form-group">
+        <label>Age</label>
+        <input asp-for="Age" class="form-control" />
+        <span asp-validation-for="Age" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label>Gender</label>
+        <select asp-for="Gender" class="form-control">
+            <option value="">Select Gender</option>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="Other">Other</option>
+        </select>
+        <span asp-validation-for="Gender" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label>CNIC</label>
+        <input asp-for="CNIC" class="form-control" />
+        <span asp-validation-for="CNIC" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label>Address</label>
+        <input asp-for="Address" class="form-control" />
+        <span asp-validation-for="Address" class="text-danger"></span>
+    </div>
+
     <div class="form-group">
         <label>Batch</label>
-        <select asp-for="Batch" class="form-control">
-            <option>2021</option>
-            <option>2022</option>
-            <option>2023</option>
+        <select id="batchSelect" class="form-control">
+            <option value="">Select a Batch</option>
+            @if (batches != null)
+            {
+                foreach (var batch in batches)
+                {
+                    <option value="@batch.Id">@batch.Year</option>
+                }
+            }
         </select>
     </div>
+
     <div class="form-group">
         <label>Section</label>
-        <select asp-for="Section" class="form-control">
-            <option>CS(A)</option>
-            <option>CS(B)</option>
-            <option>SE(A)</option>
-            <option>SE(B)</option>
+        <select asp-for="SectionId" class="form-control" id="sectionSelect">
+            <option value="">Select a Section</option>
+            @if (batches != null)
+            {
+                foreach (var batch in batches)
+                {
+                    foreach (var section in batch.Sections)
+                    {
+                        @Html.Raw($"<option value=\"{section.Id}\" data-batch=\"{batch.Id}\">{(section.Name)}</option>")
+                    }
+                }
+            }
         </select>
+        <span asp-validation-for="SectionId" class="text-danger"></span>
     </div>
+
     <div class="form-group">
         <label>Roll Number</label>
         <input asp-for="RollNumber" class="form-control" />
+        <span asp-validation-for="RollNumber" class="text-danger"></span>
     </div>
+
     <div class="form-group">
         <label>Email</label>
         <input asp-for="Email" class="form-control" />
+        <span asp-validation-for="Email" class="text-danger"></span>
     </div>
+
     <div class="form-group">
         <label>Phone</label>
         <input asp-for="Phone" class="form-control" />
+        <span asp-validation-for="Phone" class="text-danger"></span>
     </div>
+
     <button type="submit" class="btn btn-success">Save</button>
 </form>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+
+    <script>
+        document.getElementById('batchSelect').addEventListener('change', function () {
+            const selectedBatchId = this.value;
+            const sectionOptions = document.querySelectorAll('#sectionSelect option');
+
+            sectionOptions.forEach(option => {
+                if (!option.value) return; // skip default
+                const batchId = option.getAttribute('data-batch');
+                option.style.display = (batchId === selectedBatchId) ? 'block' : 'none';
+            });
+
+            // Reset section selection
+            document.getElementById('sectionSelect').value = '';
+        });
+
+        // Trigger once on load to filter sections
+        document.getElementById('batchSelect').dispatchEvent(new Event('change'));
+    </script>
+}

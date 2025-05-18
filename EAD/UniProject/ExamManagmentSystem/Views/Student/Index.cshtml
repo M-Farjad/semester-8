@@ -3,6 +3,10 @@
 @{
     ViewBag.Title = "Students";
     Layout = "~/Views/Shared/_Layout.cshtml";
+    var batches = ViewBag.Batches as List<ExamManagmentSystem.Models.Batch>;
+    var selectedBatchId = ViewBag.BatchId as int?;
+    var selectedSectionId = ViewBag.SectionId as int?;
+    var rollFilter = ViewBag.Roll as string ?? "";
 }
 
 <h2>Search Students</h2>
@@ -10,24 +14,35 @@
 <form method="get">
     <div class="form-row">
         <div class="col">
-            <select name="batch" class="form-control" value="@ViewBag.Batch">
+            <select name="batchId" class="form-control">
                 <option value="">Select Batch</option>
-                <option value="2021">2021</option>
-                <option value="2022">2022</option>
-                <option value="2023">2023</option>
+                @if (batches != null)
+                {
+                    foreach (var batch in batches)
+                    {
+                        @Html.Raw($"<option value=\"{batch.Id}\" {(selectedBatchId == batch.Id ? "selected" : "")}>{(batch.Year)}</option>")
+                    }
+                }
             </select>
         </div>
         <div class="col">
-            <select name="section" class="form-control" value="@ViewBag.Section">
+            <select name="sectionId" class="form-control">
                 <option value="">Select Section</option>
-                <option>CS(A)</option>
-                <option>CS(B)</option>
-                <option>SE(A)</option>
-                <option>SE(B)</option>
+                @if (batches != null && selectedBatchId.HasValue)
+                {
+                    var batch = batches.FirstOrDefault(b => b.Id == selectedBatchId.Value);
+                    if (batch != null && batch.Sections != null)
+                    {
+                        foreach (var section in batch.Sections)
+                        {
+                            @Html.Raw($"<option value=\"{section.Id}\" {(selectedSectionId == section.Id ? "selected" : "")}>{(section.Name)}</option>")
+                        }
+                    }
+                }
             </select>
         </div>
         <div class="col">
-            <input type="text" name="roll" value="@ViewBag.Roll" placeholder="Roll Number" class="form-control" />
+            <input type="text" name="roll" value="@rollFilter" placeholder="Roll Number" class="form-control" />
         </div>
         <div class="col">
             <button type="submit" class="btn btn-primary">Search</button>
@@ -41,6 +56,10 @@
     <thead>
         <tr>
             <th>Name</th>
+            <th>Age</th>
+            <th>Gender</th>
+            <th>CNIC</th>
+            <th>Address</th>
             <th>Roll #</th>
             <th>Batch</th>
             <th>Section</th>
@@ -54,15 +73,19 @@
         {
             <tr>
                 <td>@s.Name</td>
+                <td>@s.Age</td>
+                <td>@s.Gender</td>
+                <td>@s.CNIC</td>
+                <td>@s.Address</td>
                 <td>@s.RollNumber</td>
-                <td>@s.Batch</td>
-                <td>@s.Section</td>
+                <td>@s.Section?.Batch?.Year</td>
+                <td>@s.Section?.Name</td>
                 <td>@s.Email</td>
                 <td>@s.Phone</td>
                 <td>
                     <a href="/Student/Edit/@s.Id">Edit</a> |
                     <a href="/Student/Details/@s.Id">Details</a> |
-                    <a href="/Student/Delete/@s.Id">Delete</a>
+                    <a href="/Student/Delete/@s.Id" onclick="return confirm('Are you sure you want to delete this student?');">Delete</a>
                 </td>
             </tr>
         }

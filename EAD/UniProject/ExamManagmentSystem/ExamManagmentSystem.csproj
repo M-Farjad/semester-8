@@ -8,7 +8,6 @@
 
   <ItemGroup>
     <Folder Include="DinkToPdfLib\" />
-    <Folder Include="Views\Admin\" />
     <Folder Include="Views\Clerk\" />
     <Folder Include="Views\SuperAdmin\" />
   </ItemGroup>

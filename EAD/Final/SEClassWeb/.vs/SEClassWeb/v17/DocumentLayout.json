@@ -1,0 +1,85 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Study Material\\semester-8\\EAD\\Final\\SEClassWeb\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FEC05C16-61AB-4087-AE3D-268993075DD1}|SEClassWeb\\SEClassWeb.csproj|d:\\study material\\semester-8\\ead\\final\\seclassweb\\seclassweb\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FEC05C16-61AB-4087-AE3D-268993075DD1}|SEClassWeb\\SEClassWeb.csproj|solutionrelative:seclassweb\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEC05C16-61AB-4087-AE3D-268993075DD1}|SEClassWeb\\SEClassWeb.csproj|d:\\study material\\semester-8\\ead\\final\\seclassweb\\seclassweb\\models\\se21context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEC05C16-61AB-4087-AE3D-268993075DD1}|SEClassWeb\\SEClassWeb.csproj|solutionrelative:seclassweb\\models\\se21context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEC05C16-61AB-4087-AE3D-268993075DD1}|SEClassWeb\\SEClassWeb.csproj|d:\\study material\\semester-8\\ead\\final\\seclassweb\\seclassweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEC05C16-61AB-4087-AE3D-268993075DD1}|SEClassWeb\\SEClassWeb.csproj|solutionrelative:seclassweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEC05C16-61AB-4087-AE3D-268993075DD1}|SEClassWeb\\SEClassWeb.csproj|d:\\study material\\semester-8\\ead\\final\\seclassweb\\seclassweb\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEC05C16-61AB-4087-AE3D-268993075DD1}|SEClassWeb\\SEClassWeb.csproj|solutionrelative:seclassweb\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "dashboardController.cs",
+              "DocumentMoniker": "D:\\Study Material\\semester-8\\EAD\\Final\\SEClassWeb\\SEClassWeb\\Controllers\\dashboardController.cs",
+              "RelativeDocumentMoniker": "SEClassWeb\\Controllers\\dashboardController.cs",
+              "ToolTip": "D:\\Study Material\\semester-8\\EAD\\Final\\SEClassWeb\\SEClassWeb\\Controllers\\dashboardController.cs",
+              "RelativeToolTip": "SEClassWeb\\Controllers\\dashboardController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T02:34:16.98Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Se21Context.cs",
+              "DocumentMoniker": "D:\\Study Material\\semester-8\\EAD\\Final\\SEClassWeb\\SEClassWeb\\Models\\Se21Context.cs",
+              "RelativeDocumentMoniker": "SEClassWeb\\Models\\Se21Context.cs",
+              "ToolTip": "D:\\Study Material\\semester-8\\EAD\\Final\\SEClassWeb\\SEClassWeb\\Models\\Se21Context.cs",
+              "RelativeToolTip": "SEClassWeb\\Models\\Se21Context.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T16:59:06.451Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Study Material\\semester-8\\EAD\\Final\\SEClassWeb\\SEClassWeb\\appsettings.json",
+              "RelativeDocumentMoniker": "SEClassWeb\\appsettings.json",
+              "ToolTip": "D:\\Study Material\\semester-8\\EAD\\Final\\SEClassWeb\\SEClassWeb\\appsettings.json",
+              "RelativeToolTip": "SEClassWeb\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-11T16:58:45.859Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Study Material\\semester-8\\EAD\\Final\\SEClassWeb\\SEClassWeb\\Program.cs",
+              "RelativeDocumentMoniker": "SEClassWeb\\Program.cs",
+              "ToolTip": "D:\\Study Material\\semester-8\\EAD\\Final\\SEClassWeb\\SEClassWeb\\Program.cs",
+              "RelativeToolTip": "SEClassWeb\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T16:58:43.846Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

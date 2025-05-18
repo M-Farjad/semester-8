@@ -139,10 +139,10 @@ D:\Study Material\semester-8\EAD\UniProject\ExamManagmentSystem\obj\Debug\net8.0
 D:\Study Material\semester-8\EAD\UniProject\ExamManagmentSystem\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.ExamManagmentSystem.props
 D:\Study Material\semester-8\EAD\UniProject\ExamManagmentSystem\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.ExamManagmentSystem.props
 D:\Study Material\semester-8\EAD\UniProject\ExamManagmentSystem\obj\Debug\net8.0\staticwebassets.pack.json
+D:\Study Material\semester-8\EAD\UniProject\ExamManagmentSystem\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 D:\Study Material\semester-8\EAD\UniProject\ExamManagmentSystem\obj\Debug\net8.0\ExamMana.E3E14F3D.Up2Date
 D:\Study Material\semester-8\EAD\UniProject\ExamManagmentSystem\obj\Debug\net8.0\ExamManagmentSystem.dll
 D:\Study Material\semester-8\EAD\UniProject\ExamManagmentSystem\obj\Debug\net8.0\refint\ExamManagmentSystem.dll
 D:\Study Material\semester-8\EAD\UniProject\ExamManagmentSystem\obj\Debug\net8.0\ExamManagmentSystem.pdb
 D:\Study Material\semester-8\EAD\UniProject\ExamManagmentSystem\obj\Debug\net8.0\ExamManagmentSystem.genruntimeconfig.cache
 D:\Study Material\semester-8\EAD\UniProject\ExamManagmentSystem\obj\Debug\net8.0\ref\ExamManagmentSystem.dll
-D:\Study Material\semester-8\EAD\UniProject\ExamManagmentSystem\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

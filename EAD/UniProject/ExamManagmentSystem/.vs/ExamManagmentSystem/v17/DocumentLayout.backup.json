@@ -3,32 +3,44 @@
   "WorkspaceRootPath": "D:\\Study Material\\semester-8\\EAD\\UniProject\\ExamManagmentSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B81D832E-7887-4E1A-8DB3-1F26E8AA1ED6}|ExamManagmentSystem.csproj|d:\\study material\\semester-8\\ead\\uniproject\\exammanagmentsystem\\views\\account\\forgetpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B81D832E-7887-4E1A-8DB3-1F26E8AA1ED6}|ExamManagmentSystem.csproj|solutionrelative:views\\account\\forgetpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{B81D832E-7887-4E1A-8DB3-1F26E8AA1ED6}|ExamManagmentSystem.csproj|d:\\study material\\semester-8\\ead\\uniproject\\exammanagmentsystem\\views\\batchsection\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B81D832E-7887-4E1A-8DB3-1F26E8AA1ED6}|ExamManagmentSystem.csproj|solutionrelative:views\\batchsection\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B81D832E-7887-4E1A-8DB3-1F26E8AA1ED6}|ExamManagmentSystem.csproj|d:\\study material\\semester-8\\ead\\uniproject\\exammanagmentsystem\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B81D832E-7887-4E1A-8DB3-1F26E8AA1ED6}|ExamManagmentSystem.csproj|solutionrelative:controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B81D832E-7887-4E1A-8DB3-1F26E8AA1ED6}|ExamManagmentSystem.csproj|d:\\study material\\semester-8\\ead\\uniproject\\exammanagmentsystem\\controllers\\examcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B81D832E-7887-4E1A-8DB3-1F26E8AA1ED6}|ExamManagmentSystem.csproj|solutionrelative:controllers\\examcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B81D832E-7887-4E1A-8DB3-1F26E8AA1ED6}|ExamManagmentSystem.csproj|d:\\study material\\semester-8\\ead\\uniproject\\exammanagmentsystem\\models\\batch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B81D832E-7887-4E1A-8DB3-1F26E8AA1ED6}|ExamManagmentSystem.csproj|solutionrelative:models\\batch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B81D832E-7887-4E1A-8DB3-1F26E8AA1ED6}|ExamManagmentSystem.csproj|d:\\study material\\semester-8\\ead\\uniproject\\exammanagmentsystem\\views\\exam\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B81D832E-7887-4E1A-8DB3-1F26E8AA1ED6}|ExamManagmentSystem.csproj|solutionrelative:views\\exam\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B81D832E-7887-4E1A-8DB3-1F26E8AA1ED6}|ExamManagmentSystem.csproj|d:\\study material\\semester-8\\ead\\uniproject\\exammanagmentsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B81D832E-7887-4E1A-8DB3-1F26E8AA1ED6}|ExamManagmentSystem.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B81D832E-7887-4E1A-8DB3-1F26E8AA1ED6}|ExamManagmentSystem.csproj|d:\\study material\\semester-8\\ead\\uniproject\\exammanagmentsystem\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B81D832E-7887-4E1A-8DB3-1F26E8AA1ED6}|ExamManagmentSystem.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B81D832E-7887-4E1A-8DB3-1F26E8AA1ED6}|ExamManagmentSystem.csproj|d:\\study material\\semester-8\\ead\\uniproject\\exammanagmentsystem\\helpers\\seed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B81D832E-7887-4E1A-8DB3-1F26E8AA1ED6}|ExamManagmentSystem.csproj|solutionrelative:helpers\\seed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B81D832E-7887-4E1A-8DB3-1F26E8AA1ED6}|ExamManagmentSystem.csproj|d:\\study material\\semester-8\\ead\\uniproject\\exammanagmentsystem\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B81D832E-7887-4E1A-8DB3-1F26E8AA1ED6}|ExamManagmentSystem.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B81D832E-7887-4E1A-8DB3-1F26E8AA1ED6}|ExamManagmentSystem.csproj|d:\\study material\\semester-8\\ead\\uniproject\\exammanagmentsystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{B81D832E-7887-4E1A-8DB3-1F26E8AA1ED6}|ExamManagmentSystem.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B81D832E-7887-4E1A-8DB3-1F26E8AA1ED6}|ExamManagmentSystem.csproj|d:\\study material\\semester-8\\ead\\uniproject\\exammanagmentsystem\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B81D832E-7887-4E1A-8DB3-1F26E8AA1ED6}|ExamManagmentSystem.csproj|solutionrelative:models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B81D832E-7887-4E1A-8DB3-1F26E8AA1ED6}|ExamManagmentSystem.csproj|d:\\study material\\semester-8\\ead\\uniproject\\exammanagmentsystem\\views\\student\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B81D832E-7887-4E1A-8DB3-1F26E8AA1ED6}|ExamManagmentSystem.csproj|solutionrelative:views\\student\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B81D832E-7887-4E1A-8DB3-1F26E8AA1ED6}|ExamManagmentSystem.csproj|d:\\study material\\semester-8\\ead\\uniproject\\exammanagmentsystem\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B81D832E-7887-4E1A-8DB3-1F26E8AA1ED6}|ExamManagmentSystem.csproj|solutionrelative:models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B81D832E-7887-4E1A-8DB3-1F26E8AA1ED6}|ExamManagmentSystem.csproj|d:\\study material\\semester-8\\ead\\uniproject\\exammanagmentsystem\\views\\student\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B81D832E-7887-4E1A-8DB3-1F26E8AA1ED6}|ExamManagmentSystem.csproj|solutionrelative:views\\student\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,98 +50,129 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Seed.cs",
-              "DocumentMoniker": "D:\\Study Material\\semester-8\\EAD\\UniProject\\ExamManagmentSystem\\Helpers\\Seed.cs",
-              "RelativeDocumentMoniker": "Helpers\\Seed.cs",
-              "ToolTip": "D:\\Study Material\\semester-8\\EAD\\UniProject\\ExamManagmentSystem\\Helpers\\Seed.cs",
-              "RelativeToolTip": "Helpers\\Seed.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABOAAAAAAAAAA==",
+              "Title": "Batch.cs",
+              "DocumentMoniker": "D:\\Study Material\\semester-8\\EAD\\UniProject\\ExamManagmentSystem\\Models\\Batch.cs",
+              "RelativeDocumentMoniker": "Models\\Batch.cs",
+              "ToolTip": "D:\\Study Material\\semester-8\\EAD\\UniProject\\ExamManagmentSystem\\Models\\Batch.cs",
+              "RelativeToolTip": "Models\\Batch.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T04:43:11.414Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ForgetPassword.cshtml",
-              "DocumentMoniker": "D:\\Study Material\\semester-8\\EAD\\UniProject\\ExamManagmentSystem\\Views\\Account\\ForgetPassword.cshtml",
-              "RelativeDocumentMoniker": "Views\\Account\\ForgetPassword.cshtml",
-              "ToolTip": "D:\\Study Material\\semester-8\\EAD\\UniProject\\ExamManagmentSystem\\Views\\Account\\ForgetPassword.cshtml",
-              "RelativeToolTip": "Views\\Account\\ForgetPassword.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-12T04:52:55.613Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-15T03:12:12.219Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\Study Material\\semester-8\\EAD\\UniProject\\ExamManagmentSystem\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\Study Material\\semester-8\\EAD\\UniProject\\ExamManagmentSystem\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAADgAAAAAAAAAAAAkwD4AAAAPAAAAAAAAAA==",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Study Material\\semester-8\\EAD\\UniProject\\ExamManagmentSystem\\Views\\Exam\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Exam\\Index.cshtml",
+              "ToolTip": "D:\\Study Material\\semester-8\\EAD\\UniProject\\ExamManagmentSystem\\Views\\Exam\\Index.cshtml",
+              "RelativeToolTip": "Views\\Exam\\Index.cshtml",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAwDQAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-12T04:47:49.337Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-15T03:11:00.87Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "D:\\Study Material\\semester-8\\EAD\\UniProject\\ExamManagmentSystem\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
-              "ToolTip": "D:\\Study Material\\semester-8\\EAD\\UniProject\\ExamManagmentSystem\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "Controllers\\AccountController.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAQwB4AAAANAAAAAAAAAA==",
+              "Title": "ExamController.cs",
+              "DocumentMoniker": "D:\\Study Material\\semester-8\\EAD\\UniProject\\ExamManagmentSystem\\Controllers\\ExamController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ExamController.cs",
+              "ToolTip": "D:\\Study Material\\semester-8\\EAD\\UniProject\\ExamManagmentSystem\\Controllers\\ExamController.cs",
+              "RelativeToolTip": "Controllers\\ExamController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T04:40:59.22Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "D:\\Study Material\\semester-8\\EAD\\UniProject\\ExamManagmentSystem\\Models\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "Models\\ApplicationDbContext.cs",
-              "ToolTip": "D:\\Study Material\\semester-8\\EAD\\UniProject\\ExamManagmentSystem\\Models\\ApplicationDbContext.cs",
-              "RelativeToolTip": "Models\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T04:34:28.113Z",
+              "WhenOpened": "2025-05-15T03:10:40.928Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\Study Material\\semester-8\\EAD\\UniProject\\ExamManagmentSystem\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "D:\\Study Material\\semester-8\\EAD\\UniProject\\ExamManagmentSystem\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAIwBAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-12T04:28:25.307Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Study Material\\semester-8\\EAD\\UniProject\\ExamManagmentSystem\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "D:\\Study Material\\semester-8\\EAD\\UniProject\\ExamManagmentSystem\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAACYAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAAAF8AAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T04:28:18.83Z",
+              "WhenOpened": "2025-05-15T03:03:04.837Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Study Material\\semester-8\\EAD\\UniProject\\ExamManagmentSystem\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\Study Material\\semester-8\\EAD\\UniProject\\ExamManagmentSystem\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-15T03:02:51.258Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Student.cs",
+              "DocumentMoniker": "D:\\Study Material\\semester-8\\EAD\\UniProject\\ExamManagmentSystem\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "Models\\Student.cs",
+              "ToolTip": "D:\\Study Material\\semester-8\\EAD\\UniProject\\ExamManagmentSystem\\Models\\Student.cs",
+              "RelativeToolTip": "Models\\Student.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAA5wBAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T00:42:12.461Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "D:\\Study Material\\semester-8\\EAD\\UniProject\\ExamManagmentSystem\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "Controllers\\StudentController.cs",
+              "ToolTip": "D:\\Study Material\\semester-8\\EAD\\UniProject\\ExamManagmentSystem\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "Controllers\\StudentController.cs",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAowEMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T00:07:48.019Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\Study Material\\semester-8\\EAD\\UniProject\\ExamManagmentSystem\\Views\\Student\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Student\\Create.cshtml",
+              "ToolTip": "D:\\Study Material\\semester-8\\EAD\\UniProject\\ExamManagmentSystem\\Views\\Student\\Create.cshtml",
+              "RelativeToolTip": "Views\\Student\\Create.cshtml",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAAAFEAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-15T00:07:34.002Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Study Material\\semester-8\\EAD\\UniProject\\ExamManagmentSystem\\Views\\Student\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Student\\Index.cshtml",
+              "ToolTip": "D:\\Study Material\\semester-8\\EAD\\UniProject\\ExamManagmentSystem\\Views\\Student\\Index.cshtml",
+              "RelativeToolTip": "Views\\Student\\Index.cshtml",
+              "ViewState": "AgIAABQAAAAAAAAAAAAiwCMAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-15T00:06:37.807Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Study Material\\semester-8\\EAD\\UniProject\\ExamManagmentSystem\\Views\\BatchSection\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\BatchSection\\Index.cshtml",
+              "ToolTip": "D:\\Study Material\\semester-8\\EAD\\UniProject\\ExamManagmentSystem\\Views\\BatchSection\\Index.cshtml",
+              "RelativeToolTip": "Views\\BatchSection\\Index.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABgAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-15T00:02:55.542Z",
               "EditorCaption": ""
             }
           ]

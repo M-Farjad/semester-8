@@ -1,19 +1,24 @@
 ﻿using ExamManagmentSystem.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using System.Linq;
 
 namespace ExamManagmentSystem.Controllers
 {
-    public class RoomController : Controller
+    [Authorize(Policy = "AdminAccess")]
+    public class RoomController : BaseController
     {
-        private static List<Room> _rooms = new List<Room>
+        private readonly ApplicationDbContext _context;
+
+        public RoomController(ApplicationDbContext context)
         {
-            new Room { Id = 1, RoomName = "G5", Rows = 5, CapacityPerRow = 10 },
-            new Room { Id = 2, RoomName = "F16", Rows = 4, CapacityPerRow = 12 }
-        };
+            _context = context;
+        }
 
         public IActionResult Index()
         {
-            return View(_rooms);
+            var rooms = _context.Rooms.ToList();
+            return View(rooms);
         }
 
         public IActionResult Create()
@@ -22,39 +27,51 @@ namespace ExamManagmentSystem.Controllers
         }
 
         [HttpPost]
+        [ValidateAntiForgeryToken]
         public IActionResult Create(Room room)
         {
-            room.Id = _rooms.Count + 1;
-            _rooms.Add(room);
-            return RedirectToAction("Index");
+            if (ModelState.IsValid)
+            {
+                _context.Rooms.Add(room);
+                _context.SaveChanges();
+                return RedirectToAction("Index");
+            }
+
+            return View(room);
         }
 
         public IActionResult Edit(int id)
         {
-            var room = _rooms.FirstOrDefault(r => r.Id == id);
+            var room = _context.Rooms.FirstOrDefault(r => r.Id == id);
+            if (room == null)
+                return NotFound();
+
             return View(room);
         }
 
         [HttpPost]
+        [ValidateAntiForgeryToken]
         public IActionResult Edit(Room updatedRoom)
         {
-            var room = _rooms.FirstOrDefault(r => r.Id == updatedRoom.Id);
-            if (room != null)
+            if (ModelState.IsValid)
             {
-                room.RoomName = updatedRoom.RoomName;
-                room.Rows = updatedRoom.Rows;
-                room.CapacityPerRow = updatedRoom.CapacityPerRow;
+                _context.Rooms.Update(updatedRoom);
+                _context.SaveChanges();
+                return RedirectToAction("Index");
             }
-            return RedirectToAction("Index");
+
+            return View(updatedRoom);
         }
 
         public IActionResult Delete(int id)
         {
-            var room = _rooms.FirstOrDefault(r => r.Id == id);
-            if (room != null) _rooms.Remove(room);
+            var room = _context.Rooms.FirstOrDefault(r => r.Id == id);
+            if (room != null)
+            {
+                _context.Rooms.Remove(room);
+                _context.SaveChanges();
+            }
             return RedirectToAction("Index");
         }
     }
-
-
 }

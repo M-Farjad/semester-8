@@ -1,0 +1,788 @@
+﻿@model List<User>
+@{
+    ViewBag.Title = "Admin Portal";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"]</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+    <style>
+        :root {
+            --dms-primary: #E07A5F;
+            --dms-primary-dark: #C56A52;
+            --dms-primary-light: #F7C1B3;
+            --dms-surface: #FFFFFF;
+            --dms-surface-light: #F9F5F3;
+            --dms-background: #F5F1EE;
+            --dms-text: #333333;
+            --dms-text-light: #7A6F6B;
+            --dms-border: #E0D7D2;
+            --dms-error: #D16666;
+            --dms-success: #7A9F6B;
+            --dms-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+            --dms-card-radius: 12px;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Inter', sans-serif;
+        }
+
+        body {
+            background: var(--dms-background);
+            color: var(--dms-text);
+            line-height: 1.6;
+        }
+
+        .dms-admin-container {
+            display: grid;
+            grid-template-columns: 280px 1fr;
+            min-height: 100vh;
+        }
+
+        /* Sidebar */
+        .dms-sidebar {
+            background: var(--dms-surface);
+            border-right: 1px solid var(--dms-border);
+            padding: 24px 0;
+            position: relative;
+            z-index: 10;
+        }
+
+        .dms-brand {
+            display: flex;
+            align-items: center;
+            padding: 0 24px 24px;
+            border-bottom: 1px solid var(--dms-border);
+            margin-bottom: 24px;
+        }
+
+        .dms-brand-icon {
+            width: 40px;
+            height: 40px;
+            background: var(--dms-primary);
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 20px;
+            margin-right: 12px;
+        }
+
+        .dms-brand-text {
+            font-weight: 700;
+            font-size: 18px;
+        }
+
+        .dms-nav-item {
+            display: flex;
+            align-items: center;
+            padding: 12px 24px;
+            color: var(--dms-text-light);
+            text-decoration: none;
+            transition: all 0.2s;
+        }
+
+            .dms-nav-item i {
+                margin-right: 12px;
+                font-size: 20px;
+                width: 24px;
+                text-align: center;
+            }
+
+            .dms-nav-item:hover, .dms-nav-item.active {
+                color: var(--dms-primary);
+                background: rgba(224, 122, 95, 0.08);
+                border-right: 3px solid var(--dms-primary);
+            }
+
+        /* Main Content */
+        .dms-main-content {
+            padding: 32px;
+            background: var(--dms-background);
+        }
+
+        .dms-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 32px;
+        }
+
+        .dms-page-title {
+            font-size: 24px;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+            .dms-page-title i {
+                color: var(--dms-primary);
+            }
+
+        .dms-user-actions {
+            display: flex;
+            gap: 12px;
+        }
+
+        /* Dashboard Cards */
+        .dms-card-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 20px;
+            margin-bottom: 32px;
+        }
+
+        .dms-card {
+            background: var(--dms-surface);
+            border-radius: var(--dms-card-radius);
+            box-shadow: var(--dms-shadow);
+            padding: 24px;
+            transition: transform 0.3s;
+        }
+
+            .dms-card:hover {
+                transform: translateY(-4px);
+            }
+
+        .dms-card-icon {
+            width: 48px;
+            height: 48px;
+            border-radius: 8px;
+            background: rgba(224, 122, 95, 0.1);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--dms-primary);
+            font-size: 24px;
+            margin-bottom: 16px;
+        }
+
+        .dms-card-title {
+            font-size: 16px;
+            color: var(--dms-text-light);
+            margin-bottom: 8px;
+        }
+
+        .dms-card-value {
+            font-size: 28px;
+            font-weight: 600;
+            color: var(--dms-text);
+        }
+
+        /* User Management Section */
+        .dms-section {
+            background: var(--dms-surface);
+            border-radius: var(--dms-card-radius);
+            box-shadow: var(--dms-shadow);
+            padding: 0;
+            overflow: hidden;
+        }
+
+        .dms-section-header {
+            padding: 20px 24px;
+            border-bottom: 1px solid var(--dms-border);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .dms-section-title {
+            font-size: 18px;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+            .dms-section-title i {
+                color: var(--dms-primary);
+            }
+
+        /* User Table */
+        .dms-user-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+            .dms-user-table th {
+                text-align: left;
+                padding: 16px 24px;
+                background: var(--dms-surface-light);
+                color: var(--dms-text-light);
+                font-weight: 500;
+                border-bottom: 1px solid var(--dms-border);
+            }
+
+            .dms-user-table td {
+                padding: 16px 24px;
+                border-bottom: 1px solid var(--dms-border);
+                vertical-align: middle;
+            }
+
+            .dms-user-table tr:last-child td {
+                border-bottom: none;
+            }
+
+            .dms-user-table tr:hover td {
+                background: rgba(224, 122, 95, 0.03);
+            }
+
+        .dms-user-avatar {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background: var(--dms-surface-light);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--dms-primary);
+            margin-right: 12px;
+            border: 1px solid var(--dms-border);
+        }
+
+        .dms-user-info {
+            display: flex;
+            align-items: center;
+        }
+
+        .dms-user-name {
+            font-weight: 500;
+        }
+
+        .dms-user-id {
+            font-size: 13px;
+            color: var(--dms-text-light);
+        }
+
+        .dms-role-badge {
+            display: inline-flex;
+            align-items: center;
+            padding: 6px 12px;
+            border-radius: 20px;
+            font-size: 13px;
+            font-weight: 500;
+            gap: 6px;
+        }
+
+        .dms-role-admin {
+            background: rgba(209, 102, 102, 0.1);
+            color: var(--dms-error);
+        }
+
+        .dms-role-clerk {
+            background: rgba(122, 111, 107, 0.1);
+            color: var(--dms-text-light);
+        }
+
+        .dms-table-actions {
+            display: flex;
+            gap: 8px;
+            justify-content: flex-end;
+        }
+
+        /* Buttons */
+        .dms-btn {
+            padding: 10px 16px;
+            border-radius: 8px;
+            font-size: 14px;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.2s;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            border: none;
+        }
+
+        .dms-btn-primary {
+            background: var(--dms-primary);
+            color: white;
+        }
+
+            .dms-btn-primary:hover {
+                background: var(--dms-primary-dark);
+                transform: translateY(-2px);
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            }
+
+        .dms-btn-outline {
+            background: transparent;
+            border: 1px solid var(--dms-primary);
+            color: var(--dms-primary);
+        }
+
+            .dms-btn-outline:hover {
+                background: rgba(224, 122, 95, 0.1);
+            }
+
+        .dms-btn-danger {
+            background: var(--dms-error);
+            color: white;
+        }
+
+            .dms-btn-danger:hover {
+                background: #C25B5B;
+            }
+
+        .dms-btn-sm {
+            padding: 8px 12px;
+            font-size: 13px;
+        }
+
+        /* Add User Form */
+        .dms-add-user-form {
+            padding: 24px;
+            border-bottom: 1px solid var(--dms-border);
+        }
+
+        .dms-form-row {
+            display: flex;
+            gap: 16px;
+            margin-bottom: 16px;
+        }
+
+        .dms-form-group {
+            flex: 1;
+            position: relative;
+        }
+
+        .dms-form-icon {
+            position: absolute;
+            left: 14px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: var(--dms-primary);
+        }
+
+        .dms-form-input {
+            width: 100%;
+            padding: 12px 16px 12px 44px;
+            border: 1px solid var(--dms-border);
+            border-radius: 8px;
+            background: var(--dms-surface-light);
+            font-size: 14px;
+            transition: all 0.2s;
+        }
+
+            .dms-form-input:focus {
+                border-color: var(--dms-primary);
+                outline: none;
+                box-shadow: 0 0 0 3px rgba(224, 122, 95, 0.1);
+            }
+
+        .dms-form-select {
+            appearance: none;
+            background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23E07A5F' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
+            background-repeat: no-repeat;
+            background-position: right 12px center;
+            background-size: 16px;
+        }
+
+        /* Empty State */
+        .dms-empty-state {
+            padding: 48px 24px;
+            text-align: center;
+        }
+
+            .dms-empty-state i {
+                font-size: 56px;
+                color: var(--dms-border);
+                opacity: 0.5;
+                margin-bottom: 16px;
+            }
+
+            .dms-empty-state h3 {
+                font-weight: 500;
+                margin-bottom: 8px;
+            }
+
+            .dms-empty-state p {
+                color: var(--dms-text-light);
+                max-width: 400px;
+                margin: 0 auto 24px;
+            }
+
+        /* Modal */
+        .dms-modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            z-index: 1000;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .dms-modal-content {
+            background: var(--dms-surface);
+            border-radius: var(--dms-card-radius);
+            width: 100%;
+            max-width: 500px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+            transform: translateY(-20px);
+            transition: transform 0.3s;
+        }
+
+        .dms-modal-header {
+            padding: 20px 24px;
+            background: var(--dms-primary);
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .dms-modal-title {
+            font-size: 18px;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .dms-modal-close {
+            background: none;
+            border: none;
+            color: white;
+            font-size: 24px;
+            cursor: pointer;
+        }
+
+        .dms-modal-body {
+            padding: 24px;
+        }
+
+        .dms-modal-footer {
+            padding: 16px 24px;
+            background: var(--dms-surface-light);
+            display: flex;
+            justify-content: flex-end;
+            gap: 12px;
+            border-top: 1px solid var(--dms-border);
+        }
+
+        .dms-modal-show {
+            display: flex;
+        }
+
+        .dms-modal-animate {
+            transform: translateY(0);
+        }
+    </style>
+</head>
+<body>
+    <div class="dms-admin-container">
+        <!-- Sidebar -->
+        <div class="dms-sidebar">
+            <div class="dms-brand">
+                <div class="dms-brand-icon">
+                    <i class="fas fa-user-shield"></i>
+                </div>
+                <div class="dms-brand-text">DMS Admin</div>
+            </div>
+            <nav>
+                <a href="#" class="dms-nav-item active">
+                    <i class="fas fa-users-cog"></i>
+                    User Management
+                </a>
+                <a href="#" class="dms-nav-item">
+                    <i class="fas fa-chart-pie"></i>
+                    Dashboard
+                </a>
+                <a href="#" class="dms-nav-item">
+                    <i class="fas fa-cog"></i>
+                    Settings
+                </a>
+                <a href="#" class="dms-nav-item">
+                    <i class="fas fa-file-alt"></i>
+                    Reports
+                </a>
+                <a href="#" class="dms-nav-item">
+                    <i class="fas fa-bell"></i>
+                    Notifications
+                </a>
+            </nav>
+        </div>
+
+        <!-- Main Content -->
+        <div class="dms-main-content">
+            <div class="dms-header">
+                <h1 class="dms-page-title">
+                    <i class="fas fa-users-cog"></i>
+                    User Management
+                </h1>
+                <div class="dms-user-actions">
+                    <a href="/Account/Logout" class="dms-btn dms-btn-outline">
+                        <i class="fas fa-sign-out-alt"></i> Logout
+                    </a>
+                </div>
+            </div>
+
+            <!-- Stats Cards -->
+            <div class="dms-card-grid">
+                <div class="dms-card">
+                    <div class="dms-card-icon">
+                        <i class="fas fa-user-plus"></i>
+                    </div>
+                    <div class="dms-card-title">Total Users</div>
+                    <div class="dms-card-value">@Model.Count</div>
+                </div>
+                <div class="dms-card">
+                    <div class="dms-card-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <div class="dms-card-title">Administrators</div>
+                    <div class="dms-card-value">@Model.Count(u => u.Role == "Admin")</div>
+                </div>
+                <div class="dms-card">
+                    <div class="dms-card-icon">
+                        <i class="fas fa-user-edit"></i>
+                    </div>
+                    <div class="dms-card-title">Clerks</div>
+                    <div class="dms-card-value">@Model.Count(u => u.Role == "Clerk")</div>
+                </div>
+            </div>
+
+            <!-- User Management Section -->
+            <div class="dms-section">
+                <div class="dms-section-header">
+                    <h2 class="dms-section-title">
+                        <i class="fas fa-user-plus"></i>
+                        Add New User
+                    </h2>
+                </div>
+                <form method="post" asp-action="Add" class="dms-add-user-form">
+                    <div class="dms-form-row">
+                        <div class="dms-form-group">
+                            <i class="fas fa-user dms-form-icon"></i>
+                            <input name="username" class="dms-form-input" placeholder="Username" required />
+                        </div>
+                        <div class="dms-form-group">
+                            <i class="fas fa-lock dms-form-icon"></i>
+                            <input name="password" type="password" class="dms-form-input" placeholder="Password" required />
+                        </div>
+                        <div class="dms-form-group">
+                            <i class="fas fa-user-tag dms-form-icon"></i>
+                            <select name="role" class="dms-form-input dms-form-select">
+                                <option>Admin</option>
+                                <option>Clerk</option>
+                            </select>
+                        </div>
+                        <button type="submit" class="dms-btn dms-btn-primary">
+                            <i class="fas fa-plus-circle"></i> Add
+                        </button>
+                    </div>
+                </form>
+
+                <div class="dms-section-header">
+                    <h2 class="dms-section-title">
+                        <i class="fas fa-users"></i>
+                        User List
+                    </h2>
+                </div>
+
+                @if (Model.Any())
+                {
+                    <table class="dms-user-table">
+                        <thead>
+                            <tr>
+                                <th>User</th>
+                                <th>Role</th>
+                                <th style="text-align: right;">Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var u in Model)
+                            {
+                                <tr>
+                                    <td>
+                                        <div class="dms-user-info">
+                                            <div class="dms-user-avatar">
+                                                <i class="fas fa-user"></i>
+                                            </div>
+                                            <div>
+                                                <div class="dms-user-name">@u.Username</div>
+                                                <div class="dms-user-id">ID: @u.Id</div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        @if (u.Role == "Admin")
+                                        {
+                                            <span class="dms-role-badge dms-role-admin">
+                                                <i class="fas fa-shield-alt"></i> Admin
+                                            </span>
+                                        }
+                                        else
+                                        {
+                                            <span class="dms-role-badge dms-role-clerk">
+                                                <i class="fas fa-user-edit"></i> Clerk
+                                            </span>
+                                        }
+                                    </td>
+                                    <td>
+                                        <div class="dms-table-actions">
+                                            <button class="dms-btn dms-btn-outline dms-btn-sm edit-user-btn"
+                                                    data-id="@u.Id"
+                                                    data-username="@u.Username"
+                                                    data-role="@u.Role">
+                                                <i class="fas fa-edit"></i> Edit
+                                            </button>
+                                            <form method="post" asp-action="Delete" style="display: inline;">
+                                                <input type="hidden" name="id" value="@u.Id" />
+                                                <button type="submit" class="dms-btn dms-btn-danger dms-btn-sm">
+                                                    <i class="fas fa-trash-alt"></i> Delete
+                                                </button>
+                                            </form>
+                                        </div>
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                }
+                else
+                {
+                    <div class="dms-empty-state">
+                        <i class="fas fa-users-slash"></i>
+                        <h3>No Users Found</h3>
+                        <p>Get started by adding your first user to the system</p>
+                        <button class="dms-btn dms-btn-primary">
+                            <i class="fas fa-user-plus"></i> Add First User
+                        </button>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+
+    <!-- Edit User Modal -->
+    <div class="dms-modal" id="editUserModal">
+        <div class="dms-modal-content">
+            <div class="dms-modal-header">
+                <h3 class="dms-modal-title">
+                    <i class="fas fa-user-edit"></i>
+                    Edit User
+                </h3>
+                <button class="dms-modal-close" id="closeModal">&times;</button>
+            </div>
+            <form method="post" asp-action="Edit" id="editUserForm">
+                <div class="dms-modal-body">
+                    <input type="hidden" id="editUserId" name="id" />
+                    <div class="dms-form-group" style="margin-bottom: 16px;">
+                        <i class="fas fa-user dms-form-icon"></i>
+                        <input id="editUsername" name="username" class="dms-form-input" placeholder="Username" required />
+                    </div>
+                    <div class="dms-form-group" style="margin-bottom: 16px;">
+                        <i class="fas fa-user-tag dms-form-icon"></i>
+                        <select id="editUserRole" name="role" class="dms-form-input dms-form-select">
+                            <option value="Admin">Admin</option>
+                            <option value="Clerk">Clerk</option>
+                        </select>
+                    </div>
+                    <div class="dms-form-group">
+                        <i class="fas fa-lock dms-form-icon"></i>
+                        <input id="editUserPassword" name="password" type="password" class="dms-form-input" placeholder="New Password (leave blank to keep current)" />
+                    </div>
+                </div>
+                <div class="dms-modal-footer">
+                    <button type="button" class="dms-btn dms-btn-outline" id="cancelEdit">Cancel</button>
+                    <button type="submit" class="dms-btn dms-btn-primary">Save Changes</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        // Add hover effects to table rows
+        const tableRows = document.querySelectorAll('.dms-user-table tbody tr');
+        tableRows.forEach(row => {
+            row.addEventListener('mouseenter', () => {
+                row.style.transform = 'translateX(4px)';
+                row.style.transition = 'transform 0.2s ease';
+            });
+            row.addEventListener('mouseleave', () => {
+                row.style.transform = 'translateX(0)';
+            });
+        });
+
+        // Add confirmation for delete actions
+        const deleteForms = document.querySelectorAll('form[asp-action="Delete"]');
+        deleteForms.forEach(form => {
+            form.addEventListener('submit', (e) => {
+                if (!confirm('Are you sure you want to delete this user?')) {
+                    e.preventDefault();
+                }
+            });
+        });
+
+        // Edit User Modal Functionality
+        const editButtons = document.querySelectorAll('.edit-user-btn');
+        const editModal = document.getElementById('editUserModal');
+        const closeModal = document.getElementById('closeModal');
+        const cancelEdit = document.getElementById('cancelEdit');
+        const editUserForm = document.getElementById('editUserForm');
+        const editUserId = document.getElementById('editUserId');
+        const editUsername = document.getElementById('editUsername');
+        const editUserRole = document.getElementById('editUserRole');
+        const editUserPassword = document.getElementById('editUserPassword');
+
+        editButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                // Get user data from data attributes
+                const userId = button.getAttribute('data-id');
+                const username = button.getAttribute('data-username');
+                const role = button.getAttribute('data-role');
+
+                // Set form values
+                editUserId.value = userId;
+                editUsername.value = username;
+                editUserRole.value = role;
+                editUserPassword.value = '';
+
+                // Show modal
+                editModal.classList.add('dms-modal-show');
+                setTimeout(() => {
+                    document.querySelector('.dms-modal-content').classList.add('dms-modal-animate');
+                }, 10);
+            });
+        });
+
+        // Close modal functions
+        function closeEditModal() {
+            document.querySelector('.dms-modal-content').classList.remove('dms-modal-animate');
+            setTimeout(() => {
+                editModal.classList.remove('dms-modal-show');
+            }, 300);
+        }
+
+        closeModal.addEventListener('click', closeEditModal);
+        cancelEdit.addEventListener('click', closeEditModal);
+
+        // Close modal when clicking outside
+        editModal.addEventListener('click', (e) => {
+            if (e.target === editModal) {
+                closeEditModal();
+            }
+        });
+    </script>
+</body>
+</html>

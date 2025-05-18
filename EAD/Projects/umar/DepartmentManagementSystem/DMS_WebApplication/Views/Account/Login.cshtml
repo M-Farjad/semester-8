@@ -1,0 +1,270 @@
+﻿@{
+    ViewBag.Title = "Login - DMS Portal";
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"]</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
+
+    <style>
+        :root {
+            --dms-primary: #E07A5F; /* Terracotta (replaces green) */
+            --dms-primary-dark: #C56A52;
+            --dms-primary-light: #F7C1B3;
+            --dms-surface: #FFFFFF;
+            --dms-surface-light: #F9F5F3; /* Warm light beige */
+            --dms-background: #F5F1EE;
+            --dms-text: #333333;
+            --dms-text-light: #7A6F6B;
+            --dms-border: #E0D7D2;
+            --dms-error: #D16666;
+            --dms-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Inter', sans-serif;
+        }
+
+        body {
+            background: var(--dms-background);
+            color: var(--dms-text);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .dms-login-container {
+            width: 100%;
+            max-width: 420px;
+            background: var(--dms-surface);
+            border-radius: 12px;
+            box-shadow: var(--dms-shadow);
+            overflow: hidden;
+            border: 1px solid var(--dms-border);
+        }
+
+        .dms-header {
+            padding: 32px;
+            text-align: center;
+            background-color: var(--dms-surface);
+            border-bottom: 1px solid var(--dms-border);
+        }
+
+            .dms-header h1 {
+                font-size: 22px;
+                font-weight: 600;
+                color: var(--dms-text);
+                margin-bottom: 4px;
+            }
+
+            .dms-header p {
+                font-size: 14px;
+                color: var(--dms-text-light);
+                font-weight: 400;
+            }
+
+        .dms-body {
+            padding: 32px;
+        }
+
+        .dms-input-group {
+            position: relative;
+            margin-bottom: 20px;
+        }
+
+        .dms-input {
+            width: 100%;
+            padding: 14px 14px 14px 48px;
+            border: 1px solid var(--dms-border);
+            border-radius: 8px;
+            font-size: 15px;
+            background-color: var(--dms-surface-light);
+            color: var(--dms-text);
+            transition: all 0.2s;
+        }
+
+            .dms-input:focus {
+                border-color: var(--dms-primary);
+                outline: none;
+                box-shadow: 0 0 0 3px rgba(224, 122, 95, 0.1);
+            }
+
+        .dms-input-icon {
+            position: absolute;
+            left: 16px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: var(--dms-text-light);
+            font-size: 20px;
+        }
+
+        .dms-btn {
+            width: 100%;
+            padding: 14px;
+            background-color: var(--dms-primary);
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 15px;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.2s;
+            margin-top: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+        }
+
+            .dms-btn:hover {
+                background-color: var(--dms-primary-dark);
+            }
+
+        .dms-checkbox {
+            display: flex;
+            align-items: center;
+            margin: 16px 0;
+            font-size: 14px;
+            color: var(--dms-text-light);
+        }
+
+            .dms-checkbox input {
+                width: 16px;
+                height: 16px;
+                border: 1px solid var(--dms-border);
+                border-radius: 4px;
+                margin-right: 8px;
+                appearance: none;
+                cursor: pointer;
+                transition: all 0.2s;
+            }
+
+                .dms-checkbox input:checked {
+                    background-color: var(--dms-primary);
+                    border-color: var(--dms-primary);
+                    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='white'%3E%3Cpath d='M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z'/%3E%3C/svg%3E");
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: 12px;
+                }
+
+        .dms-alert {
+            padding: 12px;
+            background-color: rgba(209, 102, 102, 0.08);
+            border-left: 3px solid var(--dms-error);
+            border-radius: 4px;
+            color: var(--dms-error);
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 14px;
+            margin: 16px 0;
+        }
+
+        .dms-footer {
+            text-align: center;
+            margin-top: 24px;
+            font-size: 13px;
+            color: var(--dms-text-light);
+        }
+
+            .dms-footer a {
+                color: var(--dms-primary);
+                text-decoration: none;
+                font-weight: 500;
+            }
+
+        .dms-security {
+            margin-top: 24px;
+            padding-top: 16px;
+            border-top: 1px solid var(--dms-border);
+            font-size: 12px;
+            color: var(--dms-text-light);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+        }
+
+        .dms-password-toggle {
+            position: absolute;
+            right: 14px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: var(--dms-text-light);
+            cursor: pointer;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="dms-login-container">
+        <div class="dms-header">
+            <h1>Welcome to Department Management System</h1>
+            <p>Sign in to System</p>
+        </div>
+
+        <div class="dms-body">
+            <form method="post">
+                <div class="dms-input-group">
+                    <span class="material-icons-round dms-input-icon">person_outline</span>
+                    <input name="username" class="dms-input"
+                           placeholder="Username" required autofocus />
+                </div>
+
+                <div class="dms-input-group">
+                    <span class="material-icons-round dms-input-icon">lock_outline</span>
+                    <input name="password" type="password" class="dms-input"
+                           placeholder="Password" required id="passwordInput" />
+                    <span class="material-icons-round dms-password-toggle" id="togglePassword">visibility_off</span>
+                </div>
+
+                <div class="dms-checkbox">
+                    <input type="checkbox" id="rememberMe">
+                    <label for="rememberMe">Remember me</label>
+                </div>
+
+                <button type="submit" class="dms-btn">
+                    <span class="material-icons-round">login</span>
+                    Sign In
+                </button>
+
+                @if (ViewBag.Error != null)
+                {
+                    <div class="dms-alert">
+                        <span class="material-icons-round">error_outline</span>
+                        <div>@ViewBag.Error</div>
+                    </div>
+                }
+            </form>
+
+
+        </div>
+    </div>
+
+    <script>
+        // Toggle password visibility
+        const togglePassword = document.querySelector('#togglePassword');
+        const passwordInput = document.querySelector('#passwordInput');
+
+        togglePassword.addEventListener('click', function() {
+            const type = passwordInput.getAttribute('type') === 'password' ? 'text' : 'password';
+            passwordInput.setAttribute('type', type);
+            this.textContent = type === 'password' ? 'visibility_off' : 'visibility';
+        });
+    </script>
+</body>
+</html>
