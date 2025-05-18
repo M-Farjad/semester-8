@@ -3,8 +3,28 @@
   "WorkspaceRootPath": "D:\\Study Material\\semester-8\\EAD\\Final\\Final Project\\SEClassWeb\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{FEC05C16-61AB-4087-AE3D-268993075DD1}|SEClassWeb\\SEClassWeb.csproj|d:\\study material\\semester-8\\ead\\final\\final project\\seclassweb\\seclassweb\\views\\dashboard\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FEC05C16-61AB-4087-AE3D-268993075DD1}|SEClassWeb\\SEClassWeb.csproj|solutionrelative:seclassweb\\views\\dashboard\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEC05C16-61AB-4087-AE3D-268993075DD1}|SEClassWeb\\SEClassWeb.csproj|d:\\study material\\semester-8\\ead\\final\\final project\\seclassweb\\seclassweb\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FEC05C16-61AB-4087-AE3D-268993075DD1}|SEClassWeb\\SEClassWeb.csproj|solutionrelative:seclassweb\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEC05C16-61AB-4087-AE3D-268993075DD1}|SEClassWeb\\SEClassWeb.csproj|d:\\study material\\semester-8\\ead\\final\\final project\\seclassweb\\seclassweb\\views\\dashboard\\homepage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FEC05C16-61AB-4087-AE3D-268993075DD1}|SEClassWeb\\SEClassWeb.csproj|solutionrelative:seclassweb\\views\\dashboard\\homepage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEC05C16-61AB-4087-AE3D-268993075DD1}|SEClassWeb\\SEClassWeb.csproj|d:\\study material\\semester-8\\ead\\final\\final project\\seclassweb\\seclassweb\\views\\api\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FEC05C16-61AB-4087-AE3D-268993075DD1}|SEClassWeb\\SEClassWeb.csproj|solutionrelative:seclassweb\\views\\api\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FEC05C16-61AB-4087-AE3D-268993075DD1}|SEClassWeb\\SEClassWeb.csproj|d:\\study material\\semester-8\\ead\\final\\final project\\seclassweb\\seclassweb\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{FEC05C16-61AB-4087-AE3D-268993075DD1}|SEClassWeb\\SEClassWeb.csproj|solutionrelative:seclassweb\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEC05C16-61AB-4087-AE3D-268993075DD1}|SEClassWeb\\SEClassWeb.csproj|d:\\study material\\semester-8\\ead\\final\\final project\\seclassweb\\seclassweb\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FEC05C16-61AB-4087-AE3D-268993075DD1}|SEClassWeb\\SEClassWeb.csproj|solutionrelative:seclassweb\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FEC05C16-61AB-4087-AE3D-268993075DD1}|SEClassWeb\\SEClassWeb.csproj|d:\\study material\\semester-8\\ead\\final\\final project\\seclassweb\\seclassweb\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -35,6 +55,71 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\Study Material\\semester-8\\EAD\\Final\\Final Project\\SEClassWeb\\SEClassWeb\\Views\\dashboard\\Login.cshtml",
+              "RelativeDocumentMoniker": "SEClassWeb\\Views\\dashboard\\Login.cshtml",
+              "ToolTip": "D:\\Study Material\\semester-8\\EAD\\Final\\Final Project\\SEClassWeb\\SEClassWeb\\Views\\dashboard\\Login.cshtml",
+              "RelativeToolTip": "SEClassWeb\\Views\\dashboard\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-18T07:03:47.132Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Study Material\\semester-8\\EAD\\Final\\Final Project\\SEClassWeb\\SEClassWeb\\Views\\dashboard\\Index.cshtml",
+              "RelativeDocumentMoniker": "SEClassWeb\\Views\\dashboard\\Index.cshtml",
+              "ToolTip": "D:\\Study Material\\semester-8\\EAD\\Final\\Final Project\\SEClassWeb\\SEClassWeb\\Views\\dashboard\\Index.cshtml",
+              "RelativeToolTip": "SEClassWeb\\Views\\dashboard\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-18T07:02:51.419Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "homepage.cshtml",
+              "DocumentMoniker": "D:\\Study Material\\semester-8\\EAD\\Final\\Final Project\\SEClassWeb\\SEClassWeb\\Views\\dashboard\\homepage.cshtml",
+              "RelativeDocumentMoniker": "SEClassWeb\\Views\\dashboard\\homepage.cshtml",
+              "ToolTip": "D:\\Study Material\\semester-8\\EAD\\Final\\Final Project\\SEClassWeb\\SEClassWeb\\Views\\dashboard\\homepage.cshtml",
+              "RelativeToolTip": "SEClassWeb\\Views\\dashboard\\homepage.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-18T07:02:43.786Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Study Material\\semester-8\\EAD\\Final\\Final Project\\SEClassWeb\\SEClassWeb\\Views\\API\\Index.cshtml",
+              "RelativeDocumentMoniker": "SEClassWeb\\Views\\API\\Index.cshtml",
+              "ToolTip": "D:\\Study Material\\semester-8\\EAD\\Final\\Final Project\\SEClassWeb\\SEClassWeb\\Views\\API\\Index.cshtml",
+              "RelativeToolTip": "SEClassWeb\\Views\\API\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-18T07:02:01.476Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "D:\\Study Material\\semester-8\\EAD\\Final\\Final Project\\SEClassWeb\\SEClassWeb\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "SEClassWeb\\appsettings.Development.json",
+              "ToolTip": "D:\\Study Material\\semester-8\\EAD\\Final\\Final Project\\SEClassWeb\\SEClassWeb\\appsettings.Development.json",
+              "RelativeToolTip": "SEClassWeb\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-18T07:01:28.353Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\Study Material\\semester-8\\EAD\\Final\\Final Project\\SEClassWeb\\SEClassWeb\\appsettings.json",
               "RelativeDocumentMoniker": "SEClassWeb\\appsettings.json",
@@ -47,7 +132,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Study Material\\semester-8\\EAD\\Final\\Final Project\\SEClassWeb\\SEClassWeb\\Program.cs",
               "RelativeDocumentMoniker": "SEClassWeb\\Program.cs",
@@ -55,12 +140,11 @@
               "RelativeToolTip": "SEClassWeb\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T06:52:48.769Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-18T06:52:48.769Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "D:\\Study Material\\semester-8\\EAD\\Final\\Final Project\\SEClassWeb\\SEClassWeb\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "SEClassWeb\\Views\\Shared\\_Layout.cshtml",
@@ -68,12 +152,11 @@
               "RelativeToolTip": "SEClassWeb\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-05T04:05:28.228Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-05T04:05:28.228Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
               "Title": "mystyle.css",
               "DocumentMoniker": "D:\\Study Material\\semester-8\\EAD\\Final\\Final Project\\SEClassWeb\\SEClassWeb\\wwwroot\\css\\mystyle.css",
               "RelativeDocumentMoniker": "SEClassWeb\\wwwroot\\css\\mystyle.css",
@@ -85,7 +168,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "praccss.cshtml",
               "DocumentMoniker": "D:\\Study Material\\semester-8\\EAD\\Final\\Final Project\\SEClassWeb\\SEClassWeb\\Views\\dashboard\\praccss.cshtml",
               "RelativeDocumentMoniker": "SEClassWeb\\Views\\dashboard\\praccss.cshtml",
@@ -93,8 +176,7 @@
               "RelativeToolTip": "SEClassWeb\\Views\\dashboard\\praccss.cshtml",
               "ViewState": "AgIAABIAAAAAAAAAAAAAABYAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-04T16:26:56.259Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-04T16:26:56.259Z"
             }
           ]
         }
