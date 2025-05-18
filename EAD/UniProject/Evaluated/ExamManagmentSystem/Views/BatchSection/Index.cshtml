@@ -1,0 +1,23 @@
+﻿@using ExamManagmentSystem.Models
+@model List<ExamManagmentSystem.Models.Section>
+
+<h2>All Sections</h2>
+<a href="/BatchSection/Create" class="btn btn-primary mb-3">Create Batch/Section</a>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Section</th>
+            <th>Batch Year</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var sec in Model)
+        {
+            <tr>
+                <td>@sec.Name</td>
+                <td>@sec.Batch?.Year</td>
+            </tr>
+        }
+    </tbody>
+</table>

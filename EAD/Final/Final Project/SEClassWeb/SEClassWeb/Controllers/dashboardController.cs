@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using SEClassWeb.Models;
 using Microsoft.AspNetCore.Http;
-using System.Diagnostics.Eventing.Reader;
+
 namespace SEClassWeb.Controllers
 {
     public class dashboardController : Controller
@@ -10,100 +10,92 @@ namespace SEClassWeb.Controllers
         {
             return View();
         }
+
         public IActionResult Login()
         {
-            if(HttpContext.Session.GetString("user")!=null)
+            Console.WriteLine("Login");
+
+            // If already logged in, redirect to homepage
+            if (HttpContext.Session.GetString("user") != null)
             {
                 return RedirectToAction("homepage");
             }
-            else
-            {
-                return View();
 
-            }
-
-
-        }
-        public IActionResult homepage()
-        {
-            if(HttpContext.Session.GetString("user") != null)
-            {
-
-                return View("homepage", HttpContext.Session.GetString("user"));
-            }
-            else
-            {
-                return RedirectToAction("Login");
-            }
+            return View();
         }
 
         [HttpPost]
         public IActionResult Login(Uetuser obj)
         {
+            Console.WriteLine("LoginHttpPost");
+
             if (ModelState.IsValid)
             {
-                Uetuser? temp;
                 using (Se21Context db = new Se21Context())
                 {
-                    temp = db.Uetusers.FirstOrDefault(x => x.Username == obj.Username && x.Password == obj.Password);
-                }
+                    var temp = db.Uetusers.FirstOrDefault(x => x.Username == obj.Username && x.Password == obj.Password);
 
-                if (temp == null)
-                {
-                    return RedirectToAction("Login");
-                }
-                else
-                {
+                    if (temp == null)
+                    {
+                        return RedirectToAction("Login");
+                    }
+
+                    // Set session: this will auto-expire in 30 seconds if properly configured in Startup.cs
                     HttpContext.Session.SetString("user", temp.Username);
-
 
                     return RedirectToAction("homepage");
                 }
             }
-            else
-            {
-                return View(obj);
-            }
-            
+
+            return View(obj);
         }
 
+        public IActionResult homepage()
+        {
+            // Only allow access if session exists
+            var username = HttpContext.Session.GetString("user");
+
+            if (!string.IsNullOrEmpty(username))
+            {
+                return View("homepage", username);
+            }
+
+            return RedirectToAction("Login");
+        }
 
         public IActionResult Index()
         {
-            List<Uetuser>? lst;
-            using(Se21Context db = new Se21Context())
+            using (Se21Context db = new Se21Context())
             {
-                lst = db.Uetusers.ToList();
-
+                var lst = db.Uetusers.ToList();
+                return View("Index", lst);
             }
-            return View("Index",lst);
         }
-
 
         [HttpPost]
         public bool deleteuser(int pkid)
         {
-            using(Se21Context db = new Se21Context())
+            using (Se21Context db = new Se21Context())
             {
-                Uetuser? temp = db.Uetusers.FirstOrDefault(x => x.Id == pkid);
-                if (temp == null) 
+                var temp = db.Uetusers.FirstOrDefault(x => x.Id == pkid);
+
+                if (temp == null)
                 {
                     return false;
                 }
-                else
-                {
-                    db.Uetusers.Remove(temp);
-                    db.SaveChanges();
-                    return true;
-                }
-                 
+
+                db.Uetusers.Remove(temp);
+                db.SaveChanges();
+                return true;
             }
         }
 
         public JsonResult get_uet_users()
         {
-            Se21Context db = new Se21Context();
-            return Json(db.Uetusers.ToList());
+            using (Se21Context db = new Se21Context())
+            {
+                return Json(db.Uetusers.ToList());
+            }
         }
     }
 }

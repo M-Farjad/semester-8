@@ -1,0 +1,70 @@
+﻿@model List<ExamManagmentSystem.Models.Student>
+
+@{
+    ViewBag.Title = "Students";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Search Students</h2>
+
+<form method="get">
+    <div class="form-row">
+        <div class="col">
+            <select name="batch" class="form-control" value="@ViewBag.Batch">
+                <option value="">Select Batch</option>
+                <option value="2021">2021</option>
+                <option value="2022">2022</option>
+                <option value="2023">2023</option>
+            </select>
+        </div>
+        <div class="col">
+            <select name="section" class="form-control" value="@ViewBag.Section">
+                <option value="">Select Section</option>
+                <option>CS(A)</option>
+                <option>CS(B)</option>
+                <option>SE(A)</option>
+                <option>SE(B)</option>
+            </select>
+        </div>
+        <div class="col">
+            <input type="text" name="roll" value="@ViewBag.Roll" placeholder="Roll Number" class="form-control" />
+        </div>
+        <div class="col">
+            <button type="submit" class="btn btn-primary">Search</button>
+        </div>
+    </div>
+</form>
+
+<a href="/Student/Create" class="btn btn-success mt-3">Add New Student</a>
+
+<table class="table table-bordered mt-3">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Roll #</th>
+            <th>Batch</th>
+            <th>Section</th>
+            <th>Email</th>
+            <th>Phone</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var s in Model)
+        {
+            <tr>
+                <td>@s.Name</td>
+                <td>@s.RollNumber</td>
+                <td>@s.Batch</td>
+                <td>@s.Section</td>
+                <td>@s.Email</td>
+                <td>@s.Phone</td>
+                <td>
+                    <a href="/Student/Edit/@s.Id">Edit</a> |
+                    <a href="/Student/Details/@s.Id">Details</a> |
+                    <a href="/Student/Delete/@s.Id">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

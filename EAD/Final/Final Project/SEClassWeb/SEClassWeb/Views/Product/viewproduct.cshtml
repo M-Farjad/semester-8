@@ -1,76 +1,55 @@
 ﻿@model List<SEClassWeb.Models.Uetuser>
 
 <html>
-<head>
-   
-</head>
-<body>
-    <form action="/product/saveproduct" method="post">
-
-        <label>Enter product</label>
-        <input type="text" name="user_name" />
-        <label>Enter price</label>
-        <input type="text" name="user_password" />
-        <input type="submit" />
-
-    </form>
-
-
-    <table>
-        <tr>
-            <th>Username</th>
-            <th>Password</th>
-            <th>Edit</th>
-
-            <th>Delete</th>
-        </tr>
-
-        @{
-            foreach (var obj in Model)
-            {
+    <head>
+    </head>
+    <body>
+        <form action="/product/saveproduct" method="post">
+            <label>Enter product</label>
+            <input type="text" name="user_name" />
+            <label>Enter price</label>
+            <input type="text" name="user_password" />
+            <input type="submit" />
+        </form>
+        <table>
+            <tr>
+                <th>Username</th>
+                <th>Password</th>
+                <th>Edit</th>
+                <th>Delete</th>
+            </tr>
+            @{
+                foreach (var obj in Model)
+                {
                     <tr>
                         <td>@obj.Username</td>
                         <td>@obj.Password</td>
                         <td><a href="#"> Edit</a></td>
-
                         <td><a href="/product/deleteuser?rowid=@obj.Id"> Delete</a></td>
+                        <!-- Won't Work because it is not in a form -->
                         <td><button data-id="@obj.Id">Delete</button></td>
                     </tr>
+                }
             }
-        }
-
-    </table>
-
-
-    <p>If you click on me, I will disappear.</p>
-    <p>Click me away!</p>
-    <p>Click me too!</p>
-
-
-  
-
-    <script>
-        $(document).ready(function () {
-            $("button").click(function () {
-                var itemid = $(this).data("id");
-                var element = $(this).closest("tr");
-                $.ajax({
-                    url: '/Product/delete',
-                    type: 'Post',
-                    data: { rowid: itemid },
-                    success: function (result) {
-                        element.remove();
-                    }
+        </table>
+        <p>If you click on me, I will disappear.</p>
+        <p>Click me away!</p>
+        <p>Click me too!</p>
+        <script>
+            $(document).ready(function () {
+                $("button[data-id]").click(function () {
+                    var itemid = $(this).data("id");
+                    var element = $(this).closest("tr");
+                    $.ajax({
+                        url: '/Product/delete',
+                        type: 'Post',
+                        data: { rowid: itemid },
+                        success: function (result) {
+                            element.remove();
+                        }
+                    });
                 });
-
-
             });
-        });
-    </script>
-
-</body>
+        </script>
+    </body>
 </html>
-
-
-
-

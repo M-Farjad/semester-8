@@ -1,0 +1,29 @@
+﻿@using ExamManagmentSystem.ViewModel
+@model EditRolePermissionsViewModel
+@{
+    ViewBag.Title = "Edit Role Responsibilities";
+}
+
+<h2>Edit Responsibilities for Role: @Model.RoleName</h2>
+
+<form asp-action="EditRole" method="post">
+    <input type="hidden" asp-for="RoleId" />
+
+    <div class="form-group">
+        <label><strong>Permissions</strong></label>
+        @foreach (var perm in Model.Permissions)
+        {
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox"
+                       asp-for="@perm.IsSelected"
+                       value="true"
+                       name="Permissions[@Model.Permissions.IndexOf(perm)].IsSelected" />
+                <input type="hidden" name="Permissions[@Model.Permissions.IndexOf(perm)].Name" value="@perm.Name" />
+                <label class="form-check-label">@perm.Name</label>
+            </div>
+        }
+    </div>
+
+    <button type="submit" class="btn btn-success">Save Responsibilities</button>
+    <a class="btn btn-secondary" href="@Url.Action("ManageRoles")">Cancel</a>
+</form>

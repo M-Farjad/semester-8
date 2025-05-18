@@ -1,57 +1,95 @@
-﻿
-<button id="loaddata"> Load Data using Ajax</button>
+﻿<button id="loaddata">Load Data using Ajax</button>
 
-<table id="mytbl">
+<br />
+
+<label>Enter Username</label>
+<input type="text" id="user_name" />
+<label>Enter Password</label>
+<input type="text" id="user_password" />
+<input type="submit" id="save" value="Save" />
+<input type="hidden" id="edit_id" />
+
+<table id="mytbl" border="1">
     <tr>
-
         <th>Username</th>
-        
         <th>Password</th>
-
-        <th>Edit</th>
-        <th>Delete</th>
+        <th>Actions</th>
     </tr>
-
 </table>
 
 <script src="/js/jquery-3.7.1.min.js"></script>
 <script>
-    $(document).ready(function () { 
-    
-        $("#loaddata").click(function () { 
-        
-        
-            $.ajax({
+    $(document).ready(function () {
+        // Load data
+        $("#loaddata").click(function () {
+            loadData();
+        });
 
+        function loadData() {
+            $.ajax({
                 url: '/API/getdata',
                 type: 'GET',
                 success: function (result) {
-
+                    $("#mytbl").find("tr:gt(0)").remove();
                     $.each(result, function (index, temp) {
-
-                        var row = '<tr><td>'+temp.username+'</td><td>'+temp.password+'</td><td><button>edit</button><button>Delete</button></td></tr>'
-
+                        var row = `
+                        <tr data-id="${temp.id}">
+                            <td>${temp.username}</td>
+                            <td>${temp.password}</td>
+                            <td>
+                                <button class="edit">Edit</button>
+                                <button class="delete">Delete</button>
+                            </td>
+                        </tr>`;
                         $("#mytbl").append(row);
-
                     });
-
-
                 }
-            
-            
-            
-            
-            
-            
-            
-            
-            
             });
-        
-        
-        });
-    
-    
-    });
+        }
 
+        // Save or Update user
+        $("#save").click(function () {
+            var username = $("#user_name").val();
+            var password = $("#user_password").val();
+            var id = $("#edit_id").val();
+
+            $.ajax({
+                url: id ? '/API/update' : '/API/create',
+                type: 'POST',
+                data: { Id: id, Username: username, Password: password },
+                success: function () {
+                    $("#user_name").val('');
+                    $("#user_password").val('');
+                    $("#edit_id").val('');
+                    loadData();
+                }
+            });
+        });
+
+        // Edit handler
+        $(document).on("click", ".edit", function () {
+            var row = $(this).closest("tr");
+            var id = row.data("id");
+            var username = row.find("td:eq(0)").text();
+            var password = row.find("td:eq(1)").text();
+
+            $("#user_name").val(username);
+            $("#user_password").val(password);
+            $("#edit_id").val(id);
+        });
+
+        // Delete handler
+        $(document).on("click", ".delete", function () {
+            var row = $(this).closest("tr");
+            var id = row.data("id");
+            $.ajax({
+                url: '/API/delete',
+                type: 'POST',
+                data: { id: id },
+                success: function () {
+                    row.remove();
+                }
+            });
+        });
+    });
 </script>

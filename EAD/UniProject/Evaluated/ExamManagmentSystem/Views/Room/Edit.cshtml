@@ -1,0 +1,30 @@
+﻿@model ExamManagmentSystem.Models.Room
+
+@{
+    ViewBag.Title = "Edit Room";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Edit Room - @Model.RoomName</h2>
+
+<form asp-action="Edit" method="post">
+    <input type="hidden" asp-for="Id" />
+
+    <div class="form-group">
+        <label asp-for="RoomName">Room Name</label>
+        <input asp-for="RoomName" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Rows">Number of Rows</label>
+        <input asp-for="Rows" class="form-control" type="number" min="1" />
+    </div>
+
+    <div class="form-group">
+        <label asp-for="CapacityPerRow">Capacity per Row</label>
+        <input asp-for="CapacityPerRow" class="form-control" type="number" min="1" />
+    </div>
+
+    <button type="submit" class="btn btn-success">Update</button>
+    <a href="/Room/Index" class="btn btn-secondary">Cancel</a>
+</form>

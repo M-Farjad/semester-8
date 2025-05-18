@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "D:\\Study Material\\semester-8\\EAD\\UniProject\\ExamManagmentSystem\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B81D832E-7887-4E1A-8DB3-1F26E8AA1ED6}|ExamManagmentSystem.csproj|d:\\study material\\semester-8\\ead\\uniproject\\exammanagmentsystem\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B81D832E-7887-4E1A-8DB3-1F26E8AA1ED6}|ExamManagmentSystem.csproj|solutionrelative:controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B81D832E-7887-4E1A-8DB3-1F26E8AA1ED6}|ExamManagmentSystem.csproj|d:\\study material\\semester-8\\ead\\uniproject\\exammanagmentsystem\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B81D832E-7887-4E1A-8DB3-1F26E8AA1ED6}|ExamManagmentSystem.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B81D832E-7887-4E1A-8DB3-1F26E8AA1ED6}|ExamManagmentSystem.csproj|d:\\study material\\semester-8\\ead\\uniproject\\exammanagmentsystem\\helpers\\seed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B81D832E-7887-4E1A-8DB3-1F26E8AA1ED6}|ExamManagmentSystem.csproj|solutionrelative:helpers\\seed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -59,6 +67,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "D:\\Study Material\\semester-8\\EAD\\UniProject\\ExamManagmentSystem\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
+              "ToolTip": "D:\\Study Material\\semester-8\\EAD\\UniProject\\ExamManagmentSystem\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Controllers\\AdminController.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAkwGMAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T13:04:54.444Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "D:\\Study Material\\semester-8\\EAD\\UniProject\\ExamManagmentSystem\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
+              "ToolTip": "D:\\Study Material\\semester-8\\EAD\\UniProject\\ExamManagmentSystem\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Controllers\\AccountController.cs",
+              "ViewState": "AgIAAJAAAAAAAAAAAAAIwJoAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T13:04:12.413Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Seed.cs",
               "DocumentMoniker": "D:\\Study Material\\semester-8\\EAD\\UniProject\\ExamManagmentSystem\\Helpers\\Seed.cs",
               "RelativeDocumentMoniker": "Helpers\\Seed.cs",
@@ -71,7 +105,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Batch.cs",
               "DocumentMoniker": "D:\\Study Material\\semester-8\\EAD\\UniProject\\ExamManagmentSystem\\Models\\Batch.cs",
               "RelativeDocumentMoniker": "Models\\Batch.cs",
@@ -83,7 +117,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\Study Material\\semester-8\\EAD\\UniProject\\ExamManagmentSystem\\Views\\Exam\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Exam\\Index.cshtml",
@@ -95,7 +129,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "ExamController.cs",
               "DocumentMoniker": "D:\\Study Material\\semester-8\\EAD\\UniProject\\ExamManagmentSystem\\Controllers\\ExamController.cs",
               "RelativeDocumentMoniker": "Controllers\\ExamController.cs",
@@ -107,7 +141,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Study Material\\semester-8\\EAD\\UniProject\\ExamManagmentSystem\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -119,7 +153,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\Study Material\\semester-8\\EAD\\UniProject\\ExamManagmentSystem\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -131,7 +165,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "Student.cs",
               "DocumentMoniker": "D:\\Study Material\\semester-8\\EAD\\UniProject\\ExamManagmentSystem\\Models\\Student.cs",
               "RelativeDocumentMoniker": "Models\\Student.cs",
@@ -143,7 +177,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "StudentController.cs",
               "DocumentMoniker": "D:\\Study Material\\semester-8\\EAD\\UniProject\\ExamManagmentSystem\\Controllers\\StudentController.cs",
               "RelativeDocumentMoniker": "Controllers\\StudentController.cs",
@@ -155,7 +189,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "Create.cshtml",
               "DocumentMoniker": "D:\\Study Material\\semester-8\\EAD\\UniProject\\ExamManagmentSystem\\Views\\Student\\Create.cshtml",
               "RelativeDocumentMoniker": "Views\\Student\\Create.cshtml",
@@ -167,7 +201,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\Study Material\\semester-8\\EAD\\UniProject\\ExamManagmentSystem\\Views\\Student\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Student\\Index.cshtml",
@@ -179,7 +213,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\Study Material\\semester-8\\EAD\\UniProject\\ExamManagmentSystem\\Views\\BatchSection\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\BatchSection\\Index.cshtml",
@@ -187,8 +221,7 @@
               "RelativeToolTip": "Views\\BatchSection\\Index.cshtml",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAABgAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-15T00:02:55.542Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-15T00:02:55.542Z"
             }
           ]
         }

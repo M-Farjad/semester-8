@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\Study Material\\semester-8\\EAD\\UniProject\\ExamManagmentSystem\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B81D832E-7887-4E1A-8DB3-1F26E8AA1ED6}|ExamManagmentSystem.csproj|d:\\study material\\semester-8\\ead\\uniproject\\exammanagmentsystem\\helpers\\seed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B81D832E-7887-4E1A-8DB3-1F26E8AA1ED6}|ExamManagmentSystem.csproj|solutionrelative:helpers\\seed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B81D832E-7887-4E1A-8DB3-1F26E8AA1ED6}|ExamManagmentSystem.csproj|d:\\study material\\semester-8\\ead\\uniproject\\exammanagmentsystem\\views\\batchsection\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{B81D832E-7887-4E1A-8DB3-1F26E8AA1ED6}|ExamManagmentSystem.csproj|solutionrelative:views\\batchsection\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -50,11 +54,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
+              "Title": "Seed.cs",
+              "DocumentMoniker": "D:\\Study Material\\semester-8\\EAD\\UniProject\\ExamManagmentSystem\\Helpers\\Seed.cs",
+              "RelativeDocumentMoniker": "Helpers\\Seed.cs",
+              "ToolTip": "D:\\Study Material\\semester-8\\EAD\\UniProject\\ExamManagmentSystem\\Helpers\\Seed.cs",
+              "RelativeToolTip": "Helpers\\Seed.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAQwEMAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T18:44:43.494Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Batch.cs",
               "DocumentMoniker": "D:\\Study Material\\semester-8\\EAD\\UniProject\\ExamManagmentSystem\\Models\\Batch.cs",
               "RelativeDocumentMoniker": "Models\\Batch.cs",
@@ -66,7 +83,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\Study Material\\semester-8\\EAD\\UniProject\\ExamManagmentSystem\\Views\\Exam\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Exam\\Index.cshtml",
@@ -78,7 +95,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "ExamController.cs",
               "DocumentMoniker": "D:\\Study Material\\semester-8\\EAD\\UniProject\\ExamManagmentSystem\\Controllers\\ExamController.cs",
               "RelativeDocumentMoniker": "Controllers\\ExamController.cs",
@@ -86,12 +103,11 @@
               "RelativeToolTip": "Controllers\\ExamController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T03:10:40.928Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-15T03:10:40.928Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Study Material\\semester-8\\EAD\\UniProject\\ExamManagmentSystem\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -103,7 +119,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\Study Material\\semester-8\\EAD\\UniProject\\ExamManagmentSystem\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -115,7 +131,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Student.cs",
               "DocumentMoniker": "D:\\Study Material\\semester-8\\EAD\\UniProject\\ExamManagmentSystem\\Models\\Student.cs",
               "RelativeDocumentMoniker": "Models\\Student.cs",
@@ -127,7 +143,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "StudentController.cs",
               "DocumentMoniker": "D:\\Study Material\\semester-8\\EAD\\UniProject\\ExamManagmentSystem\\Controllers\\StudentController.cs",
               "RelativeDocumentMoniker": "Controllers\\StudentController.cs",
@@ -135,12 +151,11 @@
               "RelativeToolTip": "Controllers\\StudentController.cs",
               "ViewState": "AgIAAFQAAAAAAAAAAAAowEMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T00:07:48.019Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-15T00:07:48.019Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Create.cshtml",
               "DocumentMoniker": "D:\\Study Material\\semester-8\\EAD\\UniProject\\ExamManagmentSystem\\Views\\Student\\Create.cshtml",
               "RelativeDocumentMoniker": "Views\\Student\\Create.cshtml",
@@ -152,7 +167,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\Study Material\\semester-8\\EAD\\UniProject\\ExamManagmentSystem\\Views\\Student\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Student\\Index.cshtml",
@@ -164,7 +179,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\Study Material\\semester-8\\EAD\\UniProject\\ExamManagmentSystem\\Views\\BatchSection\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\BatchSection\\Index.cshtml",
