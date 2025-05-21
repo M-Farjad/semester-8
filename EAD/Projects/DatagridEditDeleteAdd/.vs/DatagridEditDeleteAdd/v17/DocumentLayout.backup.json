@@ -22,21 +22,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "product.cs",
-              "DocumentMoniker": "D:\\Study Material\\semester-8\\EAD\\Projects\\DatagridEditDeleteAdd\\DatagridEditDeleteAdd\\product.cs",
-              "RelativeDocumentMoniker": "DatagridEditDeleteAdd\\product.cs",
-              "ToolTip": "D:\\Study Material\\semester-8\\EAD\\Projects\\DatagridEditDeleteAdd\\DatagridEditDeleteAdd\\product.cs",
-              "RelativeToolTip": "DatagridEditDeleteAdd\\product.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-27T04:19:08.932Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -57,9 +44,22 @@
               "RelativeDocumentMoniker": "DatagridEditDeleteAdd\\MainWindow.xaml.cs",
               "ToolTip": "D:\\Study Material\\semester-8\\EAD\\Projects\\DatagridEditDeleteAdd\\DatagridEditDeleteAdd\\MainWindow.xaml.cs",
               "RelativeToolTip": "DatagridEditDeleteAdd\\MainWindow.xaml.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAQwCwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-27T04:15:47.627Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "product.cs",
+              "DocumentMoniker": "D:\\Study Material\\semester-8\\EAD\\Projects\\DatagridEditDeleteAdd\\DatagridEditDeleteAdd\\product.cs",
+              "RelativeDocumentMoniker": "DatagridEditDeleteAdd\\product.cs",
+              "ToolTip": "D:\\Study Material\\semester-8\\EAD\\Projects\\DatagridEditDeleteAdd\\DatagridEditDeleteAdd\\product.cs",
+              "RelativeToolTip": "DatagridEditDeleteAdd\\product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T04:19:08.932Z",
               "EditorCaption": ""
             }
           ]

@@ -23,7 +23,6 @@ namespace DataBindingWithObservableListBox
     public partial class MainWindow : Window, INotifyPropertyChanged
     {
         private string _selectedName;
-
         public ObservableCollection<string> Names { get; set; }
 
         public string SelectedName

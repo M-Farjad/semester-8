@@ -12,14 +12,12 @@
 
 
                 $.each(result, function (index, user) {
-                   
                     var row = '<tr><td>'+user.username+'</td><td>'+ user.password +'</td><td>abc</td></tr>';
                     $("#tbl").append(row);
                 });
             }
 
         });
-
 
         ///////////////////////////////
 

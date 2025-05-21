@@ -11,5 +11,6 @@
     <WebStackScaffolding_IsReferencingScriptLibrariesSelected>True</WebStackScaffolding_IsReferencingScriptLibrariesSelected>
     <WebStackScaffolding_LayoutPageFile />
     <WebStackScaffolding_DbContextTypeFullName>SEClassWeb.Models.Se21Context</WebStackScaffolding_DbContextTypeFullName>
+    <NameOfLastUsedPublishProfile>D:\Study Material\semester-8\EAD\Final\Final Project\SEClassWeb\SEClassWeb\Properties\PublishProfiles\FolderProfile.pubxml</NameOfLastUsedPublishProfile>
   </PropertyGroup>
 </Project>

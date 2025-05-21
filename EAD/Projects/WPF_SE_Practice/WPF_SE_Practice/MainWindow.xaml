@@ -69,6 +69,7 @@
     </Grid>-->
     
     <!--Used for Wrapping the texts along the horizontal direction-->
+    
     <WrapPanel>
         <Label Content="Enter use name" Background="#FFE59494" Margin="0,0,20,0"/>
         <Label Content="Enter use name" Background="#FFE59494" Margin="0,0,20,0"/>

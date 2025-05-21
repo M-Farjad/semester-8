@@ -19,9 +19,7 @@ namespace Databinding
     {
         public MainWindow()
         {
-            InitializeComponent();
-
-        
+            InitializeComponent();        
         }
     }
 }
@@ -50,7 +48,7 @@ MainWindow.xaml:
         
         <TextBox Name="T4_source" HorizontalAlignment="Left" Margin="326,255,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="20"/>
         
-        <CheckBox  IsChecked="{Binding ElementName=T4_source,Path=Text, Converter={StaticResource myconverter}}" Name="Check1" Content="CheckBox" HorizontalAlignment="Left" Margin="473,262,0,0" VerticalAlignment="Top"/>
+        <CheckBox IsChecked="{Binding ElementName=T4_source,Path=Text, Converter={StaticResource myconverter}, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Name="Check1" Content="CheckBox" HorizontalAlignment="Left" Margin="473,262,0,0" VerticalAlignment="Top"/>
     </Grid>
 </Window>
 
@@ -83,7 +81,11 @@ namespace Databinding
 
         public object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture)
         {
-            throw new NotImplementedException();
+            if (value is bool boolValue)
+            {
+                return boolValue ? "check" : string.Empty;
+            }
+            return string.Empty;
         }
     }
 }

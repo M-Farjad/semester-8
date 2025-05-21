@@ -112,7 +112,6 @@ namespace Presentation_layer
 		{
 			Console.WriteLine("Enter age");
 			obj.Age = Convert.ToInt32( Console.ReadLine());
-
 			return obj;
 		}
 	}

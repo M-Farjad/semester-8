@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "D:\\Study Material\\semester-8\\EAD\\Projects\\Practice_Mids_WPF_complete\\Practice_Mids_WPF\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4A5A86B5-79B5-488A-B5D2-121437E2B75F}|Practice_Mids_WPF.csproj|d:\\study material\\semester-8\\ead\\projects\\practice_mids_wpf_complete\\practice_mids_wpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{4A5A86B5-79B5-488A-B5D2-121437E2B75F}|Practice_Mids_WPF.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4A5A86B5-79B5-488A-B5D2-121437E2B75F}|Practice_Mids_WPF.csproj|D:\\Study Material\\semester-8\\EAD\\Projects\\Practice_Mids_WPF_complete\\Practice_Mids_WPF\\window1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4A5A86B5-79B5-488A-B5D2-121437E2B75F}|Practice_Mids_WPF.csproj|solutionrelative:window1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4A5A86B5-79B5-488A-B5D2-121437E2B75F}|Practice_Mids_WPF.csproj|d:\\study material\\semester-8\\ead\\projects\\practice_mids_wpf_complete\\practice_mids_wpf\\window1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{4A5A86B5-79B5-488A-B5D2-121437E2B75F}|Practice_Mids_WPF.csproj|D:\\Study Material\\semester-8\\EAD\\Projects\\Practice_Mids_WPF_complete\\Practice_Mids_WPF\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A5A86B5-79B5-488A-B5D2-121437E2B75F}|Practice_Mids_WPF.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A5A86B5-79B5-488A-B5D2-121437E2B75F}|Practice_Mids_WPF.csproj|D:\\Study Material\\semester-8\\EAD\\Projects\\Practice_Mids_WPF_complete\\Practice_Mids_WPF\\window1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{4A5A86B5-79B5-488A-B5D2-121437E2B75F}|Practice_Mids_WPF.csproj|solutionrelative:window1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4A5A86B5-79B5-488A-B5D2-121437E2B75F}|Practice_Mids_WPF.csproj|D:\\Study Material\\semester-8\\EAD\\Projects\\Practice_Mids_WPF_complete\\Practice_Mids_WPF\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A5A86B5-79B5-488A-B5D2-121437E2B75F}|Practice_Mids_WPF.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4A5A86B5-79B5-488A-B5D2-121437E2B75F}|Practice_Mids_WPF.csproj|d:\\study material\\semester-8\\ead\\projects\\practice_mids_wpf_complete\\practice_mids_wpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4A5A86B5-79B5-488A-B5D2-121437E2B75F}|Practice_Mids_WPF.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4A5A86B5-79B5-488A-B5D2-121437E2B75F}|Practice_Mids_WPF.csproj|D:\\Study Material\\semester-8\\EAD\\Projects\\Practice_Mids_WPF_complete\\Practice_Mids_WPF\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,11 +30,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "D:\\Study Material\\semester-8\\EAD\\Projects\\Practice_Mids_WPF_complete\\Practice_Mids_WPF\\MainWindow.xaml",
               "RelativeDocumentMoniker": "MainWindow.xaml",
@@ -46,13 +46,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Window1.xaml.cs",
               "DocumentMoniker": "D:\\Study Material\\semester-8\\EAD\\Projects\\Practice_Mids_WPF_complete\\Practice_Mids_WPF\\Window1.xaml.cs",
               "RelativeDocumentMoniker": "Window1.xaml.cs",
               "ToolTip": "D:\\Study Material\\semester-8\\EAD\\Projects\\Practice_Mids_WPF_complete\\Practice_Mids_WPF\\Window1.xaml.cs",
               "RelativeToolTip": "Window1.xaml.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAzwCwAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAABwAAAAAAAAAAAAQwBcAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-10T04:42:38.542Z",
               "EditorCaption": ""
@@ -71,13 +71,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "D:\\Study Material\\semester-8\\EAD\\Projects\\Practice_Mids_WPF_complete\\Practice_Mids_WPF\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "MainWindow.xaml.cs",
               "ToolTip": "D:\\Study Material\\semester-8\\EAD\\Projects\\Practice_Mids_WPF_complete\\Practice_Mids_WPF\\MainWindow.xaml.cs",
               "RelativeToolTip": "MainWindow.xaml.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAkwB0AAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAABkAAAAAAAAAAAAzwB0AAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-09T19:09:57.84Z",
               "EditorCaption": ""
@@ -92,8 +92,7 @@
               "RelativeToolTip": "Person.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T19:40:54.933Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-09T19:40:54.933Z"
             }
           ]
         }

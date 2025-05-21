@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PaperQuestion4_FindErrors")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0c3c22adb4102b9b60db4f5262cca520e78242c9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6195e2ace229bb7a4edf0cba04beb700ccb9fa3a")]
 [assembly: System.Reflection.AssemblyProductAttribute("PaperQuestion4_FindErrors")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PaperQuestion4_FindErrors")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -40,10 +40,7 @@ namespace DatagridEditDeleteAdd
         private void Remove_Product(object sender, RoutedEventArgs e)
         {
             product? temp = (mygrid.SelectedItem as product);
-
             lst.Remove(temp);
-
-
         }
     }
 }

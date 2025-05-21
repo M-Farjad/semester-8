@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DatagridEditDeleteAdd")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+083a6ca54563119194d5496ed95e7982631820c4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6195e2ace229bb7a4edf0cba04beb700ccb9fa3a")]
 [assembly: System.Reflection.AssemblyProductAttribute("DatagridEditDeleteAdd")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DatagridEditDeleteAdd")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
